@@ -872,48 +872,37 @@ a:hover { text-decoration: underline; }
   <img id="lightboxImg" alt="" />
 </div>
 
+<script src="assets/shared.js"></script>
 <script>
 /* =====================================================
    PUBLIC VIEWER · loads data/library.json and renders
    read-only. No edit controls.
+   Schema v2: slide body content lives in slide.blocks.
    ===================================================== */
+
+const C = window.RodgersPlaybookCore;
+const {
+  escapeHtml,
+  PAIRING_LABELS,
+  PAIRING_TAG_CLASS,
+  TEACHING_QUESTIONS,
+  migrateLibrary,
+  getImagePair,
+  getKeyLessonText,
+  slideSearchBlob,
+  slideHasAnyImage,
+} = C;
 
 let LIBRARY = null;
 let activeMod = 0;
 let activeSlide = -1; // -1 = module overview / homepage
 let searchQuery = '';
 
-const PAIRING_LABELS = {
-  'real-vs-cad':         'Real-world + CAD',
-  'existing-vs-finished':'Existing + Finished',
-  'diagram-vs-field':    'Diagram + Field',
-  'plan-vs-section':     'Plan + Section',
-  'construction-vs-final':'Construction + Final',
-  'good-vs-bad':         'Good + Bad Example',
-  'custom':              'Custom'
-};
-const PAIRING_TAG_CLASS = {
-  'real-vs-cad':         'amber',
-  'existing-vs-finished':'green',
-  'diagram-vs-field':    'gold',
-  'plan-vs-section':     '',
-  'construction-vs-final':'amber',
-  'good-vs-bad':         'green',
-  'custom':              ''
-};
-const TEACHING_QUESTIONS = [
-  'What are we looking at?',
-  'What is the relationship between the two?',
-  'Why does it matter on a project?',
-  'What should an intern notice?',
-  'Takeaway'
-];
-
 async function loadLibrary() {
   try {
     const res = await fetch('data/library.json');
     if (!res.ok) throw new Error('Failed to load library');
-    LIBRARY = await res.json();
+    LIBRARY = migrateLibrary(await res.json());
     document.title = (LIBRARY.title || 'Visual Library') + ' · Rodgers Playbook';
     document.getElementById('moduleCount').textContent = LIBRARY.modules.length;
     if (LIBRARY.updated) {
@@ -928,12 +917,6 @@ async function loadLibrary() {
       `<div class="empty-state"><h3>Could not load library</h3>
        <p>The data file (data/library.json) is missing or invalid.</p></div>`;
   }
-}
-
-function escapeHtml(s) {
-  return String(s||'').replace(/[&<>"']/g, m => ({
-    '&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'
-  }[m]));
 }
 
 /* Routing — hash-based: #/module/slide */
@@ -1036,13 +1019,7 @@ function onSearch() {
 }
 function slideMatchesSearch(s) {
   if (!searchQuery) return true;
-  const blob = [
-    s.title, s.subtitle, s.keyLesson, s.tags,
-    s.images?.[0]?.label, s.images?.[1]?.label,
-    s.images?.[0]?.type, s.images?.[1]?.type,
-    Object.values(s.teaching || {}).join(' ')
-  ].filter(Boolean).join(' ').toLowerCase();
-  return blob.includes(searchQuery);
+  return slideSearchBlob(s).includes(searchQuery);
 }
 
 /* Home / module overview */
@@ -1094,8 +1071,7 @@ function renderHome() {
     <div class="modules-grid">
   `;
   slidesMatch.forEach((s) => {
-    const hasA = !!(s.images?.[0]?.src);
-    const hasB = !!(s.images?.[1]?.src);
+    const hasImg = slideHasAnyImage(s);
     const hasNarr = !!(s.narration && s.narration.audio);
     html += `
       <div class="module-card" style="--accent:${mod.color || '#D97F39'}"
@@ -1104,7 +1080,7 @@ function renderHome() {
         ${s.subtitle ? `<div class="desc">${escapeHtml(s.subtitle)}</div>` : ''}
         <div class="stats">
           <span>${PAIRING_LABELS[s.pairing] || s.pairing}</span>
-          ${hasA && hasB ? '<span>● Images</span>' : ''}
+          ${hasImg ? '<span>● Images</span>' : ''}
           ${hasNarr ? '<span style="color:var(--green)">● Narrated</span>' : ''}
         </div>
       </div>`;
@@ -1145,19 +1121,7 @@ function renderSlide() {
         `<span class="tag">${escapeHtml(t.trim())}</span>`).join('')}
     </div>
 
-    <div class="image-pair${(slide.imageLayout || 'two') === 'one' ? ' single-image' : ''}">
-      ${renderImageCard(slide, 0, mod.id)}
-      ${(slide.imageLayout || 'two') === 'two' ? renderImageCard(slide, 1, mod.id) : ''}
-    </div>
-
-    ${slide.keyLesson ? `
-    <div class="key-lesson">
-      <div class="icon">!</div>
-      <div class="body">
-        <div class="label">Key Lesson</div>
-        <div class="text">${escapeHtml(slide.keyLesson)}</div>
-      </div>
-    </div>` : ''}
+    ${renderSlideBlocks(slide, mod.id, { excludeTeaching: true })}
 
     ${hasNarr ? `
     <div class="narration-card">
@@ -1171,7 +1135,7 @@ function renderSlide() {
       <audio src="${escapeHtml(slide.narration.audio)}" controls></audio>
     </div>` : ''}
 
-    ${renderTeaching(slide)}
+    ${renderSlideBlocks(slide, mod.id, { teachingOnly: true })}
 
     ${renderSlideNav()}
   `;
@@ -1180,8 +1144,80 @@ function renderSlide() {
   window.scrollTo(0, 0);
 }
 
-function renderImageCard(slide, i, modId) {
-  const img = slide.images?.[i] || {};
+/** Render slide blocks. Omit teaching unless teachingOnly=true (then only teaching blocks). */
+function renderSlideBlocks(slide, modId, opts) {
+  opts = opts || {};
+  const onlyT = !!opts.teachingOnly;
+  const skipT = !!opts.excludeTeaching;
+  let html = '';
+  (slide.blocks || []).forEach(block => {
+    if (onlyT && block.type !== 'teaching') return;
+    if (skipT && block.type === 'teaching') return;
+
+    if (block.type === 'imagePair') {
+      html += renderImagePairBlock(slide, block, modId);
+    } else if (block.type === 'keyLesson' && (block.text || '').trim()) {
+      html += `
+    <div class="key-lesson">
+      <div class="icon">!</div>
+      <div class="body">
+        <div class="label">Key Lesson</div>
+        <div class="text">${escapeHtml(block.text)}</div>
+      </div>
+    </div>`;
+    } else if (block.type === 'video' && block.src) {
+      html += renderVideoBlock(block);
+    } else if (block.type === 'teaching') {
+      html += renderTeachingBlock(block);
+    }
+  });
+  return html;
+}
+
+function renderTeachingBlock(block) {
+  const t = block || {};
+  const filled = ['t1', 't2', 't3', 't4', 't5'].filter(k => (t[k] || '').trim());
+  if (filled.length === 0) return '';
+  let html = `
+    <div class="teaching-section">
+      <div class="section-header">Teaching Notes</div>
+      <div class="teach-grid">
+  `;
+  TEACHING_QUESTIONS.forEach((q, i) => {
+    const ans = (t[`t${i + 1}`] || '').trim();
+    if (!ans) return;
+    html += `
+      <div class="teach-row">
+        <div class="teach-num">${i + 1}</div>
+        <div class="teach-body">
+          <div class="teach-q">${q}</div>
+          <div class="teach-a">${escapeHtml(ans)}</div>
+        </div>
+      </div>`;
+  });
+  html += `</div></div>`;
+  return html;
+}
+
+function renderVideoBlock(block) {
+  const cap = (block.caption || '').trim();
+  return `
+    <div class="video-block" style="margin-bottom:22px;">
+      <video src="${escapeHtml(block.src)}" controls style="width:100%;max-height:520px;border-radius:var(--radius);background:#000;"></video>
+      ${cap ? `<div style="font-size:13px;color:var(--muted);margin-top:8px;">${escapeHtml(cap)}</div>` : ''}
+    </div>`;
+}
+
+function renderImagePairBlock(slide, block, modId) {
+  const layout = block.layout === 'one' ? 'one' : 'two';
+  const imgs = block.images || [];
+  let inner = renderImageCard(slide, imgs[0] || {}, 0, modId);
+  if (layout === 'two') inner += renderImageCard(slide, imgs[1] || {}, 1, modId);
+  return `<div class="image-pair${layout === 'one' ? ' single-image' : ''}">${inner}</div>`;
+}
+
+function renderImageCard(slide, img, i, modId) {
+  img = img || {};
   const ann = (slide.annotations || []).filter(a => a.image === (i === 0 ? 'A' : 'B'));
   const hasImg = !!img.src;
   return `
@@ -1202,31 +1238,6 @@ function renderImageCard(slide, i, modId) {
       </div>
       ${img.label ? `<div class="label">${escapeHtml(img.label)}</div>` : ''}
     </div>`;
-}
-
-function renderTeaching(slide) {
-  const t = slide.teaching || {};
-  const filled = ['t1','t2','t3','t4','t5'].filter(k => (t[k]||'').trim());
-  if (filled.length === 0) return '';
-  let html = `
-    <div class="teaching-section">
-      <div class="section-header">Teaching Notes</div>
-      <div class="teach-grid">
-  `;
-  TEACHING_QUESTIONS.forEach((q, i) => {
-    const ans = (t[`t${i+1}`] || '').trim();
-    if (!ans) return; // skip empties on viewer
-    html += `
-      <div class="teach-row">
-        <div class="teach-num">${i+1}</div>
-        <div class="teach-body">
-          <div class="teach-q">${q}</div>
-          <div class="teach-a">${escapeHtml(ans)}</div>
-        </div>
-      </div>`;
-  });
-  html += `</div></div>`;
-  return html;
 }
 
 function renderSlideNav() {
@@ -1318,11 +1329,13 @@ function renderPresent() {
     `${activeSlide + 1} / ${mod.slides.length}`;
 
   // Apply single-image layout to present mode if needed
-  const layout = slide.imageLayout || 'two';
+  const pair = getImagePair(slide) || { layout: slide.imageLayout || 'two', images: [{}, {}] };
+  const layout = pair.layout === 'one' ? 'one' : 'two';
   const pImages = document.querySelector('.p-images');
   if (pImages) pImages.classList.toggle('single-image', layout === 'one');
 
-  const a = slide.images[0], b = slide.images[1];
+  const imgs = pair.images || [];
+  const a = imgs[0] || {}, b = imgs[1] || {};
   const imgA = document.getElementById('pImgA');
   const imgB = document.getElementById('pImgB');
   imgA.innerHTML = a.src ? `<img src="${escapeHtml(a.src)}" alt="" />` : 'No image yet';
@@ -1333,8 +1346,9 @@ function renderPresent() {
   document.getElementById('pLabelB').textContent = b.label || '';
 
   const tk = document.getElementById('pTakeawayBox');
-  if (slide.keyLesson) {
-    document.getElementById('pTakeaway').textContent = slide.keyLesson;
+  const ktxt = getKeyLessonText(slide);
+  if (ktxt) {
+    document.getElementById('pTakeaway').textContent = ktxt;
     tk.style.display = '';
   } else { tk.style.display = 'none'; }
 
