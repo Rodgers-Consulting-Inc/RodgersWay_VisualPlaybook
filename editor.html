@@ -1247,7 +1247,8 @@ function ensureKeyLessonBlock(slide) {
   if (kb) return kb;
   const ip = slide.blocks.findIndex(b => b.type === 'imagePair');
   kb = C.makeKeyLessonBlock('');
-  slide.blocks.splice(ip + 1, 0, kb);
+  if (ip < 0) slide.blocks.unshift(kb);
+  else slide.blocks.splice(ip + 1, 0, kb);
   return kb;
 }
 function ensureTeachingBlock(slide) {
