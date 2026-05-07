@@ -1144,15 +1144,18 @@ audio { width: 100%; height: 32px; }
 <input type="file" id="imgFileInput" accept="image/*" style="display:none;" />
 <div class="toast" id="toast"></div>
 
+<script src="assets/shared.js"></script>
 <script>
 /* =====================================================
    EDITOR · authoring + Publish bundle export
+   Schema v2: slide body lives in slide.blocks (source of truth).
    ===================================================== */
 
+const C = window.RodgersPlaybookCore;
 const STORAGE_KEY = 'rodgers_playbook_library_v2';
 
 const SCAFFOLD = {
-  version: 1,
+  version: 2,
   title: 'Civil Engineering Visual Library',
   subtitle: 'The Rodgers Playbook · Internal Training Series',
   tagline: 'Creating communities with clients who share our values.',
@@ -1171,8 +1174,9 @@ function loadLibrary() {
     if (!raw) return JSON.parse(JSON.stringify(SCAFFOLD));
     const p = JSON.parse(raw);
     if (!p.modules) return JSON.parse(JSON.stringify(SCAFFOLD));
-    p.modules.forEach(m => m.slides.forEach(rehydrate));
-    return p;
+    const migrated = C.migrateLibrary(p);
+    migrated.modules.forEach(m => m.slides.forEach(rehydrate));
+    return migrated;
   } catch(e) {
     console.warn(e);
     return JSON.parse(JSON.stringify(SCAFFOLD));
@@ -1180,13 +1184,8 @@ function loadLibrary() {
 }
 function rehydrate(s) {
   s.id = s.id || ('s_' + Math.random().toString(36).slice(2, 9));
-  s.teaching = s.teaching || {t1:'',t2:'',t3:'',t4:'',t5:''};
   s.narration = s.narration || {audio:null, mime:null, duration:0, script:''};
   s.annotations = s.annotations || [];
-  s.images = s.images || [
-    {src:null, label:'', type:'Real-world photo'},
-    {src:null, label:'', type:'CAD plan view'}
-  ];
   s.tags = s.tags || '';
   s.level = s.level || 1;
   s.status = s.status || 'draft';
@@ -1195,7 +1194,15 @@ function rehydrate(s) {
   s.speakerNotes = s.speakerNotes || '';
   s.projectContext = s.projectContext || '';
   s.resources = s.resources || '';
-  s.imageLayout = s.imageLayout || 'two';
+  if (!s.blocks || !s.blocks.length) {
+    const m = C.migrateSlideV1ToV2(s);
+    Object.keys(s).forEach(k => delete s[k]);
+    Object.assign(s, m);
+  }
+  C.stripLegacySlideFields(s);
+  (s.blocks || []).forEach(b => { if (!b.id) b.id = C.newBlockId(); });
+  const pr = C.getImagePairBlock(s);
+  s.imageLayout = pr ? pr.layout : 'two';
 }
 
 function saveLibrary() {
@@ -1204,6 +1211,11 @@ function saveLibrary() {
   saveTimer = setTimeout(() => {
     try {
       library.updated = new Date().toISOString().slice(0, 10);
+      library.version = 2;
+      library.modules.forEach(m => m.slides.forEach(s => {
+        C.stripLegacySlideFields(s);
+        if (!s.blocks || !s.blocks.length) rehydrate(s);
+      }));
       localStorage.setItem(STORAGE_KEY, JSON.stringify(library));
       setSaveState('saved');
     } catch(e) {
@@ -1230,13 +1242,38 @@ const PAIRING_LABEL = {
 function getMod() { return library.modules[activeModule] || library.modules[0]; }
 function getSlide() { const m = getMod(); return m && (m.slides[activeSlide] || m.slides[0]); }
 
+function ensureKeyLessonBlock(slide) {
+  let kb = C.getKeyLessonBlock(slide);
+  if (kb) return kb;
+  const ip = slide.blocks.findIndex(b => b.type === 'imagePair');
+  kb = C.makeKeyLessonBlock('');
+  if (ip < 0) slide.blocks.unshift(kb);
+  else slide.blocks.splice(ip + 1, 0, kb);
+  return kb;
+}
+function ensureTeachingBlock(slide) {
+  let tb = C.getTeachingBlock(slide);
+  if (tb) return tb;
+  slide.blocks.push(C.makeTeachingBlock({}));
+  return C.getTeachingBlock(slide);
+}
+function imagePairBlock() {
+  const s = getSlide();
+  let pb = C.getImagePairBlock(s);
+  if (!pb) {
+    pb = C.makeImagePairBlock('two');
+    s.blocks.unshift(pb);
+  }
+  return pb;
+}
+
 /* ---------- Initial seed if empty ---------- */
 function seedIfEmpty() {
   if (library.modules.length > 0) return;
   // Seed from data/library.json if available
   fetch('data/library.json').then(r => r.ok ? r.json() : null).then(data => {
     if (data && data.modules) {
-      library = data;
+      library = C.migrateLibrary(data);
       library.modules.forEach(m => m.slides.forEach(rehydrate));
       saveLibrary();
       renderAll();
@@ -1266,18 +1303,15 @@ function makeSlide(o = {}) {
     id: 's_' + Math.random().toString(36).slice(2, 9),
     title: 'New Slide', subtitle: '', pairing: 'real-vs-cad',
     level: 1, status: 'draft', tags: '',
+    blocks: JSON.parse(JSON.stringify(C.makeDefaultSlideBlocks())),
     imageLayout: 'two',
-    images: [
-      {src: null, label: '', type: 'Real-world photo'},
-      {src: null, label: '', type: 'CAD plan view'}
-    ],
-    keyLesson: '',
-    teaching: {t1:'',t2:'',t3:'',t4:'',t5:''},
     speakerNotes: '', projectContext: '', resources: '',
     narration: {audio: null, mime: null, duration: 0, script: ''},
     annotations: []
   };
   Object.assign(s, o);
+  if (o.blocks) s.blocks = o.blocks;
+  rehydrate(s);
   return s;
 }
 
@@ -1302,7 +1336,8 @@ function renderSidebar() {
         ${mod.slides.map((s, si) => {
           const active = mi === activeModule && si === activeSlide;
           let stat = '';
-          const hasI = s.images.some(i => i.src);
+          const gp = C.getImagePair(s);
+          const hasI = gp && gp.images.some(i => i.src);
           const hasN = s.narration && s.narration.audio;
           if (hasI && hasN) stat = 'complete';
           else if (hasN) stat = 'has-narration';
@@ -1342,25 +1377,31 @@ function renderSlide() {
   document.getElementById('levelPill').textContent = 'Level ' + slide.level;
   document.getElementById('statusPill').textContent = capitalize(slide.status);
 
+  const pairB = C.getImagePairBlock(slide);
+  const imgs = (pairB && pairB.images) ? pairB.images : [{src:null,label:'',type:'Real-world photo'},{src:null,label:'',type:'CAD plan view'}];
+  while (imgs.length < 2) imgs.push({src:null,label:'',type:'CAD plan view'});
+  const klBlock = ensureKeyLessonBlock(slide);
+
   setText('slideTitle', slide.title);
   setText('slideSubtitle', slide.subtitle);
-  setText('keyLesson', slide.keyLesson);
-  setText('labelA', slide.images[0].label);
-  setText('labelB', slide.images[1].label);
+  setText('keyLesson', klBlock.text || '');
+  setText('labelA', imgs[0].label);
+  setText('labelB', imgs[1].label);
 
-  renderSlot(0, slide.images[0]);
-  renderSlot(1, slide.images[1]);
+  renderSlot(0, imgs[0]);
+  renderSlot(1, imgs[1]);
 
-  setVal('typeA', slide.images[0].type);
-  setVal('typeB', slide.images[1].type);
+  setVal('typeA', imgs[0].type);
+  setVal('typeB', imgs[1].type);
   setVal('pairingType', slide.pairing);
   setVal('levelSelect', slide.level);
   setVal('statusSelect', slide.status);
-  setVal('t1', slide.teaching.t1);
-  setVal('t2', slide.teaching.t2);
-  setVal('t3', slide.teaching.t3);
-  setVal('t4', slide.teaching.t4);
-  setVal('t5', slide.teaching.t5);
+  const teach = C.getTeachingBlock(slide) || ensureTeachingBlock(slide);
+  setVal('t1', teach.t1);
+  setVal('t2', teach.t2);
+  setVal('t3', teach.t3);
+  setVal('t4', teach.t4);
+  setVal('t5', teach.t5);
   setVal('speakerNotes', slide.speakerNotes);
   setVal('projectContext', slide.projectContext);
   setVal('resources', slide.resources);
@@ -1405,6 +1446,8 @@ function setLayout(v) {
   if (v !== 'one' && v !== 'two') return;
   const slide = getSlide();
   if (!slide) return;
+  const pb = imagePairBlock();
+  pb.layout = v;
   slide.imageLayout = v;
   saveLibrary();
   renderSlide();
@@ -1452,12 +1495,15 @@ function renderThumbs() {
     t.className = 'thumb' + (si === activeSlide ? ' active' : '');
     t.onclick = () => goTo(activeModule, si);
     const layout = s.imageLayout || 'two';
-    const a = s.images[0].src ? `background-image:url('${s.images[0].src}')` : '';
-    const b = s.images[1].src ? `background-image:url('${s.images[1].src}')` : '';
+    const gp = C.getImagePair(s);
+    const im = (gp && gp.images) ? gp.images : [{ src: null }, { src: null }];
+    while (im.length < 2) im.push({ src: null });
+    const a = im[0].src ? `background-image:url('${im[0].src}')` : '';
+    const b = im[1].src ? `background-image:url('${im[1].src}')` : '';
     const previewInner = layout === 'one'
-      ? `<div class="h" style="${a}">${s.images[0].src ? '' : '▭'}</div>`
-      : `<div class="h" style="${a}">${s.images[0].src ? '' : '◱'}</div>
-         <div class="h" style="${b}">${s.images[1].src ? '' : '◰'}</div>`;
+      ? `<div class="h" style="${a}">${im[0].src ? '' : '▭'}</div>`
+      : `<div class="h" style="${a}">${im[0].src ? '' : '◱'}</div>
+         <div class="h" style="${b}">${im[1].src ? '' : '◰'}</div>`;
     t.innerHTML = `
       <div class="thumb-preview">
         <div class="thumb-num">${String(si+1).padStart(2,'0')}</div>
@@ -1515,30 +1561,38 @@ function renderAnnotations() {
 
 /* ---------- Editing ---------- */
 function bindEdits() {
-  [['slideTitle','title'],['slideSubtitle','subtitle'],['keyLesson','keyLesson']]
-    .forEach(([id, key]) => {
-      const el = document.getElementById(id);
-      el.addEventListener('input', () => {
-        getSlide()[key] = el.innerText.trim();
-        saveLibrary();
-        if (key === 'title') {
-          renderSidebar(); renderThumbs();
-          document.getElementById('crumbSlide').textContent = `Slide ${activeSlide+1} — ${getSlide().title}`;
-        }
-      });
+  [['slideTitle', 'title'], ['slideSubtitle', 'subtitle']].forEach(([id, key]) => {
+    const el = document.getElementById(id);
+    el.addEventListener('input', () => {
+      getSlide()[key] = el.innerText.trim();
+      saveLibrary();
+      if (key === 'title') {
+        renderSidebar(); renderThumbs();
+        document.getElementById('crumbSlide').textContent =
+          `Slide ${activeSlide + 1} — ${getSlide().title}`;
+      }
     });
-  [['labelA',0],['labelB',1]].forEach(([id, i]) => {
-    document.getElementById(id).addEventListener('input', e => {
-      getSlide().images[i].label = e.target.innerText.trim();
+  });
+  document.getElementById('keyLesson').addEventListener('input', () => {
+    const el = document.getElementById('keyLesson');
+    ensureKeyLessonBlock(getSlide()).text = el.innerText.trim();
+    saveLibrary();
+  });
+  [['labelA', 0], ['labelB', 1]].forEach(([id, i]) => {
+    document.getElementById(id).addEventListener('input', () => {
+      const pb = imagePairBlock();
+      if (!pb.images[i]) pb.images[i] = { src: null, label: '', type: '' };
+      pb.images[i].label = document.getElementById(id).innerText.trim();
       saveLibrary();
     });
   });
-  ['t1','t2','t3','t4','t5'].forEach(k => {
+  ['t1', 't2', 't3', 't4', 't5'].forEach(k => {
     document.getElementById(k).addEventListener('input', e => {
-      getSlide().teaching[k] = e.target.value; saveLibrary();
+      ensureTeachingBlock(getSlide())[k] = e.target.value;
+      saveLibrary();
     });
   });
-  ['speakerNotes','projectContext','resources','narrScript','slideTags'].forEach(k => {
+  ['speakerNotes', 'projectContext', 'resources', 'narrScript', 'slideTags'].forEach(k => {
     document.getElementById(k).addEventListener('input', e => {
       const slide = getSlide();
       if (k === 'narrScript') slide.narration.script = e.target.value;
@@ -1549,7 +1603,11 @@ function bindEdits() {
 }
 
 function updateImageType(i, v) {
-  getSlide().images[i].type = v; saveLibrary(); renderSlot(i, getSlide().images[i]);
+  const pb = imagePairBlock();
+  if (!pb.images[i]) pb.images[i] = { src: null, label: '', type: '' };
+  pb.images[i].type = v;
+  saveLibrary();
+  renderSlot(i, pb.images[i]);
 }
 function updatePairing() {
   getSlide().pairing = document.getElementById('pairingType').value; saveLibrary();
@@ -1571,10 +1629,11 @@ document.getElementById('imgFileInput').addEventListener('change', e => {
   if (!f || pendingImg === null) return;
   const r = new FileReader();
   r.onload = () => {
-    const slide = getSlide();
-    slide.images[pendingImg].src = r.result;
+    const pb = imagePairBlock();
+    if (!pb.images[pendingImg]) pb.images[pendingImg] = { src: null, label: '', type: '' };
+    pb.images[pendingImg].src = r.result;
     saveLibrary();
-    renderSlot(pendingImg, slide.images[pendingImg]);
+    renderSlot(pendingImg, pb.images[pendingImg]);
     renderThumbs(); renderSidebar();
     pendingImg = null; e.target.value = '';
   };
@@ -1582,8 +1641,10 @@ document.getElementById('imgFileInput').addEventListener('change', e => {
 });
 function uploadImage(i) { pendingImg = i; document.getElementById('imgFileInput').click(); }
 function clearImage(i) {
-  getSlide().images[i].src = null; saveLibrary();
-  renderSlot(i, getSlide().images[i]); renderThumbs(); renderSidebar();
+  const pb = imagePairBlock();
+  if (pb.images[i]) pb.images[i].src = null;
+  saveLibrary();
+  renderSlot(i, pb.images[i]); renderThumbs(); renderSidebar();
 }
 ['slotA','slotB'].forEach((id, i) => {
   const slot = document.getElementById(id);
@@ -1595,8 +1656,10 @@ function clearImage(i) {
     if (!f || !f.type.startsWith('image/')) return;
     const r = new FileReader();
     r.onload = () => {
-      getSlide().images[i].src = r.result; saveLibrary();
-      renderSlot(i, getSlide().images[i]); renderThumbs(); renderSidebar();
+      const pb = imagePairBlock();
+      if (!pb.images[i]) pb.images[i] = { src: null, label: '', type: '' };
+      pb.images[i].src = r.result; saveLibrary();
+      renderSlot(i, pb.images[i]); renderThumbs(); renderSidebar();
     };
     r.readAsDataURL(f);
   });
@@ -1742,7 +1805,7 @@ function loadFromRepo() {
     .then(r => r.ok ? r.json() : null)
     .then(d => {
       if (!d) { toast('Could not find data/library.json'); return; }
-      library = d;
+      library = C.migrateLibrary(d);
       library.modules.forEach(m => m.slides.forEach(rehydrate));
       activeModule = 0; activeSlide = 0;
       saveLibrary(); renderAll();
@@ -1763,11 +1826,12 @@ function renderPublishChecklist() {
   let totalSlides = 0, withImages = 0, withNarration = 0, withKeyLesson = 0, totalImg = 0;
   library.modules.forEach(m => m.slides.forEach(s => {
     totalSlides++;
-    if (s.images[0].src) totalImg++;
-    if (s.images[1].src) totalImg++;
-    if (s.images[0].src && s.images[1].src) withImages++;
+    const gp = C.getImagePair(s);
+    const imgs = gp && gp.images ? gp.images : [];
+    imgs.forEach(im => { if (im && im.src) totalImg++; });
+    if (C.slideHasBothImages(s)) withImages++;
     if (s.narration && s.narration.audio) withNarration++;
-    if (s.keyLesson && s.keyLesson.trim()) withKeyLesson++;
+    if (C.getKeyLessonText(s)) withKeyLesson++;
   }));
   const body = document.getElementById('publishBody');
   body.innerHTML = `
@@ -1818,30 +1882,42 @@ async function buildBundle() {
     const out = JSON.parse(JSON.stringify(library));
     out.updated = new Date().toISOString().slice(0, 10);
 
-    let imgCount = 0, audCount = 0;
+    let imgCount = 0, audCount = 0, vidCount = 0;
     for (const mod of out.modules) {
       for (const slide of mod.slides) {
-        // Images
-        for (let i = 0; i < 2; i++) {
-          if (slide.images[i].src && slide.images[i].src.startsWith('data:')) {
-            const {bytes, ext} = decodeDataUri(slide.images[i].src);
-            const fname = `${slide.id}-${i === 0 ? 'A' : 'B'}.${ext}`;
-            zip.file(`media/images/${fname}`, bytes);
-            slide.images[i].src = `media/images/${fname}`;
-            imgCount++;
+        let vidIx = 0;
+        for (const block of slide.blocks || []) {
+          if (block.type === 'imagePair' && block.images) {
+            for (let i = 0; i < 2; i++) {
+              const im = block.images[i];
+              if (im && im.src && im.src.startsWith('data:')) {
+                const decoded = decodeDataUri(im.src);
+                const fname = `${slide.id}-${i === 0 ? 'A' : 'B'}.${decoded.ext}`;
+                zip.file(`media/images/${fname}`, decoded.bytes);
+                im.src = `media/images/${fname}`;
+                imgCount++;
+              }
+            }
+          }
+          if (block.type === 'video' && block.src && block.src.startsWith('data:')) {
+            const decoded = decodeDataUri(block.src);
+            const fname = `${slide.id}-v${vidIx}.${decoded.ext}`;
+            vidIx++;
+            zip.file(`media/video/${fname}`, decoded.bytes);
+            block.src = `media/video/${fname}`;
+            vidCount++;
           }
         }
-        // Audio
         if (slide.narration && slide.narration.audio && slide.narration.audio.startsWith('data:')) {
-          const {bytes, ext} = decodeDataUri(slide.narration.audio);
-          const fname = `${slide.id}.${ext}`;
-          zip.file(`media/audio/${fname}`, bytes);
+          const decoded = decodeDataUri(slide.narration.audio);
+          const fname = `${slide.id}.${decoded.ext}`;
+          zip.file(`media/audio/${fname}`, decoded.bytes);
           slide.narration.audio = `media/audio/${fname}`;
           audCount++;
         }
       }
     }
-    log(`→ Encoded ${imgCount} images, ${audCount} audio files`);
+    log(`→ Encoded ${imgCount} images, ${audCount} audio, ${vidCount} video files`);
 
     // Write data/library.json
     zip.file('data/library.json', JSON.stringify(out, null, 2));
@@ -1850,6 +1926,7 @@ async function buildBundle() {
     // Add a placeholder so empty folders work in git
     zip.file('media/images/.gitkeep', '');
     zip.file('media/audio/.gitkeep', '');
+    zip.file('media/video/.gitkeep', '');
 
     log('→ Compressing…');
     const blob = await zip.generateAsync({type: 'blob', compression: 'DEFLATE'});

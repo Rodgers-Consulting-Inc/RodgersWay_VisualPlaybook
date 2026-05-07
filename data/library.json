@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "title": "Civil Engineering Visual Library",
   "subtitle": "The Rodgers Playbook · Internal Training Series",
   "tagline": "Creating communities with clients who share our values.",
@@ -19,29 +19,6 @@
           "level": 1,
           "status": "draft",
           "tags": "",
-          "images": [
-            {
-              "src": "media/images/s_ugrr9ak-A.png",
-              "label": "A wide aerial of a forested, undeveloped site showing what a project looks like before any planning or engineering work begins.",
-              "type": "Existing condition"
-            },
-            {
-              "src": "media/images/s_ugrr9ak-B.png",
-              "label": "A close-up aerial showing a concept plan overlay for one portion of a larger development, with color-coded zones for residential areas, open space, and community amenities.",
-              "type": "Aerial view"
-            }
-          ],
-          "keyLesson": "Before reading any plan sheet, pull up an aerial of the raw site so you understand what existed before the design began. A concept plan is a communication tool first and a design tool second. Its job is to show intent, not precision.",
-          "teaching": {
-            "t1": "",
-            "t2": "",
-            "t3": "",
-            "t4": "",
-            "t5": ""
-          },
-          "speakerNotes": "",
-          "projectContext": "",
-          "resources": "",
           "narration": {
             "audio": "media/audio/s_ugrr9ak.webm",
             "mime": "audio/webm",
@@ -49,7 +26,43 @@
             "script": "This aerial shows a heavily wooded parcel of land, essentially untouched. No cleared areas, no roads, no infrastructure. This is what a project site looks like before any engineering or planning work begins. In land development, this is called raw land, and every project in the firm's portfolio started here. Before any drawings are produced, the team studies what they're working with: existing vegetation, topography, surrounding roads, wetlands, and property boundaries. As an intern, when you're assigned to a new project, this is your mental starting point. Look at aerial imagery early, before the first plan is drawn. Understanding the original site conditions helps you follow design decisions, catch errors, and contribute more usefully to team conversations.\n\nWhat you're looking at is a concept plan overlay on aerial imagery, zoomed into one section of a larger development. The colored areas represent different proposed uses: residential lots, open space, community features, and the road network connecting them. This is one of the earliest formal deliverables a planning team produces, and it's intentionally approximate. A concept plan isn't drawn to construction standards. It exists to show a client, a county planner, or a reviewing agency what the team is proposing before detailed engineering begins. As an intern, you may help prepare exhibits like this in CAD or graphics software. Pay attention to how the design responds to existing conditions. Notice how roads connect to surrounding infrastructure and how open space clusters around natural constraints. Concept plans translate vision into something a room full of people can review and react to."
           },
           "annotations": [],
-          "imageLayout": "two"
+          "speakerNotes": "",
+          "projectContext": "",
+          "resources": "",
+          "imageLayout": "two",
+          "blocks": [
+            {
+              "id": "b_ard1oo5",
+              "type": "imagePair",
+              "layout": "two",
+              "images": [
+                {
+                  "src": "media/images/s_ugrr9ak-A.png",
+                  "label": "A wide aerial of a forested, undeveloped site showing what a project looks like before any planning or engineering work begins.",
+                  "type": "Existing condition"
+                },
+                {
+                  "src": "media/images/s_ugrr9ak-B.png",
+                  "label": "A close-up aerial showing a concept plan overlay for one portion of a larger development, with color-coded zones for residential areas, open space, and community amenities.",
+                  "type": "Aerial view"
+                }
+              ]
+            },
+            {
+              "id": "b_ohyaia8",
+              "type": "keyLesson",
+              "text": "Before reading any plan sheet, pull up an aerial of the raw site so you understand what existed before the design began. A concept plan is a communication tool first and a design tool second. Its job is to show intent, not precision."
+            },
+            {
+              "id": "b_5o9cj3r",
+              "type": "teaching",
+              "t1": "",
+              "t2": "",
+              "t3": "",
+              "t4": "",
+              "t5": ""
+            }
+          ]
         },
         {
           "id": "s_iyez7et",
@@ -59,37 +72,50 @@
           "level": 1,
           "status": "draft",
           "tags": "",
-          "imageLayout": "two",
-          "images": [
-            {
-              "src": "media/images/s_iyez7et-A.png",
-              "label": "Overall Site Example of Raw Land of Pinegrove",
-              "type": "Existing condition"
-            },
-            {
-              "src": "media/images/s_iyez7et-B.png",
-              "label": "Concept Plan - Pinegrove is divided into multiple Neighborhoods, this plan shows how they interact with each other at a very high level",
-              "type": "Aerial view"
-            }
-          ],
-          "keyLesson": "Take note of how concept roads are connected from existing roads",
-          "teaching": {
-            "t1": "",
-            "t2": "",
-            "t3": "",
-            "t4": "",
-            "t5": ""
-          },
-          "speakerNotes": "",
-          "projectContext": "",
-          "resources": "",
           "narration": {
             "audio": null,
             "mime": null,
             "duration": 0,
             "script": ""
           },
-          "annotations": []
+          "annotations": [],
+          "speakerNotes": "",
+          "projectContext": "",
+          "resources": "",
+          "imageLayout": "two",
+          "blocks": [
+            {
+              "id": "b_czsfjvb",
+              "type": "imagePair",
+              "layout": "two",
+              "images": [
+                {
+                  "src": "media/images/s_iyez7et-A.png",
+                  "label": "Overall Site Example of Raw Land of Pinegrove",
+                  "type": "Existing condition"
+                },
+                {
+                  "src": "media/images/s_iyez7et-B.png",
+                  "label": "Concept Plan - Pinegrove is divided into multiple Neighborhoods, this plan shows how they interact with each other at a very high level",
+                  "type": "Aerial view"
+                }
+              ]
+            },
+            {
+              "id": "b_pq7em2y",
+              "type": "keyLesson",
+              "text": "Take note of how concept roads are connected from existing roads"
+            },
+            {
+              "id": "b_hydnci4",
+              "type": "teaching",
+              "t1": "",
+              "t2": "",
+              "t3": "",
+              "t4": "",
+              "t5": ""
+            }
+          ]
         }
       ]
     },
@@ -107,29 +133,6 @@
           "level": 1,
           "status": "draft",
           "tags": "",
-          "images": [
-            {
-              "src": "media/images/s_v90a4yc-A.png",
-              "label": "An annotated infographic illustrating the consequences of no stormwater infrastructure, including flooded streets, soil erosion, foundation damage, and downstream pollution.",
-              "type": "Bad example"
-            },
-            {
-              "src": null,
-              "label": "",
-              "type": "CAD plan view"
-            }
-          ],
-          "keyLesson": "Stormwater design isn't background work. It's a safety and environmental requirement, and every inlet, pipe, and pond you design prevents one or more of the failure modes shown in this image.",
-          "teaching": {
-            "t1": "",
-            "t2": "",
-            "t3": "",
-            "t4": "",
-            "t5": ""
-          },
-          "speakerNotes": "",
-          "projectContext": "",
-          "resources": "",
           "narration": {
             "audio": "media/audio/s_v90a4yc.webm",
             "mime": "audio/webm",
@@ -137,7 +140,43 @@
             "script": "This infographic answers the first question every intern should be able to answer: why does stormwater management matter? Without inlets, pipes, and detention facilities to manage runoff, rainfall on impervious surfaces like roads, rooftops, and parking lots has nowhere controlled to go. Streets flood, foundations take on water, slopes erode, and pollutants from paved surfaces wash directly into streams and rivers. Every callout in this image represents a real failure mode that stormwater design is engineered to prevent. At Rodgers, stormwater management is a core component of every site civil project. It's required by local and state regulations and is one of the elements most scrutinized during plan review. When a project manager asks you to route drainage or size an inlet, this image is the reason that work matters."
           },
           "annotations": [],
-          "imageLayout": "one"
+          "speakerNotes": "",
+          "projectContext": "",
+          "resources": "",
+          "imageLayout": "one",
+          "blocks": [
+            {
+              "id": "b_4bfikea",
+              "type": "imagePair",
+              "layout": "one",
+              "images": [
+                {
+                  "src": "media/images/s_v90a4yc-A.png",
+                  "label": "An annotated infographic illustrating the consequences of no stormwater infrastructure, including flooded streets, soil erosion, foundation damage, and downstream pollution.",
+                  "type": "Bad example"
+                },
+                {
+                  "src": null,
+                  "label": "",
+                  "type": "CAD plan view"
+                }
+              ]
+            },
+            {
+              "id": "b_0qhksos",
+              "type": "keyLesson",
+              "text": "Stormwater design isn't background work. It's a safety and environmental requirement, and every inlet, pipe, and pond you design prevents one or more of the failure modes shown in this image."
+            },
+            {
+              "id": "b_xgptyn9",
+              "type": "teaching",
+              "t1": "",
+              "t2": "",
+              "t3": "",
+              "t4": "",
+              "t5": ""
+            }
+          ]
         },
         {
           "id": "s_d7a6h06",
@@ -147,37 +186,50 @@
           "level": 1,
           "status": "draft",
           "tags": "",
-          "imageLayout": "one",
-          "images": [
-            {
-              "src": "media/images/s_d7a6h06-A.png",
-              "label": "A numbered 3D illustration tracing the seven-step path stormwater takes across a developed commercial site from rainfall and surface runoff through underground pipes to detention and outfall discharge.",
-              "type": "Diagram"
-            },
-            {
-              "src": null,
-              "label": "",
-              "type": "CAD plan view"
-            }
-          ],
-          "keyLesson": "Every stormwater design follows the same basic flow path. Keeping the sequence from rainfall to outfall in mind helps you trace and verify drainage logic on any plan sheet.",
-          "teaching": {
-            "t1": "",
-            "t2": "",
-            "t3": "",
-            "t4": "",
-            "t5": ""
-          },
-          "speakerNotes": "",
-          "projectContext": "",
-          "resources": "",
           "narration": {
             "audio": "media/audio/s_d7a6h06.webm",
             "mime": "audio/webm",
             "duration": 51.36,
             "script": ""
           },
-          "annotations": []
+          "annotations": [],
+          "speakerNotes": "",
+          "projectContext": "",
+          "resources": "",
+          "imageLayout": "one",
+          "blocks": [
+            {
+              "id": "b_rx9k27f",
+              "type": "imagePair",
+              "layout": "one",
+              "images": [
+                {
+                  "src": "media/images/s_d7a6h06-A.png",
+                  "label": "A numbered 3D illustration tracing the seven-step path stormwater takes across a developed commercial site from rainfall and surface runoff through underground pipes to detention and outfall discharge.",
+                  "type": "Diagram"
+                },
+                {
+                  "src": null,
+                  "label": "",
+                  "type": "CAD plan view"
+                }
+              ]
+            },
+            {
+              "id": "b_8kw9jfr",
+              "type": "keyLesson",
+              "text": "Every stormwater design follows the same basic flow path. Keeping the sequence from rainfall to outfall in mind helps you trace and verify drainage logic on any plan sheet."
+            },
+            {
+              "id": "b_zwx1wd4",
+              "type": "teaching",
+              "t1": "",
+              "t2": "",
+              "t3": "",
+              "t4": "",
+              "t5": ""
+            }
+          ]
         },
         {
           "id": "s_pdiy614",
@@ -187,37 +239,50 @@
           "level": 1,
           "status": "draft",
           "tags": "",
-          "imageLayout": "one",
-          "images": [
-            {
-              "src": "media/images/s_pdiy614-A.png",
-              "label": "A detailed cutaway 3D illustration showing all major components of a stormwater drainage system, from rooftop and roadway collection through underground conveyance to detention pond and outfall.",
-              "type": "Diagram"
-            },
-            {
-              "src": "media/images/s_pdiy614-B.png",
-              "label": "",
-              "type": "Diagram"
-            }
-          ],
-          "keyLesson": "Every component in a stormwater system serves a specific function in the collection-conveyance-treatment-discharge chain. Knowing how they connect helps you design each piece with the full system in mind.",
-          "teaching": {
-            "t1": "",
-            "t2": "",
-            "t3": "",
-            "t4": "",
-            "t5": ""
-          },
-          "speakerNotes": "",
-          "projectContext": "",
-          "resources": "",
           "narration": {
             "audio": "media/audio/s_pdiy614.webm",
             "mime": "audio/webm",
             "duration": 54.989,
             "script": ""
           },
-          "annotations": []
+          "annotations": [],
+          "speakerNotes": "",
+          "projectContext": "",
+          "resources": "",
+          "imageLayout": "one",
+          "blocks": [
+            {
+              "id": "b_d8arqpz",
+              "type": "imagePair",
+              "layout": "one",
+              "images": [
+                {
+                  "src": "media/images/s_pdiy614-A.png",
+                  "label": "A detailed cutaway 3D illustration showing all major components of a stormwater drainage system, from rooftop and roadway collection through underground conveyance to detention pond and outfall.",
+                  "type": "Diagram"
+                },
+                {
+                  "src": "media/images/s_pdiy614-B.png",
+                  "label": "",
+                  "type": "Diagram"
+                }
+              ]
+            },
+            {
+              "id": "b_anvp41k",
+              "type": "keyLesson",
+              "text": "Every component in a stormwater system serves a specific function in the collection-conveyance-treatment-discharge chain. Knowing how they connect helps you design each piece with the full system in mind."
+            },
+            {
+              "id": "b_poekctg",
+              "type": "teaching",
+              "t1": "",
+              "t2": "",
+              "t3": "",
+              "t4": "",
+              "t5": ""
+            }
+          ]
         }
       ]
     },
@@ -235,29 +300,6 @@
           "level": 1,
           "status": "draft",
           "tags": "",
-          "images": [
-            {
-              "src": "media/images/s_h79m0g7-A.png",
-              "label": "An illustrated typical road cross section for a 50-foot right of way showing travel lanes, shoulders, grass buffers, sidewalks, curb and gutter, and pavement layers.",
-              "type": "Cross-section"
-            },
-            {
-              "src": null,
-              "label": "",
-              "type": "CAD plan view"
-            }
-          ],
-          "keyLesson": "The typical road cross section is the master reference for road geometry. Every grading, drainage, and utility decision on a road project traces back to this document.",
-          "teaching": {
-            "t1": "",
-            "t2": "",
-            "t3": "",
-            "t4": "",
-            "t5": ""
-          },
-          "speakerNotes": "",
-          "projectContext": "",
-          "resources": "",
           "narration": {
             "audio": "media/audio/s_h79m0g7.webm",
             "mime": "audio/webm",
@@ -265,7 +307,43 @@
             "script": ""
           },
           "annotations": [],
-          "imageLayout": "one"
+          "speakerNotes": "",
+          "projectContext": "",
+          "resources": "",
+          "imageLayout": "one",
+          "blocks": [
+            {
+              "id": "b_bqctpf6",
+              "type": "imagePair",
+              "layout": "one",
+              "images": [
+                {
+                  "src": "media/images/s_h79m0g7-A.png",
+                  "label": "An illustrated typical road cross section for a 50-foot right of way showing travel lanes, shoulders, grass buffers, sidewalks, curb and gutter, and pavement layers.",
+                  "type": "Cross-section"
+                },
+                {
+                  "src": null,
+                  "label": "",
+                  "type": "CAD plan view"
+                }
+              ]
+            },
+            {
+              "id": "b_om2rv1v",
+              "type": "keyLesson",
+              "text": "The typical road cross section is the master reference for road geometry. Every grading, drainage, and utility decision on a road project traces back to this document."
+            },
+            {
+              "id": "b_jw4xhhz",
+              "type": "teaching",
+              "t1": "",
+              "t2": "",
+              "t3": "",
+              "t4": "",
+              "t5": ""
+            }
+          ]
         },
         {
           "id": "s_yqlqtfd",
@@ -275,37 +353,50 @@
           "level": 1,
           "status": "draft",
           "tags": "",
-          "imageLayout": "one",
-          "images": [
-            {
-              "src": "media/images/s_yqlqtfd-A.png",
-              "label": "A complete plan and profile sheet showing a road's horizontal alignment in plan view at the top and its vertical alignment in profile view at the bottom, as it appears in a formal plan set.",
-              "type": "Profile view"
-            },
-            {
-              "src": null,
-              "label": "",
-              "type": "CAD plan view"
-            }
-          ],
-          "keyLesson": "A plan and profile sheet is the primary design document for road alignment. Practice reading both views together so you can build a complete three-dimensional picture of the proposed road.",
-          "teaching": {
-            "t1": "",
-            "t2": "",
-            "t3": "",
-            "t4": "",
-            "t5": ""
-          },
-          "speakerNotes": "",
-          "projectContext": "",
-          "resources": "",
           "narration": {
             "audio": "media/audio/s_yqlqtfd.webm",
             "mime": "audio/webm",
             "duration": 52.491,
             "script": ""
           },
-          "annotations": []
+          "annotations": [],
+          "speakerNotes": "",
+          "projectContext": "",
+          "resources": "",
+          "imageLayout": "one",
+          "blocks": [
+            {
+              "id": "b_5sckrbo",
+              "type": "imagePair",
+              "layout": "one",
+              "images": [
+                {
+                  "src": "media/images/s_yqlqtfd-A.png",
+                  "label": "A complete plan and profile sheet showing a road's horizontal alignment in plan view at the top and its vertical alignment in profile view at the bottom, as it appears in a formal plan set.",
+                  "type": "Profile view"
+                },
+                {
+                  "src": null,
+                  "label": "",
+                  "type": "CAD plan view"
+                }
+              ]
+            },
+            {
+              "id": "b_p8a9a83",
+              "type": "keyLesson",
+              "text": "A plan and profile sheet is the primary design document for road alignment. Practice reading both views together so you can build a complete three-dimensional picture of the proposed road."
+            },
+            {
+              "id": "b_lmwpcsl",
+              "type": "teaching",
+              "t1": "",
+              "t2": "",
+              "t3": "",
+              "t4": "",
+              "t5": ""
+            }
+          ]
         },
         {
           "id": "s_n8glls6",
@@ -315,37 +406,50 @@
           "level": 1,
           "status": "draft",
           "tags": "",
-          "imageLayout": "one",
-          "images": [
-            {
-              "src": "media/images/s_n8glls6-A.png",
-              "label": "A construction photo infographic showing the three stages of asphalt paving: subgrade and base preparation, hot mix asphalt placement, and roller compaction.",
-              "type": "Construction phase"
-            },
-            {
-              "src": null,
-              "label": "",
-              "type": "CAD plan view"
-            }
-          ],
-          "keyLesson": "Pavement is a layered system where each step depends on the quality of the one before it. Understanding the paving sequence helps you see why specification compliance in the field directly determines how long a road will last.",
-          "teaching": {
-            "t1": "",
-            "t2": "",
-            "t3": "",
-            "t4": "",
-            "t5": ""
-          },
-          "speakerNotes": "",
-          "projectContext": "",
-          "resources": "",
           "narration": {
             "audio": "media/audio/s_n8glls6.webm",
             "mime": "audio/webm",
             "duration": 57.048,
             "script": ""
           },
-          "annotations": []
+          "annotations": [],
+          "speakerNotes": "",
+          "projectContext": "",
+          "resources": "",
+          "imageLayout": "one",
+          "blocks": [
+            {
+              "id": "b_v9mocu2",
+              "type": "imagePair",
+              "layout": "one",
+              "images": [
+                {
+                  "src": "media/images/s_n8glls6-A.png",
+                  "label": "A construction photo infographic showing the three stages of asphalt paving: subgrade and base preparation, hot mix asphalt placement, and roller compaction.",
+                  "type": "Construction phase"
+                },
+                {
+                  "src": null,
+                  "label": "",
+                  "type": "CAD plan view"
+                }
+              ]
+            },
+            {
+              "id": "b_a5dyict",
+              "type": "keyLesson",
+              "text": "Pavement is a layered system where each step depends on the quality of the one before it. Understanding the paving sequence helps you see why specification compliance in the field directly determines how long a road will last."
+            },
+            {
+              "id": "b_7lbpgdm",
+              "type": "teaching",
+              "t1": "",
+              "t2": "",
+              "t3": "",
+              "t4": "",
+              "t5": ""
+            }
+          ]
         }
       ]
     },
@@ -363,37 +467,45 @@
           "level": 1,
           "status": "draft",
           "tags": "",
-          "imageLayout": "two",
-          "images": [
-            {
-              "src": null,
-              "label": "",
-              "type": "Real-world photo"
-            },
-            {
-              "src": null,
-              "label": "",
-              "type": "CAD plan view"
-            }
-          ],
-          "keyLesson": "",
-          "teaching": {
-            "t1": "",
-            "t2": "",
-            "t3": "",
-            "t4": "",
-            "t5": ""
-          },
-          "speakerNotes": "",
-          "projectContext": "",
-          "resources": "",
           "narration": {
             "audio": null,
             "mime": null,
             "duration": 0,
             "script": ""
           },
-          "annotations": []
+          "annotations": [],
+          "speakerNotes": "",
+          "projectContext": "",
+          "resources": "",
+          "imageLayout": "two",
+          "blocks": [
+            {
+              "id": "b_e2q2425",
+              "type": "imagePair",
+              "layout": "two",
+              "images": [
+                {
+                  "src": null,
+                  "label": "",
+                  "type": "Real-world photo"
+                },
+                {
+                  "src": null,
+                  "label": "",
+                  "type": "CAD plan view"
+                }
+              ]
+            },
+            {
+              "id": "b_x8rzb7j",
+              "type": "teaching",
+              "t1": "",
+              "t2": "",
+              "t3": "",
+              "t4": "",
+              "t5": ""
+            }
+          ]
         }
       ]
     },
@@ -411,37 +523,45 @@
           "level": 1,
           "status": "draft",
           "tags": "",
-          "imageLayout": "two",
-          "images": [
-            {
-              "src": null,
-              "label": "",
-              "type": "Real-world photo"
-            },
-            {
-              "src": null,
-              "label": "",
-              "type": "CAD plan view"
-            }
-          ],
-          "keyLesson": "",
-          "teaching": {
-            "t1": "",
-            "t2": "",
-            "t3": "",
-            "t4": "",
-            "t5": ""
-          },
-          "speakerNotes": "",
-          "projectContext": "",
-          "resources": "",
           "narration": {
             "audio": null,
             "mime": null,
             "duration": 0,
             "script": ""
           },
-          "annotations": []
+          "annotations": [],
+          "speakerNotes": "",
+          "projectContext": "",
+          "resources": "",
+          "imageLayout": "two",
+          "blocks": [
+            {
+              "id": "b_szovg44",
+              "type": "imagePair",
+              "layout": "two",
+              "images": [
+                {
+                  "src": null,
+                  "label": "",
+                  "type": "Real-world photo"
+                },
+                {
+                  "src": null,
+                  "label": "",
+                  "type": "CAD plan view"
+                }
+              ]
+            },
+            {
+              "id": "b_k97pnhj",
+              "type": "teaching",
+              "t1": "",
+              "t2": "",
+              "t3": "",
+              "t4": "",
+              "t5": ""
+            }
+          ]
         }
       ]
     },
@@ -459,37 +579,45 @@
           "level": 1,
           "status": "draft",
           "tags": "",
-          "imageLayout": "two",
-          "images": [
-            {
-              "src": null,
-              "label": "",
-              "type": "Real-world photo"
-            },
-            {
-              "src": null,
-              "label": "",
-              "type": "CAD plan view"
-            }
-          ],
-          "keyLesson": "",
-          "teaching": {
-            "t1": "",
-            "t2": "",
-            "t3": "",
-            "t4": "",
-            "t5": ""
-          },
-          "speakerNotes": "",
-          "projectContext": "",
-          "resources": "",
           "narration": {
             "audio": null,
             "mime": null,
             "duration": 0,
             "script": ""
           },
-          "annotations": []
+          "annotations": [],
+          "speakerNotes": "",
+          "projectContext": "",
+          "resources": "",
+          "imageLayout": "two",
+          "blocks": [
+            {
+              "id": "b_z7s72zq",
+              "type": "imagePair",
+              "layout": "two",
+              "images": [
+                {
+                  "src": null,
+                  "label": "",
+                  "type": "Real-world photo"
+                },
+                {
+                  "src": null,
+                  "label": "",
+                  "type": "CAD plan view"
+                }
+              ]
+            },
+            {
+              "id": "b_x1jjot8",
+              "type": "teaching",
+              "t1": "",
+              "t2": "",
+              "t3": "",
+              "t4": "",
+              "t5": ""
+            }
+          ]
         }
       ]
     },
@@ -507,37 +635,45 @@
           "level": 1,
           "status": "draft",
           "tags": "",
-          "imageLayout": "two",
-          "images": [
-            {
-              "src": null,
-              "label": "",
-              "type": "Real-world photo"
-            },
-            {
-              "src": null,
-              "label": "",
-              "type": "CAD plan view"
-            }
-          ],
-          "keyLesson": "",
-          "teaching": {
-            "t1": "",
-            "t2": "",
-            "t3": "",
-            "t4": "",
-            "t5": ""
-          },
-          "speakerNotes": "",
-          "projectContext": "",
-          "resources": "",
           "narration": {
             "audio": null,
             "mime": null,
             "duration": 0,
             "script": ""
           },
-          "annotations": []
+          "annotations": [],
+          "speakerNotes": "",
+          "projectContext": "",
+          "resources": "",
+          "imageLayout": "two",
+          "blocks": [
+            {
+              "id": "b_zkbr2o8",
+              "type": "imagePair",
+              "layout": "two",
+              "images": [
+                {
+                  "src": null,
+                  "label": "",
+                  "type": "Real-world photo"
+                },
+                {
+                  "src": null,
+                  "label": "",
+                  "type": "CAD plan view"
+                }
+              ]
+            },
+            {
+              "id": "b_mccrgdi",
+              "type": "teaching",
+              "t1": "",
+              "t2": "",
+              "t3": "",
+              "t4": "",
+              "t5": ""
+            }
+          ]
         }
       ]
     },
@@ -555,37 +691,45 @@
           "level": 1,
           "status": "draft",
           "tags": "",
-          "imageLayout": "two",
-          "images": [
-            {
-              "src": null,
-              "label": "",
-              "type": "Real-world photo"
-            },
-            {
-              "src": null,
-              "label": "",
-              "type": "CAD plan view"
-            }
-          ],
-          "keyLesson": "",
-          "teaching": {
-            "t1": "",
-            "t2": "",
-            "t3": "",
-            "t4": "",
-            "t5": ""
-          },
-          "speakerNotes": "",
-          "projectContext": "",
-          "resources": "",
           "narration": {
             "audio": null,
             "mime": null,
             "duration": 0,
             "script": ""
           },
-          "annotations": []
+          "annotations": [],
+          "speakerNotes": "",
+          "projectContext": "",
+          "resources": "",
+          "imageLayout": "two",
+          "blocks": [
+            {
+              "id": "b_r4esz3y",
+              "type": "imagePair",
+              "layout": "two",
+              "images": [
+                {
+                  "src": null,
+                  "label": "",
+                  "type": "Real-world photo"
+                },
+                {
+                  "src": null,
+                  "label": "",
+                  "type": "CAD plan view"
+                }
+              ]
+            },
+            {
+              "id": "b_jk88cve",
+              "type": "teaching",
+              "t1": "",
+              "t2": "",
+              "t3": "",
+              "t4": "",
+              "t5": ""
+            }
+          ]
         }
       ]
     }
