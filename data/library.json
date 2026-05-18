@@ -32,12 +32,12 @@
           "imageLayout": "one",
           "blocks": [
             {
-              "id": "b_kuw5dvz",
+              "id": "b_p5e4q5k",
               "type": "imagePair",
               "layout": "one",
               "images": [
                 {
-                  "src": null,
+                  "src": "media/images/s_kvt5hjv-A.png",
                   "label": "Wide aerial satellite view of a densely forested undeveloped parcel with surrounding roads and existing neighborhoods visible at the edges.",
                   "type": "Real-world photo"
                 },
@@ -49,12 +49,12 @@
               ]
             },
             {
-              "id": "b_asp79h7",
+              "id": "b_8msubd8",
               "type": "keyLesson",
               "text": "Before reading any plan sheet, pull up an aerial of the raw site so you understand what existed before the design began."
             },
             {
-              "id": "b_j9qqzgl",
+              "id": "b_byib1nf",
               "type": "teaching",
               "t1": "",
               "t2": "",
@@ -85,12 +85,12 @@
           "imageLayout": "one",
           "blocks": [
             {
-              "id": "b_l45oc7b",
+              "id": "b_qne5kdg",
               "type": "imagePair",
               "layout": "one",
               "images": [
                 {
-                  "src": null,
+                  "src": "media/images/s_wutuw1j-A.png",
                   "label": "Aerial satellite view of a forested undeveloped parcel with a highway visible at the bottom edge and a small pond or water feature in the upper left.",
                   "type": "Real-world photo"
                 },
@@ -102,12 +102,12 @@
               ]
             },
             {
-              "id": "b_wgg0x62",
+              "id": "b_51hyfys",
               "type": "keyLesson",
               "text": "Road frontage, water features, and tree cover visible in early aerials directly shape design decisions made weeks or months later."
             },
             {
-              "id": "b_vwo8fes",
+              "id": "b_fx9jjnw",
               "type": "teaching",
               "t1": "",
               "t2": "",
@@ -138,12 +138,12 @@
           "imageLayout": "one",
           "blocks": [
             {
-              "id": "b_zbowbsc",
+              "id": "b_704axlr",
               "type": "imagePair",
               "layout": "one",
               "images": [
                 {
-                  "src": null,
+                  "src": "media/images/s_awapbvj-A.png",
                   "label": "Aerial satellite image of a forested parcel with white property boundary lines overlaid, adjacent to a highway visible at the top of the frame.",
                   "type": "Real-world photo"
                 },
@@ -155,12 +155,12 @@
               ]
             },
             {
-              "id": "b_m0w0p9u",
+              "id": "b_wz4xgrz",
               "type": "keyLesson",
               "text": "Property boundary lines define what the team can legally design within, and reconciling those limits against actual site conditions is one of the first tasks on any project."
             },
             {
-              "id": "b_j2y3bu3",
+              "id": "b_ti220sv",
               "type": "teaching",
               "t1": "",
               "t2": "",
@@ -191,12 +191,12 @@
           "imageLayout": "one",
           "blocks": [
             {
-              "id": "b_5rbcnm0",
+              "id": "b_4al23up",
               "type": "imagePair",
               "layout": "one",
               "images": [
                 {
-                  "src": null,
+                  "src": "media/images/s_mp30c2u-A.png",
                   "label": "Close-up aerial image of a proposed development site with a colorful concept plan overlay showing residential lots, open space buffers, road networks, and community amenity areas.",
                   "type": "Real-world photo"
                 },
@@ -208,12 +208,12 @@
               ]
             },
             {
-              "id": "b_gz0gpt5",
+              "id": "b_uiblh6h",
               "type": "keyLesson",
               "text": "A concept plan is a communication tool first and a design tool second. Its job is to show intent, not precision."
             },
             {
-              "id": "b_vm1mbmg",
+              "id": "b_7ptw9p7",
               "type": "teaching",
               "t1": "",
               "t2": "",
@@ -244,12 +244,12 @@
           "imageLayout": "one",
           "blocks": [
             {
-              "id": "b_seszq3d",
+              "id": "b_042pqx3",
               "type": "imagePair",
               "layout": "one",
               "images": [
                 {
-                  "src": null,
+                  "src": "media/images/s_tu7laz3-A.png",
                   "label": "Wide aerial view of a large residential development concept plan overlaid on satellite imagery, showing the full proposed road network, residential clusters, open space corridors, and surrounding existing neighborhoods.",
                   "type": "Real-world photo"
                 },
@@ -261,12 +261,12 @@
               ]
             },
             {
-              "id": "b_9fe7j2n",
+              "id": "b_om1dvl4",
               "type": "keyLesson",
               "text": "Always locate your current task within the master concept plan so you understand the intent behind every design element you're drafting or reviewing."
             },
             {
-              "id": "b_dn87pq7",
+              "id": "b_emm5b70",
               "type": "teaching",
               "t1": "",
               "t2": "",
@@ -297,12 +297,12 @@
           "imageLayout": "one",
           "blocks": [
             {
-              "id": "b_cw0k0se",
+              "id": "b_jo405zi",
               "type": "imagePair",
               "layout": "one",
               "images": [
                 {
-                  "src": null,
+                  "src": "media/images/s_vftb38w-A.png",
                   "label": "Aerial view of a construction site with trees cleared, soil exposed and graded to a red-orange color, and early road and building pad infrastructure taking shape adjacent to a major highway.",
                   "type": "Real-world photo"
                 },
@@ -314,12 +314,12 @@
               ]
             },
             {
-              "id": "b_xxbm8v7",
+              "id": "b_xo5czx2",
               "type": "keyLesson",
               "text": "Construction sites are where design decisions become physical reality, so developing a visual sense of what a graded site looks like helps you produce better drawings in the office."
             },
             {
-              "id": "b_8uwx72q",
+              "id": "b_fs4mmb7",
               "type": "teaching",
               "t1": "",
               "t2": "",
@@ -350,12 +350,12 @@
           "imageLayout": "one",
           "blocks": [
             {
-              "id": "b_06q6ufp",
+              "id": "b_eo16kde",
               "type": "imagePair",
               "layout": "one",
               "images": [
                 {
-                  "src": null,
+                  "src": "media/images/s_mpfgzim-A.png",
                   "label": "Aerial view of a completed residential or mixed-use development with finished roads, structured parking, building footprints, and open space visible, set against surrounding development and highways.",
                   "type": "Real-world photo"
                 },
@@ -367,12 +367,12 @@
               ]
             },
             {
-              "id": "b_lbpheq0",
+              "id": "b_ce860no",
               "type": "keyLesson",
               "text": "Completed site aerials connect your office work to real-world outcomes. Study finished developments to build an eye for how good design decisions translate into a functional, built place."
             },
             {
-              "id": "b_b965dnw",
+              "id": "b_vf4hi7o",
               "type": "teaching",
               "t1": "",
               "t2": "",
@@ -411,7 +411,7 @@
           "imageLayout": "one",
           "blocks": [
             {
-              "id": "b_x87loln",
+              "id": "b_8pwbk8d",
               "type": "imagePair",
               "layout": "one",
               "images": [
@@ -428,12 +428,12 @@
               ]
             },
             {
-              "id": "b_8lh87r9",
+              "id": "b_28kqm87",
               "type": "keyLesson",
               "text": "Stormwater design isn't background work. It's a safety and environmental requirement, and every inlet, pipe, and pond you design prevents one or more of the failure modes shown in this image."
             },
             {
-              "id": "b_f2nx898",
+              "id": "b_9petv90",
               "type": "teaching",
               "t1": "",
               "t2": "",
@@ -464,7 +464,7 @@
           "imageLayout": "one",
           "blocks": [
             {
-              "id": "b_s6w5h13",
+              "id": "b_6a83cnu",
               "type": "imagePair",
               "layout": "one",
               "images": [
@@ -481,12 +481,12 @@
               ]
             },
             {
-              "id": "b_t3terjc",
+              "id": "b_2gfq7xf",
               "type": "keyLesson",
               "text": "Every stormwater design follows the same basic flow path. Keeping the sequence from rainfall to outfall in mind helps you trace and verify drainage logic on any plan sheet."
             },
             {
-              "id": "b_2u334h2",
+              "id": "b_hu9kokr",
               "type": "teaching",
               "t1": "",
               "t2": "",
@@ -517,7 +517,7 @@
           "imageLayout": "one",
           "blocks": [
             {
-              "id": "b_1y6yfha",
+              "id": "b_3j8mjhz",
               "type": "imagePair",
               "layout": "one",
               "images": [
@@ -534,12 +534,12 @@
               ]
             },
             {
-              "id": "b_bo06qgx",
+              "id": "b_e1yfq2g",
               "type": "keyLesson",
               "text": "Every component in a stormwater system serves a specific function in the collection-conveyance-treatment-discharge chain. Knowing how they connect helps you design each piece with the full system in mind."
             },
             {
-              "id": "b_e5qpc10",
+              "id": "b_lcae8gy",
               "type": "teaching",
               "t1": "",
               "t2": "",
@@ -570,12 +570,12 @@
           "imageLayout": "one",
           "blocks": [
             {
-              "id": "b_qyudw7v",
+              "id": "b_a7bsz6g",
               "type": "imagePair",
               "layout": "one",
               "images": [
                 {
-                  "src": null,
+                  "src": "media/images/s_h8ybez4-A.png",
                   "label": "Ground-level photo of water flowing along a wet street gutter and dropping into a cast iron curb inlet grate mounted in a concrete curb, with snow visible on the sidewalk and a street receding in the background.",
                   "type": "Real-world photo"
                 },
@@ -587,12 +587,12 @@
               ]
             },
             {
-              "id": "b_a2awfya",
+              "id": "b_xt5ofyq",
               "type": "keyLesson",
               "text": "Inlet placement and sizing must account for gutter capacity and debris accumulation. If either is undersized or blocked, the result is water in the road, which is both a design failure and a safety problem."
             },
             {
-              "id": "b_dbwqqlc",
+              "id": "b_2mfkmdm",
               "type": "teaching",
               "t1": "",
               "t2": "",
@@ -623,12 +623,12 @@
           "imageLayout": "one",
           "blocks": [
             {
-              "id": "b_ujs6ej0",
+              "id": "b_te3y0w7",
               "type": "imagePair",
               "layout": "one",
               "images": [
                 {
-                  "src": null,
+                  "src": "media/images/s_ix9xj4b-A.png",
                   "label": "Technical cross-section diagram titled Catch Basin Section Detail showing a cast iron grate and frame, adjusting rings, precast concrete top slab, precast barrel sections, grouted inlet and outlet pipes, a sediment sump at the bottom, a concrete base slab, and a compacted granular foundation.",
                   "type": "Real-world photo"
                 },
@@ -640,12 +640,12 @@
               ]
             },
             {
-              "id": "b_tt83opf",
+              "id": "b_fi75c1g",
               "type": "keyLesson",
               "text": "Understanding catch basin internals helps you draw them accurately, specify them correctly, and recognize when a detail shown on a plan may not match standard construction practice."
             },
             {
-              "id": "b_3wqtb0y",
+              "id": "b_r3vlly5",
               "type": "teaching",
               "t1": "",
               "t2": "",
@@ -676,12 +676,12 @@
           "imageLayout": "one",
           "blocks": [
             {
-              "id": "b_frkzmc0",
+              "id": "b_6he1dxc",
               "type": "imagePair",
               "layout": "one",
               "images": [
                 {
-                  "src": null,
+                  "src": "media/images/s_89cep76-A.png",
                   "label": "Construction photo infographic showing a precast catch basin being lifted by crane into an excavated gravel-bedded trench with a storm pipe already connected, with smaller panel photos showing the four installation steps: excavation and bedding, base section placement, section stacking, and top slab and grate installation.",
                   "type": "Real-world photo"
                 },
@@ -693,12 +693,12 @@
               ]
             },
             {
-              "id": "b_aj6f45x",
+              "id": "b_lydwz9w",
               "type": "keyLesson",
               "text": "Catch basin installation follows a precise sequence where the storm pipe must be connected before the structure is lowered. Understanding field sequencing helps you produce details and specifications that work in the real world."
             },
             {
-              "id": "b_yoq5uco",
+              "id": "b_t93l3lt",
               "type": "teaching",
               "t1": "",
               "t2": "",
@@ -729,12 +729,12 @@
           "imageLayout": "one",
           "blocks": [
             {
-              "id": "b_2amxi4a",
+              "id": "b_kca6mpx",
               "type": "imagePair",
               "layout": "one",
               "images": [
                 {
-                  "src": null,
+                  "src": "media/images/s_6do2nbj-A.png",
                   "label": "Looking-down photo inside a cylindrical precast concrete storm drain manhole showing a flat knockout panel at the bottom center, and iron step rungs mounted on the interior barrel wall for maintenance access.",
                   "type": "Real-world photo"
                 },
@@ -746,12 +746,12 @@
               ]
             },
             {
-              "id": "b_4uispu9",
+              "id": "b_j2sn5tm",
               "type": "keyLesson",
               "text": "Storm drain manholes aren't just connection points. They're the access infrastructure that keeps the entire underground pipe network maintainable for decades. Place them deliberately on your drainage plans."
             },
             {
-              "id": "b_t73bjjw",
+              "id": "b_ca9bxsr",
               "type": "teaching",
               "t1": "",
               "t2": "",
@@ -782,12 +782,12 @@
           "imageLayout": "one",
           "blocks": [
             {
-              "id": "b_yajk0l2",
+              "id": "b_78wowjr",
               "type": "imagePair",
               "layout": "one",
               "images": [
                 {
-                  "src": null,
+                  "src": "media/images/s_tjviwlk-A.png",
                   "label": "Street-level view of a vegetated grass swale running along the edge of a roadway with a curb inlet visible at the curb line, adjacent to a paved road and parking area.",
                   "type": "Real-world photo"
                 },
@@ -799,12 +799,12 @@
               ]
             },
             {
-              "id": "b_zns0m62",
+              "id": "b_0vdu158",
               "type": "keyLesson",
               "text": "Open swales are a viable and often preferred alternative to curb and gutter in appropriate settings. Understanding when each system fits helps you make better drainage design decisions and ask better questions early in a project."
             },
             {
-              "id": "b_y5j89sh",
+              "id": "b_ah0b0u5",
               "type": "teaching",
               "t1": "",
               "t2": "",
@@ -835,12 +835,12 @@
           "imageLayout": "one",
           "blocks": [
             {
-              "id": "b_j99z1sp",
+              "id": "b_ldaz0lj",
               "type": "imagePair",
               "layout": "one",
               "images": [
                 {
-                  "src": null,
+                  "src": "media/images/s_sbbmojg-A.png",
                   "label": "Construction site photo showing a large corrugated storm drain pipe resting on a gravel bedding layer in an open trench with a worker guiding it and an excavator visible in the background, with an inset panel listing the five steps of stormwater pipe installation.",
                   "type": "Real-world photo"
                 },
@@ -852,12 +852,12 @@
               ]
             },
             {
-              "id": "b_wg6jv55",
+              "id": "b_9daf1h4",
               "type": "keyLesson",
               "text": "Storm drain pipe design isn't just about sizing. Bedding and backfill specifications directly determine long-term pipe performance. The parameters you put on a plan sheet become the exact instructions the field crew follows."
             },
             {
-              "id": "b_rms9dkc",
+              "id": "b_4qe5vqt",
               "type": "teaching",
               "t1": "",
               "t2": "",
@@ -888,12 +888,12 @@
           "imageLayout": "one",
           "blocks": [
             {
-              "id": "b_yljao1p",
+              "id": "b_6un2c2k",
               "type": "imagePair",
               "layout": "one",
               "images": [
                 {
-                  "src": null,
+                  "src": "media/images/s_x43m3oa-A.png",
                   "label": "Civil 3D screenshot showing a 3D storm drain pipe network in a looped configuration with labeled inlets, manholes, pipes, and an outfall, with annotation bubbles showing rim elevations, invert elevations, pipe sizes, slopes, and lengths for each element.",
                   "type": "Real-world photo"
                 },
@@ -905,12 +905,12 @@
               ]
             },
             {
-              "id": "b_mub0fqz",
+              "id": "b_vb01lsw",
               "type": "keyLesson",
               "text": "Civil 3D pipe network modeling lets you design and verify a drainage system in three dimensions before construction begins. Learning to read structure labels and pipe data in the model is a foundational CAD skill for any drainage design role."
             },
             {
-              "id": "b_een5018",
+              "id": "b_vvzemvz",
               "type": "teaching",
               "t1": "",
               "t2": "",
@@ -941,12 +941,12 @@
           "imageLayout": "one",
           "blocks": [
             {
-              "id": "b_hudjodv",
+              "id": "b_b41m7sx",
               "type": "imagePair",
               "layout": "one",
               "images": [
                 {
-                  "src": null,
+                  "src": "media/images/s_gyoi80o-A.png",
                   "label": "Dark-background CAD storm drain plan for a commercial development showing a proposed building surrounded by storm drain pipes connecting curb inlets and manholes, routing flow to a detention pond, with pipe sizes, slopes, and invert elevations labeled and a legend at the right identifying plan symbols.",
                   "type": "Real-world photo"
                 },
@@ -958,12 +958,12 @@
               ]
             },
             {
-              "id": "b_9lcjnab",
+              "id": "b_b4ie4xe",
               "type": "keyLesson",
               "text": "A storm drain plan tells a complete drainage story from inlet to outfall. Before drafting or reviewing one, trace the full flow path so you understand the drainage logic the design is built on."
             },
             {
-              "id": "b_o4uhde0",
+              "id": "b_i0jmepn",
               "type": "teaching",
               "t1": "",
               "t2": "",
@@ -994,12 +994,12 @@
           "imageLayout": "one",
           "blocks": [
             {
-              "id": "b_q071g98",
+              "id": "b_w6nmu8j",
               "type": "imagePair",
               "layout": "one",
               "images": [
                 {
-                  "src": null,
+                  "src": "media/images/s_qlqgy2l-A.png",
                   "label": "Rodgers Consulting stormwater drainage plan sheet C5.1 for Riverbend Retail Development showing drainage area boundaries labeled A through D, storm drain pipe network with structure labels, a proposed detention pond with water surface elevation, flow direction arrows, and a drainage area table listing acreage, runoff coefficients, and impervious cover percentages.",
                   "type": "Real-world photo"
                 },
@@ -1011,12 +1011,12 @@
               ]
             },
             {
-              "id": "b_xub7lpk",
+              "id": "b_qsrbbal",
               "type": "keyLesson",
               "text": "A production drainage plan integrates drainage areas, pipe networks, structure data, and hydraulic calculations into a single coordinated sheet. Every label on this plan represents an engineering decision that was calculated and verified before it was submitted."
             },
             {
-              "id": "b_dt6itp2",
+              "id": "b_ahauvh4",
               "type": "teaching",
               "t1": "",
               "t2": "",
@@ -1047,12 +1047,12 @@
           "imageLayout": "one",
           "blocks": [
             {
-              "id": "b_ch0itcy",
+              "id": "b_1wr6jnv",
               "type": "imagePair",
               "layout": "one",
               "images": [
                 {
-                  "src": null,
+                  "src": "media/images/s_r0zpyng-A.png",
                   "label": "Educational diagram of a stormwater detention basin showing a plan view with forebay, main pond, outlet structure, emergency weir, and maintenance access path at the top, and a typical cross-section below showing normal water level, 100-year storm water level, inlet, forebay, pond storage, riser and orifice outlet, and controlled outflow to the receiving system, with a flow process summary at the bottom.",
                   "type": "Real-world photo"
                 },
@@ -1064,12 +1064,12 @@
               ]
             },
             {
-              "id": "b_i1v3te4",
+              "id": "b_ucittyy",
               "type": "keyLesson",
               "text": "A detention basin controls peak runoff by storing it temporarily and releasing it slowly through a designed outlet. Understanding this function conceptually helps you interpret pond sizing and outlet design on any project."
             },
             {
-              "id": "b_f009hah",
+              "id": "b_4wust19",
               "type": "teaching",
               "t1": "",
               "t2": "",
@@ -1100,12 +1100,12 @@
           "imageLayout": "one",
           "blocks": [
             {
-              "id": "b_h4934ra",
+              "id": "b_ooeyz0u",
               "type": "imagePair",
               "layout": "one",
               "images": [
                 {
-                  "src": null,
+                  "src": "media/images/s_1tzre6m-A.png",
                   "label": "Four-panel construction photo infographic showing detention pond construction stages: initial excavation with earthmoving equipment, grading and shaping of slopes and pond bottom, concrete outlet structure installation with riprap, and final stabilization with established vegetation and a completed outlet structure.",
                   "type": "Real-world photo"
                 },
@@ -1117,12 +1117,12 @@
               ]
             },
             {
-              "id": "b_wa5gbq5",
+              "id": "b_yf1xkem",
               "type": "keyLesson",
               "text": "Detention pond construction follows a staged sequence from excavation through stabilization, with erosion controls required at every phase. Knowing the sequence helps you understand how grading, outlet, and erosion control documents all relate to each other."
             },
             {
-              "id": "b_5kw3esh",
+              "id": "b_cvkk25k",
               "type": "teaching",
               "t1": "",
               "t2": "",
@@ -1153,12 +1153,12 @@
           "imageLayout": "one",
           "blocks": [
             {
-              "id": "b_nydlg5l",
+              "id": "b_pgshrdr",
               "type": "imagePair",
               "layout": "one",
               "images": [
                 {
-                  "src": null,
+                  "src": "media/images/s_5vve971-A.png",
                   "label": "Panoramic photo of a completed stormwater management facility showing a seeded and planted basin with riprap-lined edges and a concrete outlet control structure visible in the lower foreground, with a commercial building and parking visible in the background.",
                   "type": "Real-world photo"
                 },
@@ -1170,12 +1170,12 @@
               ]
             },
             {
-              "id": "b_yhjjzmy",
+              "id": "b_gj96wjp",
               "type": "keyLesson",
               "text": "A completed SWM facility is infrastructure that must function correctly for decades. The grading, outlet design, and vegetation plan all contribute to that long-term performance. Design all three with care."
             },
             {
-              "id": "b_fp8dp3u",
+              "id": "b_pkwazhh",
               "type": "teaching",
               "t1": "",
               "t2": "",
@@ -1206,12 +1206,12 @@
           "imageLayout": "one",
           "blocks": [
             {
-              "id": "b_43f7pzm",
+              "id": "b_blkxv2f",
               "type": "imagePair",
               "layout": "one",
               "images": [
                 {
-                  "src": null,
+                  "src": "media/images/s_z8iskof-A.png",
                   "label": "Photo of a grassed stormwater distribution channel with rock check structures along its length directing flow down a gentle slope toward a stormwater facility, with a commercial building visible at the upper right.",
                   "type": "Real-world photo"
                 },
@@ -1223,12 +1223,12 @@
               ]
             },
             {
-              "id": "b_oo1rjvg",
+              "id": "b_b9t4nj5",
               "type": "keyLesson",
               "text": "Forebay channels and rock check structures are the first line of protection for a detention pond. Design them carefully or the pond will fill with sediment faster than expected and require costly maintenance."
             },
             {
-              "id": "b_kd60rlf",
+              "id": "b_mkatbd3",
               "type": "teaching",
               "t1": "",
               "t2": "",
@@ -1259,12 +1259,12 @@
           "imageLayout": "one",
           "blocks": [
             {
-              "id": "b_k3jlkm7",
+              "id": "b_5kcjwx8",
               "type": "imagePair",
               "layout": "one",
               "images": [
                 {
-                  "src": null,
+                  "src": "media/images/s_kdy3ejk-A.png",
                   "label": "Photo of a stormwater pipe outfall with a large riprap stone apron extending from the pipe opening down a graded slope, with grass visible on adjacent areas and a low headwall at the pipe opening.",
                   "type": "Real-world photo"
                 },
@@ -1276,12 +1276,12 @@
               ]
             },
             {
-              "id": "b_bdc9p9h",
+              "id": "b_6dgzlf3",
               "type": "keyLesson",
               "text": "Riprap at a stormwater outfall is a calculated design element, not a default detail. Understanding why it's sized the way it is helps you apply it correctly, especially on sites with high pipe velocities."
             },
             {
-              "id": "b_irs5i76",
+              "id": "b_a5dp4j8",
               "type": "teaching",
               "t1": "",
               "t2": "",
@@ -1312,12 +1312,12 @@
           "imageLayout": "one",
           "blocks": [
             {
-              "id": "b_x5p21p7",
+              "id": "b_us4ubci",
               "type": "imagePair",
               "layout": "one",
               "images": [
                 {
-                  "src": null,
+                  "src": "media/images/s_947am1c-A.png",
                   "label": "Educational diagram of a Submerged Gravel Wetland stormwater treatment system showing an inlet pipe, pretreatment forebay, fine and coarse gravel filtration layers, submerged water level, wetland vegetation above water, an underdrain collection system, an outlet control structure, and a five-step treatment process summary at the bottom.",
                   "type": "Real-world photo"
                 },
@@ -1329,12 +1329,12 @@
               ]
             },
             {
-              "id": "b_ulhvq6u",
+              "id": "b_ym3i1j0",
               "type": "keyLesson",
               "text": "Stormwater management isn't only about controlling flow rates. Advanced systems like submerged gravel wetlands are required on many projects to meet water quality standards. Knowing the full spectrum of solutions makes you a more capable designer."
             },
             {
-              "id": "b_l95li4c",
+              "id": "b_immkb9o",
               "type": "teaching",
               "t1": "",
               "t2": "",
@@ -1373,7 +1373,7 @@
           "imageLayout": "one",
           "blocks": [
             {
-              "id": "b_5ts07kx",
+              "id": "b_7o4cixm",
               "type": "imagePair",
               "layout": "one",
               "images": [
@@ -1390,12 +1390,12 @@
               ]
             },
             {
-              "id": "b_3v641ee",
+              "id": "b_03k7yuf",
               "type": "keyLesson",
               "text": "The typical road cross section is the master reference for road geometry. Every grading, drainage, and utility decision on a road project traces back to this document."
             },
             {
-              "id": "b_4a0lq7x",
+              "id": "b_23659os",
               "type": "teaching",
               "t1": "",
               "t2": "",
@@ -1426,12 +1426,12 @@
           "imageLayout": "one",
           "blocks": [
             {
-              "id": "b_jfbvtu4",
+              "id": "b_wzmtl66",
               "type": "imagePair",
               "layout": "one",
               "images": [
                 {
-                  "src": null,
+                  "src": "media/images/s_epq6hnw-A.png",
                   "label": "Technical CAD-style typical roadway cross section for a collector road with an 80-foot right of way, showing lane widths, swales, sidewalks, and a pavement structure table listing asphalt surface, binder, aggregate base, subbase, and compacted subgrade thicknesses.",
                   "type": "Real-world photo"
                 },
@@ -1443,12 +1443,12 @@
               ]
             },
             {
-              "id": "b_w3iwqt6",
+              "id": "b_wx1848t",
               "type": "keyLesson",
               "text": "A technical typical section is a construction document, not just a reference diagram. Learn to read the layer thicknesses, dimensions, and notes because they directly govern how the road gets built."
             },
             {
-              "id": "b_tnnmpvb",
+              "id": "b_44ol7ag",
               "type": "teaching",
               "t1": "",
               "t2": "",
@@ -1479,12 +1479,12 @@
           "imageLayout": "one",
           "blocks": [
             {
-              "id": "b_4oqe14o",
+              "id": "b_4wrg5e7",
               "type": "imagePair",
               "layout": "one",
               "images": [
                 {
-                  "src": null,
+                  "src": "media/images/s_j4uogss-A.png",
                   "label": "Educational diagram titled Roadway Horizontal Geometry Plan View showing a circular curve with labeled elements including Point of Intersection, Point of Curvature, Point of Tangency, radius, delta angle, tangent length, long chord, and mid-ordinate, with a horizontal curve data table and reference notes.",
                   "type": "Real-world photo"
                 },
@@ -1496,12 +1496,12 @@
               ]
             },
             {
-              "id": "b_rfx7urk",
+              "id": "b_85ppr9e",
               "type": "keyLesson",
               "text": "Horizontal curve geometry defines how a road transitions between straight segments. Knowing the terminology, PI, PC, PT, radius, and delta, helps you read alignment tables and plan sheets with real confidence."
             },
             {
-              "id": "b_0k5ips1",
+              "id": "b_8nlealj",
               "type": "teaching",
               "t1": "",
               "t2": "",
@@ -1532,7 +1532,7 @@
           "imageLayout": "one",
           "blocks": [
             {
-              "id": "b_jvgpjqm",
+              "id": "b_tirvrgt",
               "type": "imagePair",
               "layout": "one",
               "images": [
@@ -1549,12 +1549,12 @@
               ]
             },
             {
-              "id": "b_0hofdg0",
+              "id": "b_1sy8j5q",
               "type": "keyLesson",
               "text": "A plan and profile sheet is the primary design document for road alignment. Practice reading both views together so you can build a complete three-dimensional picture of the proposed road."
             },
             {
-              "id": "b_4w5r3c0",
+              "id": "b_suwelzz",
               "type": "teaching",
               "t1": "",
               "t2": "",
@@ -1585,12 +1585,12 @@
           "imageLayout": "one",
           "blocks": [
             {
-              "id": "b_e8afz09",
+              "id": "b_ik1tuyz",
               "type": "imagePair",
               "layout": "one",
               "images": [
                 {
-                  "src": null,
+                  "src": "media/images/s_g7xans3-A.png",
                   "label": "Educational diagram titled Vertical Alignment Profile Explanation showing existing ground and proposed grade line with labeled crest and sag vertical curves, PVC, PVI, and PVT points, grade percentages along each tangent, and data tables listing key station and elevation values.",
                   "type": "Real-world photo"
                 },
@@ -1602,12 +1602,12 @@
               ]
             },
             {
-              "id": "b_3653zc7",
+              "id": "b_j1yz6v6",
               "type": "keyLesson",
               "text": "Understanding crest and sag curves, grade percentages, and the PVC-PVI-PVT sequence gives you the language to read profile sheets and participate in vertical alignment discussions on any road project."
             },
             {
-              "id": "b_d99dn5d",
+              "id": "b_0vv1l6b",
               "type": "teaching",
               "t1": "",
               "t2": "",
@@ -1638,12 +1638,12 @@
           "imageLayout": "one",
           "blocks": [
             {
-              "id": "b_cs0t8bw",
+              "id": "b_uqxts0z",
               "type": "imagePair",
               "layout": "one",
               "images": [
                 {
-                  "src": null,
+                  "src": "media/images/s_3b7s1g8-A.png",
                   "label": "Construction photo infographic showing curb and gutter installation with labeled steps for subgrade preparation, form setting, concrete pouring, surface finishing, and joint tooling, and callouts identifying forms and string line alignment and a 1 to 2 percent gutter drainage slope toward the flow line.",
                   "type": "Real-world photo"
                 },
@@ -1655,12 +1655,12 @@
               ]
             },
             {
-              "id": "b_meq6e5i",
+              "id": "b_nqr29by",
               "type": "keyLesson",
               "text": "Curb and gutter forms are set directly from your design drawings. Understanding the installation sequence helps you appreciate why gutter slope and alignment dimensions are precise requirements, not suggestions."
             },
             {
-              "id": "b_5td43m6",
+              "id": "b_upyyko8",
               "type": "teaching",
               "t1": "",
               "t2": "",
@@ -1691,12 +1691,12 @@
           "imageLayout": "one",
           "blocks": [
             {
-              "id": "b_3enbc7k",
+              "id": "b_t7ei094",
               "type": "imagePair",
               "layout": "one",
               "images": [
                 {
-                  "src": null,
+                  "src": "media/images/s_y21mjeu-A.png",
                   "label": "Three-panel construction photo infographic showing asphalt paving steps: a grader compacting subgrade during base preparation, a dump truck feeding a paving machine during asphalt placement, and steel drum rollers finishing the surface during compaction.",
                   "type": "Real-world photo"
                 },
@@ -1708,12 +1708,12 @@
               ]
             },
             {
-              "id": "b_uwussbq",
+              "id": "b_4gik42u",
               "type": "keyLesson",
               "text": "Pavement is a layered system where each step depends on the quality of the one before it. Understanding the paving sequence helps you see why specification compliance in the field directly determines how long a road will last."
             },
             {
-              "id": "b_93p0lgx",
+              "id": "b_ayrgbii",
               "type": "teaching",
               "t1": "",
               "t2": "",
@@ -1744,12 +1744,12 @@
           "imageLayout": "one",
           "blocks": [
             {
-              "id": "b_qlyoyye",
+              "id": "b_axltkn7",
               "type": "imagePair",
               "layout": "one",
               "images": [
                 {
-                  "src": null,
+                  "src": "media/images/s_jyrb9ny-A.png",
                   "label": "Ground-level photo of a completed ADA-compliant crosswalk at a commercial site showing white striped crosswalk markings on asphalt, a concrete curb ramp landing, and a concrete sidewalk path leading into landscaped grounds, with a storm drain on the left and a fire hydrant on the right.",
                   "type": "Real-world photo"
                 },
@@ -1761,12 +1761,12 @@
               ]
             },
             {
-              "id": "b_0lvu0cn",
+              "id": "b_j76s943",
               "type": "keyLesson",
               "text": "ADA compliance is a legal requirement, not a design preference. Every curb ramp and crosswalk in your drawings must meet specific dimensional and slope standards, so learn them early and apply them consistently."
             },
             {
-              "id": "b_m97bqk4",
+              "id": "b_daop59w",
               "type": "teaching",
               "t1": "",
               "t2": "",
@@ -1797,12 +1797,12 @@
           "imageLayout": "one",
           "blocks": [
             {
-              "id": "b_laxcj2c",
+              "id": "b_y7y85gs",
               "type": "imagePair",
               "layout": "one",
               "images": [
                 {
-                  "src": null,
+                  "src": "media/images/s_gmv3x4u-A.png",
                   "label": "Annotated aerial photograph of a four-way road intersection under construction with labeled callouts for stormwater pond, curb and gutter, storm drain inlets, intersection geometry, construction equipment, median and traffic islands, utility structures, grading and earthwork areas, and temporary traffic control, with a legend distinguishing new asphalt, concrete, graded earth, and stormwater flow direction.",
                   "type": "Real-world photo"
                 },
@@ -1814,12 +1814,12 @@
               ]
             },
             {
-              "id": "b_wrggba3",
+              "id": "b_a0m8cb2",
               "type": "keyLesson",
               "text": "An intersection brings every design discipline together in one place. Understanding how grading, drainage, utilities, pavement, and traffic control coexist on a single site makes you a more effective collaborator across the whole project team."
             },
             {
-              "id": "b_j8nkwgx",
+              "id": "b_909mdof",
               "type": "teaching",
               "t1": "",
               "t2": "",
@@ -1858,12 +1858,12 @@
           "imageLayout": "one",
           "blocks": [
             {
-              "id": "b_dlfbkiw",
+              "id": "b_d4epwci",
               "type": "imagePair",
               "layout": "one",
               "images": [
                 {
-                  "src": null,
+                  "src": "media/images/s_ivdipir-A.jpg",
                   "label": "Infographic showing a surveyor operating a total station with labeled arrows identifying a fixed reference control point, a connected network of known coordinates, and the total station instrument.",
                   "type": "Real-world photo"
                 },
@@ -1875,12 +1875,12 @@
               ]
             },
             {
-              "id": "b_k9c9pyd",
+              "id": "b_pa3ikln",
               "type": "keyLesson",
               "text": "Survey control networks are the invisible backbone behind every coordinate in a CAD file. Understanding them helps you evaluate whether the data you're working with can be trusted."
             },
             {
-              "id": "b_2sx37n1",
+              "id": "b_xtxjlbs",
               "type": "teaching",
               "t1": "",
               "t2": "",
@@ -1911,12 +1911,12 @@
           "imageLayout": "one",
           "blocks": [
             {
-              "id": "b_252vncs",
+              "id": "b_yktye4t",
               "type": "imagePair",
               "layout": "one",
               "images": [
                 {
-                  "src": null,
+                  "src": "media/images/s_em2sgl2-A.jpg",
                   "label": "Two workers in high-visibility vests on a job site, with one operating a total station on a tripod in the foreground and a second crew member visible downrange as the rod person.",
                   "type": "Real-world photo"
                 },
@@ -1928,12 +1928,12 @@
               ]
             },
             {
-              "id": "b_ssazst4",
+              "id": "b_t3xovbt",
               "type": "keyLesson",
               "text": "Every coordinate in your CAD file came from a field crew like this one. Knowing that helps you understand why survey data is treated as a controlled input, not just background information."
             },
             {
-              "id": "b_dgt97do",
+              "id": "b_rs19veh",
               "type": "teaching",
               "t1": "",
               "t2": "",
@@ -1964,12 +1964,12 @@
           "imageLayout": "one",
           "blocks": [
             {
-              "id": "b_iupg5c3",
+              "id": "b_duecjyr",
               "type": "imagePair",
               "layout": "one",
               "images": [
                 {
-                  "src": null,
+                  "src": "media/images/s_xk2sctt-A.jpg",
                   "label": "Ground-level photo of wooden batter boards with orange string lines stretched between them on a grassy construction site, with a wooded treeline in the background.",
                   "type": "Real-world photo"
                 },
@@ -1981,12 +1981,12 @@
               ]
             },
             {
-              "id": "b_mos3zzb",
+              "id": "b_dmeekq9",
               "type": "keyLesson",
               "text": "Construction staking is the physical translation of your drawings. Every dimension and elevation on a plan has a real-world consequence you can eventually measure with a string line and a level."
             },
             {
-              "id": "b_sql8zbc",
+              "id": "b_rpczkn0",
               "type": "teaching",
               "t1": "",
               "t2": "",
@@ -2017,12 +2017,12 @@
           "imageLayout": "one",
           "blocks": [
             {
-              "id": "b_7kaomck",
+              "id": "b_nuppc5h",
               "type": "imagePair",
               "layout": "one",
               "images": [
                 {
-                  "src": null,
+                  "src": "media/images/s_5xjw8c6-A.jpg",
                   "label": "Close-up of asphalt pavement covered in multicolored spray paint utility locating marks, with a manhole cover visible at the center and lines in green, orange, red, and pink indicating different types of underground utilities.",
                   "type": "Real-world photo"
                 },
@@ -2034,12 +2034,12 @@
               ]
             },
             {
-              "id": "b_s7pxrxy",
+              "id": "b_srtnfmr",
               "type": "keyLesson",
               "text": "Utility locating marks represent real underground infrastructure your design must avoid. Treat utility data in your CAD files with the same seriousness you'd give a physical mark spray-painted on the street."
             },
             {
-              "id": "b_iyyqv6r",
+              "id": "b_41bwp4e",
               "type": "teaching",
               "t1": "",
               "t2": "",
@@ -2070,12 +2070,12 @@
           "imageLayout": "one",
           "blocks": [
             {
-              "id": "b_6hhwa7f",
+              "id": "b_qdnrryz",
               "type": "imagePair",
               "layout": "one",
               "images": [
                 {
-                  "src": null,
+                  "src": "media/images/s_sek498n-A.jpg",
                   "label": "Color code reference chart showing eight colored circles labeled with the utility type each represents: Red for electric, Yellow for gas and petroleum, Orange for communication, Blue for potable water, Green for sewer and drain, Purple for reclaimed water, Pink for temporary survey marking, and White for proposed excavation.",
                   "type": "Real-world photo"
                 },
@@ -2087,12 +2087,12 @@
               ]
             },
             {
-              "id": "b_samxte4",
+              "id": "b_tuiaze2",
               "type": "keyLesson",
               "text": "Memorize the utility marking color code. It comes up constantly in field visits, utility conflict checks, and coordination meetings, and knowing it cold signals that you're paying attention to the right things."
             },
             {
-              "id": "b_v0x5hf7",
+              "id": "b_d3x26bi",
               "type": "teaching",
               "t1": "",
               "t2": "",
@@ -2123,12 +2123,12 @@
           "imageLayout": "one",
           "blocks": [
             {
-              "id": "b_94zugmx",
+              "id": "b_whd1y7j",
               "type": "imagePair",
               "layout": "one",
               "images": [
                 {
-                  "src": null,
+                  "src": "media/images/s_ipw518f-A.webp",
                   "label": "Black and white educational diagram titled \"How to read contour lines on topographic maps,\" showing six pairs of plan-view contour patterns on the left matched with their corresponding three-dimensional terrain silhouettes on the right, illustrating hills, peaks, ridges, slopes, and valleys.",
                   "type": "Real-world photo"
                 },
@@ -2140,12 +2140,12 @@
               ]
             },
             {
-              "id": "b_ytx660j",
+              "id": "b_0p2j2iu",
               "type": "keyLesson",
               "text": "Reading contour lines is one of the core visual literacy skills in civil engineering. The faster you can picture terrain from contours, the more useful you'll be to the design team from day one."
             },
             {
-              "id": "b_t8vqu4d",
+              "id": "b_y0xqfwb",
               "type": "teaching",
               "t1": "",
               "t2": "",
@@ -2176,7 +2176,7 @@
           "imageLayout": "one",
           "blocks": [
             {
-              "id": "b_08raej7",
+              "id": "b_it1urfy",
               "type": "imagePair",
               "layout": "one",
               "images": [
@@ -2193,12 +2193,12 @@
               ]
             },
             {
-              "id": "b_rru0417",
+              "id": "b_9liuzwf",
               "type": "keyLesson",
               "text": "Contour spacing tells you slope steepness at a glance. Tight contours mean steep terrain, wide contours mean gentle grade. This is one of the most frequently used visual skills in civil engineering plan review."
             },
             {
-              "id": "b_rckyncr",
+              "id": "b_ukepm35",
               "type": "teaching",
               "t1": "",
               "t2": "",
@@ -2229,12 +2229,12 @@
           "imageLayout": "one",
           "blocks": [
             {
-              "id": "b_93797cv",
+              "id": "b_gpggk1c",
               "type": "imagePair",
               "layout": "one",
               "images": [
                 {
-                  "src": null,
+                  "src": "media/images/s_4al2ufp-A.jpg",
                   "label": "Light-background CAD plan showing orange topographic contour lines with elevation labels at intervals and small X marks indicating individual survey spot shot elevations, with a dashed boundary line on the left labeled \"unpaved.\"",
                   "type": "Real-world photo"
                 },
@@ -2246,12 +2246,12 @@
               ]
             },
             {
-              "id": "b_qzt32lz",
+              "id": "b_t8ua1r5",
               "type": "keyLesson",
               "text": "Topographic contours in CAD are processed survey data, not estimates. Learn to read the elevation labels and spot shots so you can verify that your design's relationship to existing grade makes sense."
             },
             {
-              "id": "b_w7blktc",
+              "id": "b_vx0eijw",
               "type": "teaching",
               "t1": "",
               "t2": "",
@@ -2282,12 +2282,12 @@
           "imageLayout": "one",
           "blocks": [
             {
-              "id": "b_9ik2x2j",
+              "id": "b_k4bqb2f",
               "type": "imagePair",
               "layout": "one",
               "images": [
                 {
-                  "src": null,
+                  "src": "media/images/s_bp2x3o3-A.jpg",
                   "label": "Dark-background Civil 3D CAD plan showing topographic contour lines in gray and white across a complex terrain, with pink linework at the top of the image likely indicating road or boundary geometry.",
                   "type": "Real-world photo"
                 },
@@ -2299,12 +2299,12 @@
               ]
             },
             {
-              "id": "b_cwgbb92",
+              "id": "b_kr26dp1",
               "type": "keyLesson",
               "text": "An existing conditions plan is the ground truth your design is built on. Learn to read it fluently before trying to interpret any design layer placed on top of it."
             },
             {
-              "id": "b_kpqizfg",
+              "id": "b_samvlbe",
               "type": "teaching",
               "t1": "",
               "t2": "",
@@ -2335,12 +2335,12 @@
           "imageLayout": "one",
           "blocks": [
             {
-              "id": "b_n0y3u3t",
+              "id": "b_yk4uexl",
               "type": "imagePair",
               "layout": "one",
               "images": [
                 {
-                  "src": null,
+                  "src": "media/images/s_c1s360x-A.jpg",
                   "label": "Dark-background Civil 3D CAD plan showing topographic contours overlaid with multicolored environmental and infrastructure features, including a blue-outlined wetland boundary labeled W, road corridor lines, easements, and utility alignments in red, orange, and yellow.",
                   "type": "Real-world photo"
                 },
@@ -2352,12 +2352,12 @@
               ]
             },
             {
-              "id": "b_7ksv9yw",
+              "id": "b_vrzp1i7",
               "type": "keyLesson",
               "text": "An existing conditions plan with environmental layers shows both what the land allows and what it restricts. Understanding those constraints early helps you ask better questions and avoid costly design errors."
             },
             {
-              "id": "b_4l0fvgj",
+              "id": "b_voiu6js",
               "type": "teaching",
               "t1": "",
               "t2": "",
@@ -2388,12 +2388,12 @@
           "imageLayout": "one",
           "blocks": [
             {
-              "id": "b_3v3dhd4",
+              "id": "b_r1hr15k",
               "type": "imagePair",
               "layout": "one",
               "images": [
                 {
-                  "src": null,
+                  "src": "media/images/s_gdtz4k0-A.jpg",
                   "label": "Dark-background Civil 3D screenshot showing numbered survey points with elevations and utility description codes, including sanitary sewer invert labels in red and water and sewer connection markers in green and cyan, overlaid on a road intersection design.",
                   "type": "Real-world photo"
                 },
@@ -2405,12 +2405,12 @@
               ]
             },
             {
-              "id": "b_u8rxcd9",
+              "id": "b_7u1757e",
               "type": "keyLesson",
               "text": "Survey points in CAD are not decoration. Each one is a real measured location. Learning to read their codes and elevations makes you a more reliable member of the design team from the start."
             },
             {
-              "id": "b_t87b0bl",
+              "id": "b_o3rzc55",
               "type": "teaching",
               "t1": "",
               "t2": "",
@@ -2449,12 +2449,12 @@
           "imageLayout": "one",
           "blocks": [
             {
-              "id": "b_ihws4fe",
+              "id": "b_totd9t3",
               "type": "imagePair",
               "layout": "one",
               "images": [
                 {
-                  "src": null,
+                  "src": "media/images/s_ir7nmx3-A.jpg",
                   "label": "Colorful infographic split into two panels comparing cut and fill earthwork operations, with excavator and dump truck illustrations and a note at the bottom stating that balancing cut and fill reduces material transport cost and environmental impact.",
                   "type": "Real-world photo"
                 },
@@ -2466,12 +2466,12 @@
               ]
             },
             {
-              "id": "b_yw5wgak",
+              "id": "b_rtkcd7q",
               "type": "keyLesson",
               "text": "Balancing cut and fill volumes is a core goal of grading design. Understanding this concept helps you read grading plans and contribute meaningfully to earthwork discussions from your first project."
             },
             {
-              "id": "b_bqgax1y",
+              "id": "b_t01mzjm",
               "type": "teaching",
               "t1": "",
               "t2": "",
@@ -2502,12 +2502,12 @@
           "imageLayout": "one",
           "blocks": [
             {
-              "id": "b_tuydm36",
+              "id": "b_2fyj1ed",
               "type": "imagePair",
               "layout": "one",
               "images": [
                 {
-                  "src": null,
+                  "src": "media/images/s_3hqe6x6-A.jpg",
                   "label": "Illustrated infographic showing eight steps of earthwork construction including site survey, benchmark setting, cut and fill determination, grid and level marking, excavation, level rechecking, compaction, and drainage slope establishment.",
                   "type": "Real-world photo"
                 },
@@ -2519,12 +2519,12 @@
               ]
             },
             {
-              "id": "b_wqy7v75",
+              "id": "b_c27bwhr",
               "type": "keyLesson",
               "text": "Earthwork follows a defined sequence where accuracy at each step sets up the success of the next. Knowing the order helps you understand why field survey checks happen throughout construction, not just at the start."
             },
             {
-              "id": "b_rwt6osv",
+              "id": "b_7b7c102",
               "type": "teaching",
               "t1": "",
               "t2": "",
@@ -2555,12 +2555,12 @@
           "imageLayout": "one",
           "blocks": [
             {
-              "id": "b_l6x6kss",
+              "id": "b_awug5ij",
               "type": "imagePair",
               "layout": "one",
               "images": [
                 {
-                  "src": null,
+                  "src": "media/images/s_gir8pog-A.png",
                   "label": "Technical cross-section diagram of a road showing a cut slope with drainage ditch on the left, a fill slope with toe of slope on the right, and the central road structure including roadbed, subgrade, base course, surface course, and shoulders, with right of way, clearing limits, construction limits, and property limits labeled as nested boundaries.",
                   "type": "Real-world photo"
                 },
@@ -2572,12 +2572,12 @@
               ]
             },
             {
-              "id": "b_qse1tfz",
+              "id": "b_7msiqmz",
               "type": "keyLesson",
               "text": "This cross-section shows how cut slope, fill slope, road layers, and right of way all relate to each other spatially. Memorizing this diagram early will help you read roadway cross-sections and plan sheets with significantly more confidence."
             },
             {
-              "id": "b_syy20da",
+              "id": "b_i7odk3z",
               "type": "teaching",
               "t1": "",
               "t2": "",
@@ -2608,12 +2608,12 @@
           "imageLayout": "one",
           "blocks": [
             {
-              "id": "b_ttvxypl",
+              "id": "b_vbkvimb",
               "type": "imagePair",
               "layout": "one",
               "images": [
                 {
-                  "src": null,
+                  "src": "media/images/s_qoe38ff-A.png",
                   "label": "Side-by-side photos of a residential backyard showing freshly graded bare soil with drainage channels cut into the slope on the left, and the completed terraced yard with timber retaining walls, stairs, planted grass, and landscaping on the right.",
                   "type": "Real-world photo"
                 },
@@ -2625,12 +2625,12 @@
               ]
             },
             {
-              "id": "b_yhs4pjx",
+              "id": "b_u33q2bf",
               "type": "keyLesson",
               "text": "Grading transforms difficult terrain into functional space. The finished grades and drainage patterns you design in CAD become the physical environment someone will live, work, or park in. Keep that outcome in mind every time you place a contour."
             },
             {
-              "id": "b_27rk5ur",
+              "id": "b_p225n58",
               "type": "teaching",
               "t1": "",
               "t2": "",
@@ -2669,12 +2669,12 @@
           "imageLayout": "one",
           "blocks": [
             {
-              "id": "b_hycd4on",
+              "id": "b_4dg69iw",
               "type": "imagePair",
               "layout": "one",
               "images": [
                 {
-                  "src": null,
+                  "src": "media/images/s_h92ce4p-A.png",
                   "label": "Educational infographic titled Understanding the Water Distribution System showing the flow path from source water through a treatment plant, pump station, storage tank, water main, and service line to residential and commercial buildings, with a legend identifying water pipe, gate valve, and service connection symbols.",
                   "type": "Real-world photo"
                 },
@@ -2686,12 +2686,12 @@
               ]
             },
             {
-              "id": "b_pjyi8rl",
+              "id": "b_mvf11sh",
               "type": "keyLesson",
               "text": "Water distribution design at Rodgers focuses on the local pipe network, but understanding the full system from source to tap helps you design the right pipe sizes, pressures, and connection points for your project."
             },
             {
-              "id": "b_wn5egj1",
+              "id": "b_rhda6fw",
               "type": "teaching",
               "t1": "",
               "t2": "",
@@ -2722,12 +2722,12 @@
           "imageLayout": "one",
           "blocks": [
             {
-              "id": "b_v2f4akm",
+              "id": "b_idaqw66",
               "type": "imagePair",
               "layout": "one",
               "images": [
                 {
-                  "src": null,
+                  "src": "media/images/s_m61c1hc-A.png",
                   "label": "Large educational infographic titled Understanding the Complete Sanitary Sewer System showing numbered components including building plumbing, private lateral, public gravity sewer main, branch sewer line, trunk sewer main, lift station, force main, wastewater treatment plant, and discharge outfall, with a gravity flow direction indicator and key points legend.",
                   "type": "Real-world photo"
                 },
@@ -2739,12 +2739,12 @@
               ]
             },
             {
-              "id": "b_2b1sjkj",
+              "id": "b_4v9s9k5",
               "type": "keyLesson",
               "text": "Sanitary sewers rely on gravity flow for most of their length, making slope and depth the defining design constraints. Understanding the full system helps you design the local collection network with those constraints in mind from the start."
             },
             {
-              "id": "b_bmj8y2p",
+              "id": "b_jm0jr14",
               "type": "teaching",
               "t1": "",
               "t2": "",
@@ -2775,12 +2775,12 @@
           "imageLayout": "one",
           "blocks": [
             {
-              "id": "b_sdssola",
+              "id": "b_e5wr6wp",
               "type": "imagePair",
               "layout": "one",
               "images": [
                 {
-                  "src": null,
+                  "src": "media/images/s_xe3zqhv-A.png",
                   "label": "Swimlane flowchart titled Water and Sewer Development Process for Fred County and City of Fred showing three horizontal rows for feasibility, design, and permit phases with blue milestone boxes connected by arrows and approximate timeframes shown at the top ranging from two months to over twelve months per stage.",
                   "type": "Real-world photo"
                 },
@@ -2792,12 +2792,12 @@
               ]
             },
             {
-              "id": "b_ssxtew4",
+              "id": "b_2dhcv45",
               "type": "keyLesson",
               "text": "Water and sewer permitting in Frederick County is a multi-phase process that can span years. Knowing the sequence helps you understand why certain design decisions happen when they do and why early agency coordination is critical."
             },
             {
-              "id": "b_0sp8vnp",
+              "id": "b_d5jczha",
               "type": "teaching",
               "t1": "",
               "t2": "",
@@ -2828,12 +2828,12 @@
           "imageLayout": "one",
           "blocks": [
             {
-              "id": "b_aa4cbst",
+              "id": "b_z6nq9ft",
               "type": "imagePair",
               "layout": "one",
               "images": [
                 {
-                  "src": null,
+                  "src": "media/images/s_z2oovvp-A.png",
                   "label": "CAD utility plan sheet C3.1 for Pine Meadows Subdivision showing a residential street layout with blue 8-inch PVC water main including gate valves and fire hydrants, and green 8-inch PVC sanitary sewer with manholes and cleanouts at each lot, with a legend at upper right identifying all plan symbols.",
                   "type": "Real-world photo"
                 },
@@ -2845,12 +2845,12 @@
               ]
             },
             {
-              "id": "b_eosyk0c",
+              "id": "b_bi5nanz",
               "type": "keyLesson",
               "text": "A utility plan is one of the most construction-critical documents in a plan set. Learn the symbols, understand separation requirements, and trace both systems from connection to endpoint before you start drafting or reviewing one."
             },
             {
-              "id": "b_yob9yxm",
+              "id": "b_mt1sp4j",
               "type": "teaching",
               "t1": "",
               "t2": "",
@@ -2881,12 +2881,12 @@
           "imageLayout": "one",
           "blocks": [
             {
-              "id": "b_5e972tx",
+              "id": "b_q5rnntz",
               "type": "imagePair",
               "layout": "one",
               "images": [
                 {
-                  "src": null,
+                  "src": "media/images/s_d3qwuez-A.png",
                   "label": "Technical cross-section diagram titled Utility Trench Cross Section showing from bottom to top a storm drain pipe with bedding, sanitary sewer pipe with bedding and 18-inch minimum vertical clearance, water pipe with bedding and 18-inch minimum clearance, initial backfill, select backfill, compacted backfill, aggregate subbase, and asphalt pavement, with vertical separation requirements noted at the right side.",
                   "type": "Real-world photo"
                 },
@@ -2898,12 +2898,12 @@
               ]
             },
             {
-              "id": "b_b6ljous",
+              "id": "b_h9odq4o",
               "type": "keyLesson",
               "text": "Utility separation requirements are regulatory minimums, not guidelines. Water, sewer, and storm drain pipes must maintain specific clearances from each other, and your design must demonstrate those clearances are met before it can be approved."
             },
             {
-              "id": "b_xxvrnwi",
+              "id": "b_p5loggf",
               "type": "teaching",
               "t1": "",
               "t2": "",
@@ -2934,12 +2934,12 @@
           "imageLayout": "one",
           "blocks": [
             {
-              "id": "b_vb5l341",
+              "id": "b_34alt59",
               "type": "imagePair",
               "layout": "one",
               "images": [
                 {
-                  "src": null,
+                  "src": "media/images/s_ztx2v5n-A.png",
                   "label": "Annotated construction photo infographic titled Water Main Trench Installation showing a large blue water main pipe in a trench with eight labeled callouts for excavation, trench shoring, pipe bedding, pipe joint assembly, water main pipe type, initial backfill and haunching, flow direction, and pipe placement, with a typical trench cross-section inset and a seven-step installation sequence at the bottom.",
                   "type": "Real-world photo"
                 },
@@ -2951,12 +2951,12 @@
               ]
             },
             {
-              "id": "b_k3wweqz",
+              "id": "b_85199b0",
               "type": "keyLesson",
               "text": "Water main installation is a precisely sequenced process where each step directly affects long-term pipe performance. The bedding, joint type, and cover depth you specify on the plans are the exact parameters the field crew will follow."
             },
             {
-              "id": "b_5xapqlh",
+              "id": "b_0zko0m5",
               "type": "teaching",
               "t1": "",
               "t2": "",
@@ -2987,12 +2987,12 @@
           "imageLayout": "one",
           "blocks": [
             {
-              "id": "b_tq02od7",
+              "id": "b_sjqzuoz",
               "type": "imagePair",
               "layout": "one",
               "images": [
                 {
-                  "src": null,
+                  "src": "media/images/s_b21sohd-A.png",
                   "label": "Product data sheet for EBAA Iron MEGALUG Series 1100 Mechanical Joint Restraint for Ductile Iron Pipe showing the product installed on a pipe joint, features including torque-limiting nuts and ASTM A536 ductile iron construction, and a table listing nominal pipe sizes, series numbers, shipping weights, deflection, and pressure ratings.",
                   "type": "Real-world photo"
                 },
@@ -3004,12 +3004,12 @@
               ]
             },
             {
-              "id": "b_m3pgskv",
+              "id": "b_bzkkvtp",
               "type": "keyLesson",
               "text": "Hydraulic thrust at pipe fittings must be mechanically restrained or joints will fail under operating pressure. Understanding this helps you apply restraint requirements correctly when detailing water main connections and reviewing specifications."
             },
             {
-              "id": "b_jz18xe2",
+              "id": "b_2a8lxw1",
               "type": "teaching",
               "t1": "",
               "t2": "",
@@ -3040,12 +3040,12 @@
           "imageLayout": "one",
           "blocks": [
             {
-              "id": "b_00cl2sy",
+              "id": "b_ub7f8q6",
               "type": "imagePair",
               "layout": "one",
               "images": [
                 {
-                  "src": null,
+                  "src": "media/images/s_0ac3pyo-A.png",
                   "label": "Annotated construction photo showing a red fire hydrant being installed at a street excavation with labeled callouts for the hydrant, hydrant riser, concrete thrust block, water main, pipe connection, hydrant base, and compacted backfill, plus a cross-section inset showing the underground assembly with thrust block, water main, and hydrant riser labeled.",
                   "type": "Real-world photo"
                 },
@@ -3057,12 +3057,12 @@
               ]
             },
             {
-              "id": "b_8vus64n",
+              "id": "b_yz0c5x3",
               "type": "keyLesson",
               "text": "Fire hydrant placement is governed by fire code coverage requirements and must be coordinated with isolation valves and thrust block details. Understanding the underground assembly helps you detail hydrants correctly on utility plans."
             },
             {
-              "id": "b_czzd1mv",
+              "id": "b_ubtnuna",
               "type": "teaching",
               "t1": "",
               "t2": "",
@@ -3093,12 +3093,12 @@
           "imageLayout": "one",
           "blocks": [
             {
-              "id": "b_xi3vb22",
+              "id": "b_r1jnx39",
               "type": "imagePair",
               "layout": "one",
               "images": [
                 {
-                  "src": null,
+                  "src": "media/images/s_801hqhl-A.png",
                   "label": "Technical sanitary sewer profile drawing for Line SS-1 showing manholes MH-1 through MH-4, existing ground line, pipe invert line sloping downstream with percentage slopes labeled between structures, 15-inch PVC SDR 26 pipe notation, and a station-elevation data table at the bottom listing ground elevations, pipe inverts, depths, and pipe lengths at each structure.",
                   "type": "Real-world photo"
                 },
@@ -3110,12 +3110,12 @@
               ]
             },
             {
-              "id": "b_gb3mzjy",
+              "id": "b_m7pmn64",
               "type": "keyLesson",
               "text": "A sanitary sewer profile controls slope, depth, and invert elevations for the entire pipe run. Cover depth and minimum slope are the two values checked first in plan review, so know how to find and verify them on any profile sheet."
             },
             {
-              "id": "b_k9e64mr",
+              "id": "b_07n7kgr",
               "type": "teaching",
               "t1": "",
               "t2": "",
@@ -3146,12 +3146,12 @@
           "imageLayout": "one",
           "blocks": [
             {
-              "id": "b_g9t579j",
+              "id": "b_wxfq7vl",
               "type": "imagePair",
               "layout": "one",
               "images": [
                 {
-                  "src": null,
+                  "src": "media/images/s_hpl33er-A.png",
                   "label": "Simple illustrated diagram showing a house connected to a city sewer main line with the upper lateral from the house to the property line cleanout shown in gray as homeowner-maintained and the lower lateral from the cleanout to the sewer main shown in blue as city-maintained, with a tree shown growing near the lateral between them.",
                   "type": "Real-world photo"
                 },
@@ -3163,12 +3163,12 @@
               ]
             },
             {
-              "id": "b_uz8hfhu",
+              "id": "b_99r8x87",
               "type": "keyLesson",
               "text": "The property line cleanout marks the boundary between public and private ownership in the sewer lateral. Knowing where that line falls helps you coordinate design responsibilities and answer client questions about who maintains what."
             },
             {
-              "id": "b_e6g2g5r",
+              "id": "b_nn75zum",
               "type": "teaching",
               "t1": "",
               "t2": "",
@@ -3199,12 +3199,12 @@
           "imageLayout": "one",
           "blocks": [
             {
-              "id": "b_91owr8l",
+              "id": "b_9ue8bd4",
               "type": "imagePair",
               "layout": "one",
               "images": [
                 {
-                  "src": null,
+                  "src": "media/images/s_p2ps117-A.png",
                   "label": "Detailed underground cross-section diagram showing a residential sewer connection from the public sanitary sewer lateral in the right of way, through a service tee on the main, past a cleanout at the property line, and into the building foundation, with an ejector pump shown in the basement for drains located below the sewer invert elevation.",
                   "type": "Real-world photo"
                 },
@@ -3216,12 +3216,12 @@
               ]
             },
             {
-              "id": "b_1oqv0ai",
+              "id": "b_dj45g2a",
               "type": "keyLesson",
               "text": "The relationship between basement floor elevation and sewer invert determines whether gravity connection is possible or an ejector pump is needed. This connects your grading decisions directly to the utility plan in ways that matter to the client."
             },
             {
-              "id": "b_0xwzfy9",
+              "id": "b_3rosqb4",
               "type": "teaching",
               "t1": "",
               "t2": "",
@@ -3252,12 +3252,12 @@
           "imageLayout": "one",
           "blocks": [
             {
-              "id": "b_bki9udk",
+              "id": "b_nb04sq3",
               "type": "imagePair",
               "layout": "one",
               "images": [
                 {
-                  "src": null,
+                  "src": "media/images/s_n7cbfsv-A.png",
                   "label": "Dark-background CAD detail drawing showing a sewer house connection with a manhole, 8-inch sanitary sewer main, 6-inch service connection lateral at 2 to 5 percent slope, a 0.1-foot drop at the manhole connection, a 2-foot sweep fitting at the building, and cleanout locations with invert elevations labeled.",
                   "type": "Real-world photo"
                 },
@@ -3269,12 +3269,12 @@
               ]
             },
             {
-              "id": "b_bq36r1r",
+              "id": "b_r61qll1",
               "type": "keyLesson",
               "text": "A sewer house connection detail controls three things: slope, invert at the main, and cleanout placement. Getting all three right on your CAD drawing determines whether the connection drains correctly and meets the jurisdiction's requirements."
             },
             {
-              "id": "b_ruj1ncu",
+              "id": "b_svulqjg",
               "type": "teaching",
               "t1": "",
               "t2": "",
@@ -3305,12 +3305,12 @@
           "imageLayout": "one",
           "blocks": [
             {
-              "id": "b_xm6q7uz",
+              "id": "b_8tlvl89",
               "type": "imagePair",
               "layout": "one",
               "images": [
                 {
-                  "src": null,
+                  "src": "media/images/s_cp782he-A.png",
                   "label": "Annotated construction photo showing a large precast concrete sanitary sewer manhole being lifted by crane into an excavated trench with labeled callouts for the manhole ring and cover, precast barrel sections, incoming sewer pipe, outgoing sewer pipe, flexible boot connection, and gravel base, with a manhole function bullet list and a typical flow diagram at the bottom.",
                   "type": "Real-world photo"
                 },
@@ -3322,12 +3322,12 @@
               ]
             },
             {
-              "id": "b_cqcz4lh",
+              "id": "b_7ev1rn8",
               "type": "keyLesson",
               "text": "Sanitary sewer manholes must be placed at every pipe direction change, slope change, size change, and at regular spacing intervals. Understanding their function helps you locate them correctly rather than placing them arbitrarily on a plan."
             },
             {
-              "id": "b_bcct1ni",
+              "id": "b_dln0ttx",
               "type": "teaching",
               "t1": "",
               "t2": "",
@@ -3366,12 +3366,12 @@
           "imageLayout": "one",
           "blocks": [
             {
-              "id": "b_0kuq42h",
+              "id": "b_gtu7jwz",
               "type": "imagePair",
               "layout": "one",
               "images": [
                 {
-                  "src": null,
+                  "src": "media/images/s_onvne14-A.png",
                   "label": "Educational infographic titled Erosion and Sediment Control BMP System showing a construction site with labeled BMPs including limit of disturbance, silt fence, super silt fence, stabilized construction entrance, inlet protection, sediment basin, temporary stabilization, stockpile protection, and protected outlet, with a BMP legend and key points at the bottom.",
                   "type": "Real-world photo"
                 },
@@ -3383,12 +3383,12 @@
               ]
             },
             {
-              "id": "b_5y613vv",
+              "id": "b_rzztvrk",
               "type": "keyLesson",
               "text": "Erosion and sediment control is a system, not a checklist. Understanding how all the BMPs work together is what allows you to design a plan that actually keeps sediment on site through the full construction period."
             },
             {
-              "id": "b_d3rmik4",
+              "id": "b_pqfabru",
               "type": "teaching",
               "t1": "",
               "t2": "",
@@ -3419,12 +3419,12 @@
           "imageLayout": "one",
           "blocks": [
             {
-              "id": "b_ttfte85",
+              "id": "b_enl4oe5",
               "type": "imagePair",
               "layout": "one",
               "images": [
                 {
-                  "src": null,
+                  "src": "media/images/s_64brttk-A.png",
                   "label": "Full erosion and sediment control plan sheet for a commercial development showing the site plan view with labeled BMPs, ESC legend, drainage area summary table, sequence of construction, BMP maintenance notes, ESC notes, and standard detail drawings for each BMP measure along the bottom.",
                   "type": "Real-world photo"
                 },
@@ -3436,12 +3436,12 @@
               ]
             },
             {
-              "id": "b_qsf1mf6",
+              "id": "b_8hc8oz0",
               "type": "keyLesson",
               "text": "An ESC plan is a regulatory document that governs site protection throughout construction. Learning to read and produce one correctly is one of the most immediately practical skills you'll develop as an intern."
             },
             {
-              "id": "b_zkrw0if",
+              "id": "b_j1s42y0",
               "type": "teaching",
               "t1": "",
               "t2": "",
@@ -3472,12 +3472,12 @@
           "imageLayout": "one",
           "blocks": [
             {
-              "id": "b_foadznn",
+              "id": "b_icu95w0",
               "type": "imagePair",
               "layout": "one",
               "images": [
                 {
-                  "src": null,
+                  "src": "media/images/s_nn72nwc-A.png",
                   "label": "Detailed educational cross-section diagram titled How a Silt Fence Works with labeled components including disturbed soil area, runoff flow direction, sediment buildup behind the fence, fence posts spaced 6 to 8 feet apart, geotextile filter fabric, filtered water passing through, undisturbed ground downslope, trenched and buried fabric toe, and compacted backfill at the base.",
                   "type": "Real-world photo"
                 },
@@ -3489,12 +3489,12 @@
               ]
             },
             {
-              "id": "b_7wac47j",
+              "id": "b_pbfgkx7",
               "type": "keyLesson",
               "text": "A silt fence only works if it's installed along the contour, buried at the toe, kept out of concentrated flow areas, and maintained throughout construction. Knowing why each requirement exists helps you specify and inspect them correctly."
             },
             {
-              "id": "b_e2gcq9h",
+              "id": "b_fungti5",
               "type": "teaching",
               "t1": "",
               "t2": "",
@@ -3525,12 +3525,12 @@
           "imageLayout": "one",
           "blocks": [
             {
-              "id": "b_glidi5o",
+              "id": "b_dgh4w09",
               "type": "imagePair",
               "layout": "one",
               "images": [
                 {
-                  "src": null,
+                  "src": "media/images/s_968cyzz-A.png",
                   "label": "Ground-level photo of a long silt fence installed along the downslope perimeter of a construction site, with black geotextile fabric attached to wooden stakes at regular intervals, graded soil and yellow earthmoving equipment visible in the background, and muddy water pooling against the fence on the right.",
                   "type": "Real-world photo"
                 },
@@ -3542,12 +3542,12 @@
               ]
             },
             {
-              "id": "b_onfuu0p",
+              "id": "b_k22llil",
               "type": "keyLesson",
               "text": "A well-installed silt fence shows pooling on the upslope side, no gaps, and a buried toe. Learning to spot installation and maintenance deficiencies in the field adds real value on site visits, even as a first-year intern."
             },
             {
-              "id": "b_12bzhvc",
+              "id": "b_6rkwyrd",
               "type": "teaching",
               "t1": "",
               "t2": "",
@@ -3578,12 +3578,12 @@
           "imageLayout": "one",
           "blocks": [
             {
-              "id": "b_lbgdohr",
+              "id": "b_xpzshnr",
               "type": "imagePair",
               "layout": "one",
               "images": [
                 {
-                  "src": null,
+                  "src": "media/images/s_o6tdhu8-A.png",
                   "label": "Annotated photo of a super silt fence installation showing chain-link reinforcement backing attached to metal posts with geotextile filter fabric behind it, the fabric toe trenched and keyed into soil at the base, sediment accumulated on the construction side, and a disturbed graded area with earthwork equipment visible in the background.",
                   "type": "Real-world photo"
                 },
@@ -3595,12 +3595,12 @@
               ]
             },
             {
-              "id": "b_fn4k13i",
+              "id": "b_1q6oesw",
               "type": "keyLesson",
               "text": "Super silt fence is specified where standard silt fence isn't strong enough to hold accumulated sediment and runoff without failing. Understanding the difference helps you select the right BMP based on actual site conditions."
             },
             {
-              "id": "b_33ixr6n",
+              "id": "b_4dv2hc8",
               "type": "teaching",
               "t1": "",
               "t2": "",
@@ -3631,12 +3631,12 @@
           "imageLayout": "one",
           "blocks": [
             {
-              "id": "b_z3rhxe0",
+              "id": "b_edoq9fb",
               "type": "imagePair",
               "layout": "one",
               "images": [
                 {
-                  "src": null,
+                  "src": "media/images/s_fn3jqwj-A.png",
                   "label": "Annotated construction photo of a stabilized construction entrance showing a large angular stone pad over geotextile fabric at the site exit point, with labeled callouts for the stone pad, geotextile fabric under stone, transition to paved road, vehicle tire cleaning by stone surface, reduced mud tracking, construction sign, traffic cones, and orange safety fencing.",
                   "type": "Real-world photo"
                 },
@@ -3648,12 +3648,12 @@
               ]
             },
             {
-              "id": "b_t8gk1b6",
+              "id": "b_b6roeux",
               "type": "keyLesson",
               "text": "A stabilized construction entrance is a regulatory requirement on every site with road access, and it needs regular maintenance to stay effective. Know the stone size, pad length, and geotextile requirements for your jurisdiction before you detail one."
             },
             {
-              "id": "b_pmup1ql",
+              "id": "b_0l044mo",
               "type": "teaching",
               "t1": "",
               "t2": "",
@@ -3684,12 +3684,12 @@
           "imageLayout": "one",
           "blocks": [
             {
-              "id": "b_mle9o4g",
+              "id": "b_q8d281t",
               "type": "imagePair",
               "layout": "one",
               "images": [
                 {
-                  "src": null,
+                  "src": "media/images/s_5kueobd-A.png",
                   "label": "Close-up annotated photo of a stone tracking pad at a construction site entrance showing truck tires rolling over large angular stone with labeled callouts for the stone tracking pad, geotextile fabric, mud removal from tires, large angular stone interlocking for stability, transition to paved roadway, and reduced mud tracking to the public road.",
                   "type": "Real-world photo"
                 },
@@ -3701,12 +3701,12 @@
               ]
             },
             {
-              "id": "b_ghvbi84",
+              "id": "b_5wwmxse",
               "type": "keyLesson",
               "text": "Every component of a stone tracking pad has a specific function. Understanding what each part does helps you evaluate installed entrances against design intent, not just match them against numbers on a drawing."
             },
             {
-              "id": "b_l32xo2c",
+              "id": "b_iuaowp4",
               "type": "teaching",
               "t1": "",
               "t2": "",
@@ -3737,12 +3737,12 @@
           "imageLayout": "one",
           "blocks": [
             {
-              "id": "b_m0mc42u",
+              "id": "b_fw0s0ew",
               "type": "imagePair",
               "layout": "one",
               "images": [
                 {
-                  "src": null,
+                  "src": "media/images/s_weueec7-A.png",
                   "label": "Annotated field photo of a curb opening storm drain inlet surrounded by a gravel bag filter device during active construction, with labeled callouts identifying exposed soil and active construction in the background, the storm drain inlet curb opening, gravel bags and filter device surrounding the inlet, sediment buildup trapped outside the device, and slow filtered water flow entering the inlet.",
                   "type": "Real-world photo"
                 },
@@ -3754,12 +3754,12 @@
               ]
             },
             {
-              "id": "b_av8xfj7",
+              "id": "b_uxkoxvn",
               "type": "keyLesson",
               "text": "Inlet protection keeps construction sediment out of the storm drain system, but only if it's installed at every active inlet and maintained regularly. A neglected inlet protection device is as harmful as having none at all."
             },
             {
-              "id": "b_p2h6exp",
+              "id": "b_evywznh",
               "type": "teaching",
               "t1": "",
               "t2": "",
@@ -3790,12 +3790,12 @@
           "imageLayout": "one",
           "blocks": [
             {
-              "id": "b_k4gt601",
+              "id": "b_d7k98sb",
               "type": "imagePair",
               "layout": "one",
               "images": [
                 {
-                  "src": null,
+                  "src": "media/images/s_tdcdvr7-A.png",
                   "label": "Educational diagram titled Temporary Sediment Basin showing a plan view and cross-section with labeled components including inflow channel, sediment-laden runoff, forebay and inlet area, permanent pool and temporary water level, riser pipe and skimmer, outlet structure, emergency spillway, embankment, sediment storage zone, stabilized outlet, and cleaner discharge, with a design considerations table and maintenance notes at the bottom.",
                   "type": "Real-world photo"
                 },
@@ -3807,12 +3807,12 @@
               ]
             },
             {
-              "id": "b_xxolu0h",
+              "id": "b_cs2abbw",
               "type": "keyLesson",
               "text": "A temporary sediment basin is the most powerful single BMP on a large construction site. Understanding its components and sizing parameters gives you the foundation to contribute to ESC plans on projects where a basin is required."
             },
             {
-              "id": "b_fr2w32c",
+              "id": "b_tdo4mej",
               "type": "teaching",
               "t1": "",
               "t2": "",
@@ -3851,12 +3851,12 @@
           "imageLayout": "one",
           "blocks": [
             {
-              "id": "b_3ez0ceo",
+              "id": "b_owc5wak",
               "type": "imagePair",
               "layout": "one",
               "images": [
                 {
-                  "src": null,
+                  "src": "media/images/s_w6vya01-A.png",
                   "label": "Educational infographic titled Urban Development Transformation Diagram showing nine numbered stages from existing raw site condition through grading and earthwork, underground utilities, roadway construction, stormwater infrastructure, building pad construction, sidewalks and public access, landscaping and green space, to the final built environment, with transformation benefits listed at the right and a full element legend at the bottom.",
                   "type": "Real-world photo"
                 },
@@ -3868,12 +3868,12 @@
               ]
             },
             {
-              "id": "b_oas3icd",
+              "id": "b_f63hb4u",
               "type": "keyLesson",
               "text": "Every task you complete as an intern is one step in a process that transforms raw land into a place where people live, work, and gather. That's the work Rodgers does, and it's the work you're learning to contribute to."
             },
             {
-              "id": "b_tli9ptz",
+              "id": "b_vyscdfn",
               "type": "teaching",
               "t1": "",
               "t2": "",
@@ -3904,12 +3904,12 @@
           "imageLayout": "one",
           "blocks": [
             {
-              "id": "b_xvnnb6y",
+              "id": "b_29xtq41",
               "type": "imagePair",
               "layout": "one",
               "images": [
                 {
-                  "src": null,
+                  "src": "media/images/s_qo05ffz-A.png",
                   "label": "Final site plan sheet C1.0 for a commercial development showing a proposed 12,000 square foot building with finished floor elevation, stormwater management pond with outlet control structure, storm drain pipe network, water main with fire hydrant and valve, sanitary sewer, curb and gutter, ADA parking, loading zone, and landscape setbacks, with a site data table, utility summary, and legend at the bottom.",
                   "type": "Real-world photo"
                 },
@@ -3921,12 +3921,12 @@
               ]
             },
             {
-              "id": "b_eijyipr",
+              "id": "b_jqh1aym",
               "type": "keyLesson",
               "text": "A final site plan is the fully coordinated output of every design discipline on a project. Understanding how all the pieces appear together on a single sheet helps you see how your individual work connects to the whole."
             },
             {
-              "id": "b_k3cfwcm",
+              "id": "b_f1wg7q6",
               "type": "teaching",
               "t1": "",
               "t2": "",
@@ -3957,12 +3957,12 @@
           "imageLayout": "one",
           "blocks": [
             {
-              "id": "b_5xur1iy",
+              "id": "b_8ptjd9o",
               "type": "imagePair",
               "layout": "one",
               "images": [
                 {
-                  "src": null,
+                  "src": "media/images/s_78hcv5z-A.png",
                   "label": "Record drawing as-built plan sheet C1.1 for a commercial development showing the original site design overlaid with red annotations and callouts indicating field-verified adjustments to storm pipe alignment, rim and invert elevations, utility relocations, and other conditions that differed from the original design, with notes confirming all elevations were verified by post-construction field survey.",
                   "type": "Real-world photo"
                 },
@@ -3974,12 +3974,12 @@
               ]
             },
             {
-              "id": "b_9a1vlsp",
+              "id": "b_oh0my9l",
               "type": "keyLesson",
               "text": "An as-built plan documents the difference between what was designed and what was built. Understanding why that gap always exists reinforces why field inspection, clear communication, and careful documentation matter on every project."
             },
             {
-              "id": "b_clpsadu",
+              "id": "b_2pnofes",
               "type": "teaching",
               "t1": "",
               "t2": "",
@@ -4010,12 +4010,12 @@
           "imageLayout": "one",
           "blocks": [
             {
-              "id": "b_c83dc1q",
+              "id": "b_irlktma",
               "type": "imagePair",
               "layout": "one",
               "images": [
                 {
-                  "src": null,
+                  "src": "media/images/s_7rjtum5-A.png",
                   "label": "Annotated aerial photo of a completed stormwater management pond at a residential development with labeled callouts for vegetated side slopes, emergency spillway with riprap, maintenance access path along both sides, permanent pond water surface, native plantings for water quality and aesthetics along the near shore, outlet control structure at right, and a stabilized riprap outlet apron at the discharge point.",
                   "type": "Real-world photo"
                 },
@@ -4027,12 +4027,12 @@
               ]
             },
             {
-              "id": "b_vhumj8s",
+              "id": "b_ghp9qn0",
               "type": "keyLesson",
               "text": "A completed stormwater pond is long-term infrastructure that must perform correctly for decades. Every component here was designed on a plan sheet, and its long-term performance depends on getting the design, construction, and maintenance requirements right from the start."
             },
             {
-              "id": "b_rbzrsee",
+              "id": "b_nepkfvo",
               "type": "teaching",
               "t1": "",
               "t2": "",
@@ -4063,12 +4063,12 @@
           "imageLayout": "one",
           "blocks": [
             {
-              "id": "b_3q8p7ni",
+              "id": "b_x9m5y0y",
               "type": "imagePair",
               "layout": "one",
               "images": [
                 {
-                  "src": null,
+                  "src": "media/images/s_whdtyay-A.png",
                   "label": "Aerial photo of a completed suburban residential development showing single-family homes on finished lots with curvilinear streets, driveways, sidewalks, interconnected green space between lots, and a stormwater management pond visible in the upper portion of the image.",
                   "type": "Real-world photo"
                 },
@@ -4080,12 +4080,12 @@
               ]
             },
             {
-              "id": "b_322mhsf",
+              "id": "b_2un17bo",
               "type": "keyLesson",
               "text": "The finished development you see here is the product of every discipline in this library working together. Every plan you draft, every detail you check, and every site visit you make is a contribution toward producing a place where people will live for generations."
             },
             {
-              "id": "b_lqaw77l",
+              "id": "b_lw0ue0n",
               "type": "teaching",
               "t1": "",
               "t2": "",
