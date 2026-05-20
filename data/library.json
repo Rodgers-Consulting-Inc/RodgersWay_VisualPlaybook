@@ -20,9 +20,9 @@
           "status": "draft",
           "tags": "",
           "narration": {
-            "audio": null,
-            "mime": null,
-            "duration": 0,
+            "audio": "media/audio/s_kvt5hjv.wav",
+            "mime": "audio/wav",
+            "duration": 0.0,
             "script": "This aerial shows a heavily wooded parcel of land, essentially untouched. No cleared areas, no roads, no infrastructure. This is what a project site looks like before any engineering or planning work begins. In land development, this is called raw land, and every project in the firm's portfolio started here. Before any drawings are produced, the team studies what they're working with: existing vegetation, topography, surrounding roads, wetlands, and property boundaries. As an intern, when you're assigned to a new project, this is your mental starting point. Look at aerial imagery early, before the first plan is drawn. Understanding the original site conditions helps you follow design decisions, catch errors, and contribute more usefully to team conversations."
           },
           "annotations": [],
@@ -73,9 +73,9 @@
           "status": "draft",
           "tags": "",
           "narration": {
-            "audio": null,
-            "mime": null,
-            "duration": 0,
+            "audio": "media/audio/s_wutuw1j.wav",
+            "mime": "audio/wav",
+            "duration": 0.0,
             "script": "This aerial shows raw land sitting directly adjacent to a highway. Notice the tree cover, the water feature in the upper left, and the road frontage along the bottom. These are three of the first things an engineer or planner looks at during the feasibility phase: where does the site connect to public roads, what natural features are present, and what constraints will shape the design? Access drives, utility corridors, and stormwater routing are all influenced by where the site meets the road network. As an intern, you'll encounter aerials like this at the start of almost every project. The water feature suggests a potential wetland delineation effort. The road frontage drives intersection and access design. The tree cover hints at clearing and grading limits. Nothing in this image is just background. It's all information the design team is actively reading."
           },
           "annotations": [],
@@ -126,9 +126,9 @@
           "status": "draft",
           "tags": "",
           "narration": {
-            "audio": null,
-            "mime": null,
-            "duration": 0,
+            "audio": "media/audio/s_awapbvj.wav",
+            "mime": "audio/wav",
+            "duration": 0.0,
             "script": "This image shows a raw parcel of land with property boundary lines drawn over the aerial. Those white lines define the legal limits of the site, which is separate from what you can observe on the ground. In early project work, one of the first tasks is reconciling the legal boundary with the physical conditions. Trees, slopes, and water features don't respect property lines, and that tension is something every design has to resolve. As an intern, you may be asked to work with parcel data in CAD or to review boundary information against a site survey. Understanding that the drawn line and the physical world are two different things, and that your job involves bridging them, is a foundational mindset for land development work. Always know where the property line is before asking what can go there."
           },
           "annotations": [],
@@ -179,9 +179,9 @@
           "status": "draft",
           "tags": "",
           "narration": {
-            "audio": null,
-            "mime": null,
-            "duration": 0,
+            "audio": "media/audio/s_mp30c2u.wav",
+            "mime": "audio/wav",
+            "duration": 0.0,
             "script": "What you're looking at is a concept plan overlay on aerial imagery, zoomed into one section of a larger development. The colored areas represent different proposed uses: residential lots, open space, community features, and the road network connecting them. This is one of the earliest formal deliverables a planning team produces, and it's intentionally approximate. A concept plan isn't drawn to construction standards. It exists to show a client, a county planner, or a reviewing agency what the team is proposing before detailed engineering begins. As an intern, you may help prepare exhibits like this in CAD or graphics software. Pay attention to how the design responds to existing conditions. Notice how roads connect to surrounding infrastructure and how open space clusters around natural constraints. Concept plans translate vision into something a room full of people can review and react to."
           },
           "annotations": [],
@@ -232,9 +232,9 @@
           "status": "draft",
           "tags": "",
           "narration": {
-            "audio": null,
-            "mime": null,
-            "duration": 0,
+            "audio": "media/audio/s_tu7laz3.wav",
+            "mime": "audio/wav",
+            "duration": 0.0,
             "script": "This is the full concept plan for a large residential development, shown at a scale that reveals how the project fits into its surroundings. You can see the complete proposed road network, the placement of residential clusters, open space corridors, and how the development connects to existing neighborhoods and roads nearby. This is the big-picture view that drives every design decision that follows. Concept plans like this are the result of collaboration between planners, engineers, and clients before a single construction detail has been drawn. For an intern, this image is a reminder to always understand the whole site before diving into a specific plan sheet. When you're working on a grading plan or utility layout, the concept plan is the document that explains why streets go where they go and why open space sits where it sits. It's the map behind the map."
           },
           "annotations": [],
@@ -285,9 +285,9 @@
           "status": "draft",
           "tags": "",
           "narration": {
-            "audio": null,
-            "mime": null,
-            "duration": 0,
+            "audio": "media/audio/s_vftb38w.wav",
+            "mime": "audio/wav",
+            "duration": 0.0,
             "script": "This aerial shows a site in active construction. The trees are gone, the soil is exposed and graded, and you can see the early formation of road beds and building pads. This is what the design team's drawings become in the field. Everything on the grading plan, the erosion control plan, and the construction documents is being executed out here in real time. For an intern, this stage is one of the most important to understand visually. When you review plans in the office, it's easy to treat them as abstract drawings. But this image is a reminder that those drawings become a real landscape with real equipment and real consequences for errors. If you ever have the chance to visit a construction site during your internship, take it. The field experience will make every plan sheet you work on afterward more meaningful."
           },
           "annotations": [],
@@ -338,9 +338,9 @@
           "status": "draft",
           "tags": "",
           "narration": {
-            "audio": null,
-            "mime": null,
-            "duration": 0,
+            "audio": "media/audio/s_mpfgzim.wav",
+            "mime": "audio/wav",
+            "duration": 0.0,
             "script": "This is what the finished product looks like. The same land that started as raw forested property is now a functioning built environment with streets, buildings, parking, and structured open space. This aerial represents the end result of years of planning, engineering, permitting, and construction work. For an intern, this image matters because it closes the loop. Every plan sheet you work on is a step toward producing something that looks like this. When you're drawing a utility layout or reviewing a grading plan, the question to keep in mind is whether this design will produce a site that functions well and holds up over time. Studying finished aerials also helps you develop a trained eye. Street widths, lot configurations, stormwater pond locations: you can trace how the design team's choices shaped the final outcome. Your drawings are the instructions the field follows."
           },
           "annotations": [],
@@ -1846,9 +1846,9 @@
           "status": "draft",
           "tags": "",
           "narration": {
-            "audio": null,
-            "mime": null,
-            "duration": 0,
+            "audio": "media/audio/s_ivdipir.wav",
+            "mime": "audio/wav",
+            "duration": 45.891,
             "script": "This diagram introduces one of the most fundamental concepts in survey work: the control network. A survey control network is a set of fixed reference points with known, verified coordinates. Before any field measurements can be trusted, the crew establishes this network as the foundation. Everything else, topographic data, utility locations, property corners, gets measured relative to those fixed points. At Rodgers, the survey data that feeds into your CAD drawings came from a control network that was established and verified before a single elevation was recorded. As an intern, you won't be setting control points, but you should understand why they matter. When you spot a discrepancy in survey data, one of the first questions to ask is whether measurements traced back correctly to a verified control point. Accuracy starts at the foundation."
           },
           "annotations": [],
@@ -1899,9 +1899,9 @@
           "status": "draft",
           "tags": "",
           "narration": {
-            "audio": null,
-            "mime": null,
-            "duration": 0,
+            "audio": "media/audio/s_em2sgl2.wav",
+            "mime": "audio/wav",
+            "duration": 47.171,
             "script": "This photo shows a two-person survey crew at work. The crew member in the foreground is operating a total station, while the second crew member holds a prism rod downrange as the target. The total station measures horizontal and vertical angles together with distances, combining them into precise three-dimensional coordinates for every shot. This is how topographic data, utility locations, property boundaries, and construction stakes all get their coordinates in the first place. At Rodgers, survey data collected in the field like this is imported into Civil 3D and used to build the existing conditions model that your designs are based on. As an intern, when you open a survey file in CAD, this is the field process that created it. The quality of every plan sheet you produce is directly tied to the quality of this work."
           },
           "annotations": [],
@@ -1952,9 +1952,9 @@
           "status": "draft",
           "tags": "",
           "narration": {
-            "audio": null,
-            "mime": null,
-            "duration": 0,
+            "audio": "media/audio/s_xk2sctt.wav",
+            "mime": "audio/wav",
+            "duration": 44.851,
             "script": "What you're looking at here is construction staking. The wooden batter boards and string lines stretched between them mark the exact location and elevation of a structure before concrete is poured or foundation work begins. This is how coordinates and elevations from the design drawings get physically transferred to the ground. The strings define corners, edges, and reference lines that the construction crew uses as a guide. The stakes are set by a survey crew working directly from the approved design drawings. This is one of the clearest examples of where engineering plans and physical construction meet. As an intern, understanding staking helps you see why correct dimensions, coordinates, and elevations on your plans matter so much. An error in your CAD model can become a misplaced wall or a wrong finished grade in the field."
           },
           "annotations": [],
@@ -2005,9 +2005,9 @@
           "status": "draft",
           "tags": "",
           "narration": {
-            "audio": null,
-            "mime": null,
-            "duration": 0,
+            "audio": "media/audio/s_5xjw8c6.wav",
+            "mime": "audio/wav",
+            "duration": 50.851,
             "script": "This is what a utility-marked surface looks like before excavation begins. Each color on the pavement represents a different type of underground utility, and the lines, arrows, and labels show the approximate location, width, and direction of each system. The manhole cover at the center of the image is a surface indicator of underground infrastructure, and you can see utility lines radiating outward from it in several directions. Before any digging happens on a civil project, utility locating is required by law, and what you see here is the result of that process. As an intern, you'll encounter utility data in your design work when checking for conflicts between proposed improvements and existing underground lines. This image is a reminder that the neatly drawn utility lines on your plan sheets represent real infrastructure that has been located, measured, and marked by people in the field."
           },
           "annotations": [],
@@ -2058,9 +2058,9 @@
           "status": "draft",
           "tags": "",
           "narration": {
-            "audio": null,
-            "mime": null,
-            "duration": 0,
+            "audio": "media/audio/s_sek498n.wav",
+            "mime": "audio/wav",
+            "duration": 55.371,
             "script": "This is the utility color code reference every civil engineer should know. When you see spray paint marks on pavement, these colors tell you exactly what type of underground utility runs below. Red marks electric power lines and conduit. Yellow marks gas, oil, and petroleum lines. Orange marks communication and signal conduit. Blue marks potable water. Green marks sewer and drain lines. Purple marks reclaimed water and irrigation. Pink indicates a temporary survey marking. White marks a proposed excavation area. This standard is used industry-wide and is part of the APWA Uniform Color Code. At Rodgers, when you're designing near existing utilities or reviewing conflict reports, this system is what's being referenced by the field crews, the utility companies, and the inspectors. Memorizing these colors is one of the small, practical things you can do early in your internship that will make you immediately more useful in both field and office settings."
           },
           "annotations": [],
@@ -2111,9 +2111,9 @@
           "status": "draft",
           "tags": "",
           "narration": {
-            "audio": null,
-            "mime": null,
-            "duration": 0,
+            "audio": "media/audio/s_ipw518f.wav",
+            "mime": "audio/wav",
+            "duration": 53.171,
             "script": "This diagram teaches one of the most essential skills for any civil engineer: reading contour lines. Each pair here shows a contour map pattern on the left and the terrain it represents in three-dimensional profile on the right. Closely spaced contours mean steep terrain. Widely spaced contours mean a gentle slope. Concentric rings indicate a hill or depression. Where two ring groups share a narrow connection between them, you're looking at a ridge or saddle between two high points. At Rodgers, you'll be reading contours on existing conditions plans, grading plans, and topographic surveys every day. Before you can design drainage, grading, or road alignments, you need to look at a set of lines on paper and mentally picture the shape of the land beneath them. Practice this skill early and deliberately. It becomes second nature faster than you'd expect."
           },
           "annotations": [],
@@ -2164,9 +2164,9 @@
           "status": "draft",
           "tags": "",
           "narration": {
-            "audio": null,
-            "mime": null,
-            "duration": 0,
+            "audio": "media/audio/s_i4wtkny.wav",
+            "mime": "audio/wav",
+            "duration": 49.651,
             "script": "This diagram teaches one of the most practical contour-reading skills you'll use every day: judging slope steepness from contour spacing. On the left, the contours are tightly packed together, and the side profile shows a steep, sharply terraced hill rising from 1440 to 1840 feet over a short horizontal distance. On the right, the same elevation range is covered by contours that are spread much farther apart, producing a broad, gradual slope in profile. The rule is simple: the closer the contours, the steeper the terrain. The farther apart they are, the gentler the grade. At Rodgers, you'll apply this reading constantly when evaluating grading plans, checking drainage patterns, and assessing whether proposed slopes are constructible and safe. Learning to estimate slope from contour spacing at a glance is a skill that will serve you on every project you work on."
           },
           "annotations": [],
@@ -2217,9 +2217,9 @@
           "status": "draft",
           "tags": "",
           "narration": {
-            "audio": null,
-            "mime": null,
-            "duration": 0,
+            "audio": "media/audio/s_4al2ufp.wav",
+            "mime": "audio/wav",
+            "duration": 48.531,
             "script": "This image shows topographic contours as they appear in a processed CAD survey drawing. The orange lines are contour lines, each representing a constant elevation across the terrain. The labeled values at the bolder index contours, 15, 20, 25, and so on, mark key elevation intervals. The small X marks with decimal values scattered across the drawing are individual survey spot shots recorded in the field. The dashed line on the left appears to be a property boundary or unpaved road edge. This is how raw field survey data looks after it's been imported, processed, and drafted into a usable plan. As an intern, when you're working on a grading or utility plan, your design will sit on top of data like this. Understanding what you're reading, and being able to trust it, is essential to producing accurate work."
           },
           "annotations": [],
@@ -2270,9 +2270,9 @@
           "status": "draft",
           "tags": "",
           "narration": {
-            "audio": null,
-            "mime": null,
-            "duration": 0,
+            "audio": "media/audio/s_bp2x3o3.wav",
+            "mime": "audio/wav",
+            "duration": 50.411,
             "script": "This is what an existing conditions plan looks like in Civil 3D when you're viewing topographic contours only. The gray lines are intermediate contours and the slightly bolder ones are index contours marking major elevation intervals. The pink linework at the top likely represents road geometry or boundary lines. In a Rodgers project workflow, the existing conditions plan is one of the first CAD deliverables produced after survey data is processed. Every design that follows, grading, drainage, utilities, roadway alignment, is built relative to this surface. As an intern, you'll spend a significant amount of time working within existing conditions files. Knowing what you're looking at when you open one means you can orient yourself quickly, identify high and low points, and understand what the terrain is doing before a single design element is placed."
           },
           "annotations": [],
@@ -2323,9 +2323,9 @@
           "status": "draft",
           "tags": "",
           "narration": {
-            "audio": null,
-            "mime": null,
-            "duration": 0,
+            "audio": "media/audio/s_c1s360x.wav",
+            "mime": "audio/wav",
+            "duration": 52.611,
             "script": "This is the existing conditions plan with environmental and infrastructure features layered on top of the topographic base. You can see the wetland boundary marked in blue and labeled W, alongside what appear to be easement corridors, road centerlines, and utility alignments shown in different colors. This level of information is what the design team works with when evaluating what a site can and cannot accommodate. At Rodgers, understanding environmental constraints early is critical to good design. Wetlands, floodplains, and regulated buffers directly affect where roads can go, where utilities can be routed, and how much of a site can be graded or developed. As an intern, when you encounter a feature on an existing conditions plan that you don't recognize, look it up before assuming it's background noise. Every layer on this plan is there because it affects the design."
           },
           "annotations": [],
@@ -2376,9 +2376,9 @@
           "status": "draft",
           "tags": "",
           "narration": {
-            "audio": null,
-            "mime": null,
-            "duration": 0,
+            "audio": "media/audio/s_gdtz4k0.wav",
+            "mime": "audio/wav",
+            "duration": 58.091,
             "script": "This screenshot shows survey points imported directly into Civil 3D and displayed alongside a design in progress. The numbered points are individual field measurements, each tagged with a description code and an elevation. The red labels reading SSINV 8 PVC are sanitary sewer invert elevations at specific locations along a pipeline. The green and cyan points marked WHC and SSCO represent water house connections and sanitary sewer cleanouts. This is how survey data gets used at the design stage: not just as reference background, but as active data points tied to real-world locations and elevations that influence every design decision around them. As an intern, pay close attention to the description codes on survey points. They tell you what each point represents in the field. Learning to read point data accurately is one of the things that separates a capable CAD operator from an engineer who truly understands what they're building."
           },
           "annotations": [],
