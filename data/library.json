@@ -3,7 +3,7 @@
   "title": "Civil Engineering Visual Library",
   "subtitle": "The Rodgers Playbook · Internal Training Series",
   "tagline": "Creating communities with clients who share our values.",
-  "updated": "2026-05-18",
+  "updated": "2026-05-22",
   "modules": [
     {
       "id": "planning",
@@ -22,14 +22,13 @@
           "narration": {
             "audio": "media/audio/s_kvt5hjv.wav",
             "mime": "audio/wav",
-            "duration": 0.0,
+            "duration": 0,
             "script": "This aerial shows a heavily wooded parcel of land, essentially untouched. No cleared areas, no roads, no infrastructure. This is what a project site looks like before any engineering or planning work begins. In land development, this is called raw land, and every project in the firm's portfolio started here. Before any drawings are produced, the team studies what they're working with: existing vegetation, topography, surrounding roads, wetlands, and property boundaries. As an intern, when you're assigned to a new project, this is your mental starting point. Look at aerial imagery early, before the first plan is drawn. Understanding the original site conditions helps you follow design decisions, catch errors, and contribute more usefully to team conversations."
           },
           "annotations": [],
           "speakerNotes": "",
           "projectContext": "",
           "resources": "",
-          "imageLayout": "one",
           "blocks": [
             {
               "id": "b_p5e4q5k",
@@ -75,14 +74,13 @@
           "narration": {
             "audio": "media/audio/s_wutuw1j.wav",
             "mime": "audio/wav",
-            "duration": 0.0,
+            "duration": 0,
             "script": "This aerial shows raw land sitting directly adjacent to a highway. Notice the tree cover, the water feature in the upper left, and the road frontage along the bottom. These are three of the first things an engineer or planner looks at during the feasibility phase: where does the site connect to public roads, what natural features are present, and what constraints will shape the design? Access drives, utility corridors, and stormwater routing are all influenced by where the site meets the road network. As an intern, you'll encounter aerials like this at the start of almost every project. The water feature suggests a potential wetland delineation effort. The road frontage drives intersection and access design. The tree cover hints at clearing and grading limits. Nothing in this image is just background. It's all information the design team is actively reading."
           },
           "annotations": [],
           "speakerNotes": "",
           "projectContext": "",
           "resources": "",
-          "imageLayout": "one",
           "blocks": [
             {
               "id": "b_qne5kdg",
@@ -128,14 +126,13 @@
           "narration": {
             "audio": "media/audio/s_awapbvj.wav",
             "mime": "audio/wav",
-            "duration": 0.0,
+            "duration": 0,
             "script": "This image shows a raw parcel of land with property boundary lines drawn over the aerial. Those white lines define the legal limits of the site, which is separate from what you can observe on the ground. In early project work, one of the first tasks is reconciling the legal boundary with the physical conditions. Trees, slopes, and water features don't respect property lines, and that tension is something every design has to resolve. As an intern, you may be asked to work with parcel data in CAD or to review boundary information against a site survey. Understanding that the drawn line and the physical world are two different things, and that your job involves bridging them, is a foundational mindset for land development work. Always know where the property line is before asking what can go there."
           },
           "annotations": [],
           "speakerNotes": "",
           "projectContext": "",
           "resources": "",
-          "imageLayout": "one",
           "blocks": [
             {
               "id": "b_704axlr",
@@ -181,14 +178,13 @@
           "narration": {
             "audio": "media/audio/s_mp30c2u.wav",
             "mime": "audio/wav",
-            "duration": 0.0,
+            "duration": 0,
             "script": "What you're looking at is a concept plan overlay on aerial imagery, zoomed into one section of a larger development. The colored areas represent different proposed uses: residential lots, open space, community features, and the road network connecting them. This is one of the earliest formal deliverables a planning team produces, and it's intentionally approximate. A concept plan isn't drawn to construction standards. It exists to show a client, a county planner, or a reviewing agency what the team is proposing before detailed engineering begins. As an intern, you may help prepare exhibits like this in CAD or graphics software. Pay attention to how the design responds to existing conditions. Notice how roads connect to surrounding infrastructure and how open space clusters around natural constraints. Concept plans translate vision into something a room full of people can review and react to."
           },
           "annotations": [],
           "speakerNotes": "",
           "projectContext": "",
           "resources": "",
-          "imageLayout": "one",
           "blocks": [
             {
               "id": "b_4al23up",
@@ -234,14 +230,13 @@
           "narration": {
             "audio": "media/audio/s_tu7laz3.wav",
             "mime": "audio/wav",
-            "duration": 0.0,
+            "duration": 0,
             "script": "This is the full concept plan for a large residential development, shown at a scale that reveals how the project fits into its surroundings. You can see the complete proposed road network, the placement of residential clusters, open space corridors, and how the development connects to existing neighborhoods and roads nearby. This is the big-picture view that drives every design decision that follows. Concept plans like this are the result of collaboration between planners, engineers, and clients before a single construction detail has been drawn. For an intern, this image is a reminder to always understand the whole site before diving into a specific plan sheet. When you're working on a grading plan or utility layout, the concept plan is the document that explains why streets go where they go and why open space sits where it sits. It's the map behind the map."
           },
           "annotations": [],
           "speakerNotes": "",
           "projectContext": "",
           "resources": "",
-          "imageLayout": "one",
           "blocks": [
             {
               "id": "b_042pqx3",
@@ -287,14 +282,13 @@
           "narration": {
             "audio": "media/audio/s_vftb38w.wav",
             "mime": "audio/wav",
-            "duration": 0.0,
+            "duration": 0,
             "script": "This aerial shows a site in active construction. The trees are gone, the soil is exposed and graded, and you can see the early formation of road beds and building pads. This is what the design team's drawings become in the field. Everything on the grading plan, the erosion control plan, and the construction documents is being executed out here in real time. For an intern, this stage is one of the most important to understand visually. When you review plans in the office, it's easy to treat them as abstract drawings. But this image is a reminder that those drawings become a real landscape with real equipment and real consequences for errors. If you ever have the chance to visit a construction site during your internship, take it. The field experience will make every plan sheet you work on afterward more meaningful."
           },
           "annotations": [],
           "speakerNotes": "",
           "projectContext": "",
           "resources": "",
-          "imageLayout": "one",
           "blocks": [
             {
               "id": "b_jo405zi",
@@ -340,14 +334,13 @@
           "narration": {
             "audio": "media/audio/s_mpfgzim.wav",
             "mime": "audio/wav",
-            "duration": 0.0,
+            "duration": 0,
             "script": "This is what the finished product looks like. The same land that started as raw forested property is now a functioning built environment with streets, buildings, parking, and structured open space. This aerial represents the end result of years of planning, engineering, permitting, and construction work. For an intern, this image matters because it closes the loop. Every plan sheet you work on is a step toward producing something that looks like this. When you're drawing a utility layout or reviewing a grading plan, the question to keep in mind is whether this design will produce a site that functions well and holds up over time. Studying finished aerials also helps you develop a trained eye. Street widths, lot configurations, stormwater pond locations: you can trace how the design team's choices shaped the final outcome. Your drawings are the instructions the field follows."
           },
           "annotations": [],
           "speakerNotes": "",
           "projectContext": "",
           "resources": "",
-          "imageLayout": "one",
           "blocks": [
             {
               "id": "b_eo16kde",
@@ -408,7 +401,6 @@
           "speakerNotes": "",
           "projectContext": "",
           "resources": "",
-          "imageLayout": "one",
           "blocks": [
             {
               "id": "b_8pwbk8d",
@@ -461,7 +453,6 @@
           "speakerNotes": "",
           "projectContext": "",
           "resources": "",
-          "imageLayout": "one",
           "blocks": [
             {
               "id": "b_6a83cnu",
@@ -514,7 +505,6 @@
           "speakerNotes": "",
           "projectContext": "",
           "resources": "",
-          "imageLayout": "one",
           "blocks": [
             {
               "id": "b_3j8mjhz",
@@ -558,16 +548,15 @@
           "status": "draft",
           "tags": "",
           "narration": {
-            "audio": "media/audio/s_h8ybez4.wav",
-            "mime": "audio/wav",
-            "duration": 46.531,
+            "audio": null,
+            "mime": null,
+            "duration": 0,
             "script": "This photo shows the stormwater system doing exactly what it's designed to do: water flows along the gutter, directed by the curb and the 2% cross slope of the road, and drops into the curb inlet grate where it enters the underground storm drain network. The debris and leaves partially blocking the grate are a reminder that inlet capacity depends on maintenance as much as design. If grates clog, water backs up in the gutter and eventually onto the traveled way. At Rodgers, inlet sizing and spacing are calculated based on how much runoff a drainage area generates and how far water can travel in the gutter before it spills into traffic lanes. When you're placing inlets on a drainage plan, this is what you're designing for. The gutter carries water to the inlet, and both have to be sized correctly to keep the street clear."
           },
           "annotations": [],
           "speakerNotes": "",
           "projectContext": "",
           "resources": "",
-          "imageLayout": "one",
           "blocks": [
             {
               "id": "b_a7bsz6g",
@@ -611,16 +600,15 @@
           "status": "draft",
           "tags": "",
           "narration": {
-            "audio": "media/audio/s_ix9xj4b.wav",
-            "mime": "audio/wav",
-            "duration": 50.531,
+            "audio": null,
+            "mime": null,
+            "duration": 0,
             "script": "This cross-section detail shows what's inside a catch basin, one of the most common drainage structures on a site civil project. At the top, a cast iron grate and frame sit at finished grade, set in mortar. Adjusting rings below allow the top elevation to be fine-tuned during installation. The barrel is made of precast concrete sections stacked to the required height. Inlet and outlet pipes connect through the barrel walls, grouted to prevent infiltration. At the bottom, a sediment sump collects debris and solids that wash in with stormwater, keeping them out of the downstream pipe system. The concrete base sits on a compacted granular foundation. At Rodgers, standard catch basin details like this are referenced throughout plan sets and construction specifications. When you draw or label a catch basin on a plan sheet, this is the physical structure those symbols represent."
           },
           "annotations": [],
           "speakerNotes": "",
           "projectContext": "",
           "resources": "",
-          "imageLayout": "one",
           "blocks": [
             {
               "id": "b_te3y0w7",
@@ -664,16 +652,15 @@
           "status": "draft",
           "tags": "",
           "narration": {
-            "audio": "media/audio/s_89cep76.wav",
-            "mime": "audio/wav",
-            "duration": 50.331,
+            "audio": null,
+            "mime": null,
+            "duration": 0,
             "script": "This infographic shows how a precast catch basin gets installed in the field. The sequence starts with excavating to the required depth and compacting a gravel bedding base. The base section is then set into position, with the connecting storm pipe already threaded through the knockout opening. Additional precast sections are stacked to bring the structure to the required rim elevation. The top slab and grate are placed last, and the excavation is backfilled and compacted around the structure. The main photo shows the base unit being lifted by crane with the storm pipe already connected and the gravel bed visible below. This matters because the pipe goes in before the basin is lowered, not after. Understanding installation sequences like this helps you produce details and specifications that are actually buildable and don't create conflicts for the construction crew in the field."
           },
           "annotations": [],
           "speakerNotes": "",
           "projectContext": "",
           "resources": "",
-          "imageLayout": "one",
           "blocks": [
             {
               "id": "b_6he1dxc",
@@ -717,16 +704,15 @@
           "status": "draft",
           "tags": "",
           "narration": {
-            "audio": "media/audio/s_6do2nbj.mp3",
-            "mime": "audio/mpeg",
-            "duration": 49.776,
+            "audio": null,
+            "mime": null,
+            "duration": 0,
             "script": "This photo is taken looking straight down into a precast concrete storm drain manhole before it's been fully connected. The flat precast section at the bottom is a knockout, a pre-formed area in the barrel wall that can be chipped or cut out to accept a connecting pipe at the required elevation and direction. Iron step rungs on the interior wall allow maintenance crews to safely descend into the structure for inspection and cleaning. Storm drain manholes serve a critical function beyond connection: they're the access points that keep the underground pipe network maintainable over its full service life. At Rodgers, manhole locations are coordinated with pipe runs, slopes, and access requirements. When you're laying out a storm drain network, manhole spacing and accessibility are design constraints you need to account for, not details you add at the end."
           },
           "annotations": [],
           "speakerNotes": "",
           "projectContext": "",
           "resources": "",
-          "imageLayout": "one",
           "blocks": [
             {
               "id": "b_kca6mpx",
@@ -770,16 +756,15 @@
           "status": "draft",
           "tags": "",
           "narration": {
-            "audio": "media/audio/s_tjviwlk.wav",
-            "mime": "audio/wav",
-            "duration": 61.091,
+            "audio": null,
+            "mime": null,
+            "duration": 0,
             "script": "This image shows a vegetated roadside swale running parallel to a street, with a curb inlet at the curb line collecting flow from the road surface. Swales are open channel drainage features that collect and convey stormwater through shallow, vegetated depressions rather than underground pipes. They're often a lower-cost alternative to full curb and gutter, and they provide some water quality benefit by slowing flow and allowing sediment to settle before runoff reaches an inlet or outfall. This combination of swale and inlet is common on lower-density residential streets, rural roads, and commercial site perimeters where right of way is available. At Rodgers, the choice between curb-and-gutter drainage and open swale drainage depends on site conditions, jurisdiction requirements, and project type. As an intern, knowing both systems and when each is appropriate is practical design judgment you'll develop on your first drainage project."
           },
           "annotations": [],
           "speakerNotes": "",
           "projectContext": "",
           "resources": "",
-          "imageLayout": "one",
           "blocks": [
             {
               "id": "b_78wowjr",
@@ -823,16 +808,15 @@
           "status": "draft",
           "tags": "",
           "narration": {
-            "audio": "media/audio/s_sbbmojg.wav",
-            "mime": "audio/wav",
-            "duration": 56.571,
+            "audio": null,
+            "mime": null,
+            "duration": 0,
             "script": "This photo shows storm drain pipe installation in progress. A large corrugated pipe sits in a trench on a prepared gravel bedding layer, with a worker guiding it into position and an excavator supporting the operation. The labeled steps walk through the full process: trench excavation, bedding material placement, pipe installation, backfill and compaction, and structure connections. Each step has specific requirements governed by the project specifications. Bedding material type and thickness control how the pipe is supported and how loads from above are distributed. Compaction of the backfill above the pipe is critical to prevent settlement that can damage the pipe or the road surface above it. At Rodgers, storm drain pipe design includes size, material, slope, cover depth, and bedding requirements. When you specify these on a plan set, the field crew installs to exactly those parameters, so getting them right matters."
           },
           "annotations": [],
           "speakerNotes": "",
           "projectContext": "",
           "resources": "",
-          "imageLayout": "one",
           "blocks": [
             {
               "id": "b_ldaz0lj",
@@ -876,16 +860,15 @@
           "status": "draft",
           "tags": "",
           "narration": {
-            "audio": "media/audio/s_x43m3oa.wav",
-            "mime": "audio/wav",
-            "duration": 51.491,
+            "audio": null,
+            "mime": null,
+            "duration": 0,
             "script": "This screenshot shows a storm drain pipe network modeled in three dimensions in Civil 3D. Each structure is labeled with its rim elevation and invert elevations, and each pipe segment shows its size, slope, and length. The outfall at the end of the network is where the system discharges. Civil 3D's pipe network tools allow engineers to design and check the entire system in a model before anything is built, verifying that pipes have adequate slope, that inverts don't conflict with each other or with other utilities, and that the flow path routes correctly from inlet to outfall. At Rodgers, pipe network modeling in Civil 3D is standard practice on storm drain and sanitary sewer design. You may be asked to add structures, adjust pipe slopes, or generate plan and profile sheets directly from a network model. Understanding what you're looking at here makes all of that work considerably more intuitive."
           },
           "annotations": [],
           "speakerNotes": "",
           "projectContext": "",
           "resources": "",
-          "imageLayout": "one",
           "blocks": [
             {
               "id": "b_6un2c2k",
@@ -929,16 +912,15 @@
           "status": "draft",
           "tags": "",
           "narration": {
-            "audio": "media/audio/s_gyoi80o.wav",
-            "mime": "audio/wav",
-            "duration": 52.331,
+            "audio": null,
+            "mime": null,
+            "duration": 0,
             "script": "This is a storm drain plan for a commercial development site, the type of drawing you'll be producing and reviewing regularly at Rodgers. The plan shows the proposed building surrounded by a network of storm drain pipes connecting curb inlets and manholes, all routing flow toward a detention pond. Each pipe segment is annotated with its size, material, and slope. Structure labels include rim elevations and invert elevations at both the inlet and outlet of each structure. The legend at right defines symbols for inlets, manholes, storm drain pipes, existing contours, and property lines. This is the type of plan sheet where you'll spend significant time as an intern. Before you draft or check one, trace the flow path from the highest point on the site to the outfall. Start at the high end and follow where the water goes. The logic of the design reveals itself that way."
           },
           "annotations": [],
           "speakerNotes": "",
           "projectContext": "",
           "resources": "",
-          "imageLayout": "one",
           "blocks": [
             {
               "id": "b_b41m7sx",
@@ -982,16 +964,15 @@
           "status": "draft",
           "tags": "",
           "narration": {
-            "audio": "media/audio/s_qlqgy2l.wav",
-            "mime": "audio/wav",
-            "duration": 55.611,
+            "audio": null,
+            "mime": null,
+            "duration": 0,
             "script": "This is a real Rodgers Consulting stormwater drainage plan, sheet C5.1 for the Riverbend Retail Development in Lee's Summit, Missouri. It shows the complete storm drain network for the site: drainage area boundaries labeled A through D, storm drain pipes with sizes and invert elevations, catch basins and manholes with structure numbers, a proposed detention pond with a design water surface elevation, and flow direction arrows throughout. The drainage area table in the lower right documents the acreage, runoff coefficient, and impervious percentage for each basin. These values feed directly into the hydraulic calculations that determine pipe sizes and pond storage requirements. Every element on this sheet was designed, calculated, and coordinated with the grading, utility, and road plans before submission for agency review. As an intern, this is the professional standard your work will be held to. Study the sheet carefully and learn what every label represents."
           },
           "annotations": [],
           "speakerNotes": "",
           "projectContext": "",
           "resources": "",
-          "imageLayout": "one",
           "blocks": [
             {
               "id": "b_w6nmu8j",
@@ -1035,16 +1016,15 @@
           "status": "draft",
           "tags": "",
           "narration": {
-            "audio": "media/audio/s_r0zpyng.mp3",
-            "mime": "audio/mpeg",
-            "duration": 60.096,
+            "audio": null,
+            "mime": null,
+            "duration": 0,
             "script": "This diagram explains how a stormwater detention basin works, one of the most important concepts in site civil engineering. When rain hits a developed site, it runs off faster than undeveloped land. A detention basin temporarily stores that excess runoff and releases it slowly through a controlled outlet, reducing the peak flow rate discharged downstream. The forebay at the inlet end captures sediment before water enters the main pond. The outlet structure uses a riser and orifice to control the release rate precisely. An emergency weir provides overflow protection during extreme storm events. The cross-section shows the 100-year water level above the normal water level, illustrating how the pond holds reserve storage capacity for major storms. At Rodgers, detention basin design is standard on nearly every commercial and residential development project. Understanding how the basin functions conceptually is the foundation for understanding why it's sized the way it is."
           },
           "annotations": [],
           "speakerNotes": "",
           "projectContext": "",
           "resources": "",
-          "imageLayout": "one",
           "blocks": [
             {
               "id": "b_1wr6jnv",
@@ -1088,16 +1068,15 @@
           "status": "draft",
           "tags": "",
           "narration": {
-            "audio": "media/audio/s_1tzre6m.wav",
-            "mime": "audio/wav",
-            "duration": 59.611,
+            "audio": null,
+            "mime": null,
+            "duration": 0,
             "script": "This infographic documents the four construction stages of a stormwater detention pond. Initial excavation removes vegetation, topsoil, and bulk earthwork to rough grade. Grading and shaping fine-tunes the pond bottom, side slopes, and benches to the design dimensions and compacts the subgrade. Outlet structure installation sets the concrete riser, connects the outfall pipe and anti-seep collar, and places riprap for energy dissipation. Final stabilization establishes permanent vegetation on all slopes, removes temporary erosion controls, and prepares the pond for long-term operation. The erosion control note at the bottom is important: silt fence, stabilized entrance, inlet protection, and temporary seeding are all required throughout construction, not just at the start. At Rodgers, pond construction documents include grading plans, outlet structure details, and erosion control plans that must all coordinate. Knowing how the pond goes together helps you contribute to each of those documents more effectively."
           },
           "annotations": [],
           "speakerNotes": "",
           "projectContext": "",
           "resources": "",
-          "imageLayout": "one",
           "blocks": [
             {
               "id": "b_ooeyz0u",
@@ -1141,16 +1120,15 @@
           "status": "draft",
           "tags": "",
           "narration": {
-            "audio": "media/audio/s_5vve971.wav",
-            "mime": "audio/wav",
-            "duration": 50.851,
+            "audio": null,
+            "mime": null,
+            "duration": 0,
             "script": "This is what a completed stormwater management facility looks like after construction and stabilization. The basin is seeded and planted across the bottom and slopes, establishing the vegetation needed to resist erosion and support the facility's long-term function. Riprap protects the perimeter near the outlet where flow velocities are higher. The concrete outlet structure in the foreground is the control point for the entire facility, managing how and how fast water releases to the downstream system. This type of facility is the physical result of the detention design calculations, pond grading plans, outlet structure details, and erosion control measures that come together in a stormwater plan set. At Rodgers, SWM facilities like this one are a deliverable on nearly every development project. When you're reviewing facility grading or outlet design on a plan, this is what you're helping to build."
           },
           "annotations": [],
           "speakerNotes": "",
           "projectContext": "",
           "resources": "",
-          "imageLayout": "one",
           "blocks": [
             {
               "id": "b_pgshrdr",
@@ -1194,16 +1172,15 @@
           "status": "draft",
           "tags": "",
           "narration": {
-            "audio": "media/audio/s_z8iskof.mp3",
-            "mime": "audio/mpeg",
-            "duration": 55.08,
+            "audio": null,
+            "mime": null,
+            "duration": 0,
             "script": "This photo shows a distribution channel at a stormwater management facility, the inlet section that receives and slows runoff before it enters the main pond or forebay. The rock check structures along the channel act as energy dissipators, slowing the flow and encouraging sediment to drop out before water reaches the main storage area. The channel is vegetated to resist erosion at lower flow velocities. A commercial building is visible at the upper right, confirming this is part of an active development's stormwater system. At Rodgers, forebay and inlet channel design is part of every SWM facility plan. Channel dimensions, slopes, and stone sizing are calculated to handle design storm flows without scouring the channel bottom or sides. As an intern, details like this are easy to underestimate on a plan sheet, but a poorly designed forebay can compromise the entire pond's storage capacity over time."
           },
           "annotations": [],
           "speakerNotes": "",
           "projectContext": "",
           "resources": "",
-          "imageLayout": "one",
           "blocks": [
             {
               "id": "b_blkxv2f",
@@ -1247,16 +1224,15 @@
           "status": "draft",
           "tags": "",
           "narration": {
-            "audio": "media/audio/s_kdy3ejk.mp3",
-            "mime": "audio/mpeg",
-            "duration": 56.112,
+            "audio": null,
+            "mime": null,
+            "duration": 0,
             "script": "This photo shows riprap used as erosion protection at a stormwater pipe outfall. When water exits a pipe at velocity, it carries enough energy to scour and erode surrounding soil if nothing is there to absorb it. Riprap, large angular or rounded stone, is placed at outfalls and along channels to dissipate that energy and prevent erosion damage. The stone apron visible here surrounds the pipe opening and extends downstream to the point where flow velocity drops to a level the vegetated channel can handle without scouring. At Rodgers, riprap sizing and apron dimensions are calculated based on pipe size, slope, and design flow rate, then referenced on standard outlet protection details that are submitted with the plan set. When you see riprap called out at an outfall, it isn't a generic instruction. It's a calculated erosion control measure with specific stone sizing, layer thickness, and extent requirements."
           },
           "annotations": [],
           "speakerNotes": "",
           "projectContext": "",
           "resources": "",
-          "imageLayout": "one",
           "blocks": [
             {
               "id": "b_5kcjwx8",
@@ -1300,16 +1276,15 @@
           "status": "draft",
           "tags": "",
           "narration": {
-            "audio": "media/audio/s_947am1c.mp3",
-            "mime": "audio/mpeg",
-            "duration": 63.12,
+            "audio": null,
+            "mime": null,
+            "duration": 0,
             "script": "This diagram introduces the Submerged Gravel Wetland, an advanced stormwater treatment system that goes beyond detention to actively improve water quality. Stormwater enters through a pretreatment forebay where larger sediment drops out. It then flows horizontally through submerged gravel media where filtration removes particles, microorganisms break down pollutants biologically, and wetland plants above the water surface absorb nitrogen and phosphorus. An underdrain at the bottom collects the treated water and conveys it to an outlet control structure that manages release rate and prevents overflow. This level of treatment is increasingly required by state and local regulations in sensitive watersheds. At Rodgers, understanding the full range of stormwater management options, from basic detention to advanced treatment systems, helps you design solutions that meet both quantity and water quality requirements. This is the more advanced end of stormwater design, but knowing it exists and how it works puts you well ahead for your first water quality project."
           },
           "annotations": [],
           "speakerNotes": "",
           "projectContext": "",
           "resources": "",
-          "imageLayout": "one",
           "blocks": [
             {
               "id": "b_us4ubci",
@@ -1370,7 +1345,6 @@
           "speakerNotes": "",
           "projectContext": "",
           "resources": "",
-          "imageLayout": "one",
           "blocks": [
             {
               "id": "b_7o4cixm",
@@ -1406,59 +1380,6 @@
           ]
         },
         {
-          "id": "s_epq6hnw",
-          "title": "Collector Road Typical Section: Technical CAD Detail",
-          "subtitle": "",
-          "pairing": "real-vs-cad",
-          "level": 1,
-          "status": "draft",
-          "tags": "",
-          "narration": {
-            "audio": "media/audio/s_epq6hnw.mp3",
-            "mime": "audio/mpeg",
-            "duration": 56.376,
-            "script": "This is a technical typical section for a collector road, the kind of drawing you'd find in an actual Rodgers plan set. It shows an 80-foot right of way, a 38-foot back-of-curb to back-of-curb road width, two 12-foot travel lanes, swales, and 10-foot sidewalks. The pavement structure table in the lower left breaks down each layer by thickness: 1.5 inches of asphalt surface course, 3.5 inches of binder course, 8 inches of aggregate base, and 6 inches of aggregate subbase over compacted subgrade. Cross slopes direct runoff toward the curbs at 2%. Unlike an infographic, this drawing is a construction document. It references standard details and notes that all subgrade must be compacted to specified standards. As an intern, learning to read a typical section like this is one of the first CAD literacy skills you'll build. It's the structural backbone of every road design."
-          },
-          "annotations": [],
-          "speakerNotes": "",
-          "projectContext": "",
-          "resources": "",
-          "imageLayout": "one",
-          "blocks": [
-            {
-              "id": "b_wzmtl66",
-              "type": "imagePair",
-              "layout": "one",
-              "images": [
-                {
-                  "src": "media/images/s_epq6hnw-A.png",
-                  "label": "Technical CAD-style typical roadway cross section for a collector road with an 80-foot right of way, showing lane widths, swales, sidewalks, and a pavement structure table listing asphalt surface, binder, aggregate base, subbase, and compacted subgrade thicknesses.",
-                  "type": "Real-world photo"
-                },
-                {
-                  "src": null,
-                  "label": "",
-                  "type": "CAD plan view"
-                }
-              ]
-            },
-            {
-              "id": "b_wx1848t",
-              "type": "keyLesson",
-              "text": "A technical typical section is a construction document, not just a reference diagram. Learn to read the layer thicknesses, dimensions, and notes because they directly govern how the road gets built."
-            },
-            {
-              "id": "b_44ol7ag",
-              "type": "teaching",
-              "t1": "",
-              "t2": "",
-              "t3": "",
-              "t4": "",
-              "t5": ""
-            }
-          ]
-        },
-        {
           "id": "s_j4uogss",
           "title": "Roadway Horizontal Geometry: Curve Elements Explained",
           "subtitle": "",
@@ -1467,16 +1388,15 @@
           "status": "draft",
           "tags": "",
           "narration": {
-            "audio": "media/audio/s_j4uogss.mp3",
-            "mime": "audio/mpeg",
-            "duration": 55.632,
+            "audio": null,
+            "mime": null,
+            "duration": 0,
             "script": "This diagram explains horizontal curve geometry, which is the language behind how roads change direction in plan view. When a road needs to turn, it can't do so abruptly. It transitions through a circular curve defined by specific geometric elements. The PI, or Point of Intersection, is where the two tangent lines would meet if extended. The PC is where the curve begins and the PT is where it ends. The delta angle is the total change in direction through the curve. The radius determines how tight or gradual the curve is: a larger radius produces a gentler curve. The tangent length and long chord are used for layout and computation. At Rodgers, these elements appear in alignment tables on every road design plan sheet. You don't need to memorize every formula immediately, but knowing what each term means when you see it in a drawing or hear it in a meeting gets you into the conversation much faster."
           },
           "annotations": [],
           "speakerNotes": "",
           "projectContext": "",
           "resources": "",
-          "imageLayout": "one",
           "blocks": [
             {
               "id": "b_4wrg5e7",
@@ -1529,7 +1449,6 @@
           "speakerNotes": "",
           "projectContext": "",
           "resources": "",
-          "imageLayout": "one",
           "blocks": [
             {
               "id": "b_tirvrgt",
@@ -1573,16 +1492,15 @@
           "status": "draft",
           "tags": "",
           "narration": {
-            "audio": "media/audio/s_g7xans3.mp3",
-            "mime": "audio/mpeg",
-            "duration": 53.304,
+            "audio": null,
+            "mime": null,
+            "duration": 0,
             "script": "This diagram breaks down the vertical alignment profile, which shows how a road's elevation changes along its length. The dashed line is the existing ground and the solid red line is the proposed grade. Where the grade transitions from uphill to downhill you have a crest vertical curve, the hill shape. Where it transitions from downhill to uphill you have a sag vertical curve, the valley shape. Each curve is defined by three key points: the PVC where the curve begins, the PVI where the grade lines would intersect if extended, and the PVT where the curve ends. Grade percentages are labeled along each tangent, and the positive or negative sign tells you whether the road is climbing or descending. Vertical curves affect sight distance, drainage, and ride comfort. When you encounter a profile view on a plan sheet, this diagram gives you the vocabulary to understand exactly what you're looking at."
           },
           "annotations": [],
           "speakerNotes": "",
           "projectContext": "",
           "resources": "",
-          "imageLayout": "one",
           "blocks": [
             {
               "id": "b_ik1tuyz",
@@ -1626,16 +1544,15 @@
           "status": "draft",
           "tags": "",
           "narration": {
-            "audio": "media/audio/s_3b7s1g8.mp3",
-            "mime": "audio/mpeg",
-            "duration": 54.432,
+            "audio": null,
+            "mime": null,
+            "duration": 0,
             "script": "This infographic walks through curb and gutter installation, one of the most common construction elements on a land development project. The sequence moves from subgrade excavation and preparation, to form setting using stakes and a string line for alignment and grade control, to concrete placement, surface finishing, and expansion joint tooling at regular intervals. Two details in the main photo are worth noting specifically. The forms and string line control the horizontal alignment and vertical grade of the finished curb, set directly from the design drawings. The 1 to 2 percent gutter slope toward the flow line ensures water drains properly rather than ponding in the gutter. At Rodgers, curb and gutter details appear on nearly every site and road plan. Understanding how the finished product is built helps you produce better drawings, because the dimensions and slopes you specify are exactly what the contractor will set their forms to."
           },
           "annotations": [],
           "speakerNotes": "",
           "projectContext": "",
           "resources": "",
-          "imageLayout": "one",
           "blocks": [
             {
               "id": "b_uqxts0z",
@@ -1679,16 +1596,15 @@
           "status": "draft",
           "tags": "",
           "narration": {
-            "audio": "media/audio/s_y21mjeu.mp3",
-            "mime": "audio/mpeg",
-            "duration": 55.32,
+            "audio": null,
+            "mime": null,
+            "duration": 0,
             "script": "This infographic shows the three steps of asphalt paving as they happen on an active construction site. Base preparation comes first: the subgrade is graded and compacted and a stabilized base layer is installed to the required thickness. Asphalt placement follows, with hot mix delivered by dump truck and fed into a paving machine that lays it evenly at a controlled depth. Compaction is the final step, where steel wheel and pneumatic rollers press the asphalt to achieve proper density and a smooth, durable surface. Compaction is especially critical: asphalt that isn't rolled to specification will fail prematurely regardless of how well everything else was done. At Rodgers, the pavement structure in your typical section drawings corresponds directly to what you see being built here. Knowing the construction sequence helps you understand why layer thicknesses and compaction requirements in the specifications are non-negotiable."
           },
           "annotations": [],
           "speakerNotes": "",
           "projectContext": "",
           "resources": "",
-          "imageLayout": "one",
           "blocks": [
             {
               "id": "b_t7ei094",
@@ -1732,16 +1648,15 @@
           "status": "draft",
           "tags": "",
           "narration": {
-            "audio": "media/audio/s_jyrb9ny.mp3",
-            "mime": "audio/mpeg",
-            "duration": 59.88,
+            "audio": null,
+            "mime": null,
+            "duration": 0,
             "script": "This photo shows a completed ADA-compliant crosswalk and curb ramp at a commercial site. The striped crosswalk markings define the pedestrian crossing path across the drive aisle. The concrete curb ramp provides a graded transition from the parking surface to the sidewalk level, meeting ADA requirements for slope, landing width, and ramp dimensions. The sidewalk continues into the site, connecting the parking area to whatever destination lies beyond. Storm drain infrastructure is visible on the left and a fire hydrant sits to the right, two elements that appear routinely near curb lines and must be accounted for in your design. At Rodgers, ADA requirements are part of every project that includes pedestrian infrastructure. Curb ramp design, crosswalk placement, landing dimensions, and maximum slope percentages are all governed by federal accessibility standards. As an intern, every pedestrian connection you draft needs to be checked against those requirements before it leaves your desk."
           },
           "annotations": [],
           "speakerNotes": "",
           "projectContext": "",
           "resources": "",
-          "imageLayout": "one",
           "blocks": [
             {
               "id": "b_axltkn7",
@@ -1785,16 +1700,15 @@
           "status": "draft",
           "tags": "",
           "narration": {
-            "audio": "media/audio/s_gmv3x4u.mp3",
-            "mime": "audio/mpeg",
-            "duration": 65.064,
+            "audio": null,
+            "mime": null,
+            "duration": 0,
             "script": "This annotated aerial is one of the most information-dense images in this library, and it rewards careful study. It shows a full road intersection mid-construction with callouts identifying every major element: curb and gutter defining the pavement edge, storm drain inlets collecting runoff, median and traffic islands managing turning movements, utility structures for storm, sewer, and water being installed underground, temporary traffic control keeping the work zone safe, and a temporary stormwater pond managing construction runoff at the corner. Grading and earthwork are visible around the perimeter where subgrade preparation is still underway. The legend at lower right distinguishes new asphalt, concrete, graded earth, and stormwater flow direction. At Rodgers, an intersection design requires coordination across grading, drainage, utilities, pavement, and traffic engineering at the same time. This image shows how all of those disciplines land in the same physical space. When you're working on one piece of an intersection, this is the full picture surrounding your task."
           },
           "annotations": [],
           "speakerNotes": "",
           "projectContext": "",
           "resources": "",
-          "imageLayout": "one",
           "blocks": [
             {
               "id": "b_y7y85gs",
@@ -1855,7 +1769,6 @@
           "speakerNotes": "",
           "projectContext": "",
           "resources": "",
-          "imageLayout": "one",
           "blocks": [
             {
               "id": "b_d4epwci",
@@ -1908,7 +1821,6 @@
           "speakerNotes": "",
           "projectContext": "",
           "resources": "",
-          "imageLayout": "one",
           "blocks": [
             {
               "id": "b_yktye4t",
@@ -1961,7 +1873,6 @@
           "speakerNotes": "",
           "projectContext": "",
           "resources": "",
-          "imageLayout": "one",
           "blocks": [
             {
               "id": "b_duecjyr",
@@ -2014,7 +1925,6 @@
           "speakerNotes": "",
           "projectContext": "",
           "resources": "",
-          "imageLayout": "one",
           "blocks": [
             {
               "id": "b_nuppc5h",
@@ -2067,7 +1977,6 @@
           "speakerNotes": "",
           "projectContext": "",
           "resources": "",
-          "imageLayout": "one",
           "blocks": [
             {
               "id": "b_qdnrryz",
@@ -2120,7 +2029,6 @@
           "speakerNotes": "",
           "projectContext": "",
           "resources": "",
-          "imageLayout": "one",
           "blocks": [
             {
               "id": "b_whd1y7j",
@@ -2173,7 +2081,6 @@
           "speakerNotes": "",
           "projectContext": "",
           "resources": "",
-          "imageLayout": "one",
           "blocks": [
             {
               "id": "b_it1urfy",
@@ -2226,7 +2133,6 @@
           "speakerNotes": "",
           "projectContext": "",
           "resources": "",
-          "imageLayout": "one",
           "blocks": [
             {
               "id": "b_gpggk1c",
@@ -2279,7 +2185,6 @@
           "speakerNotes": "",
           "projectContext": "",
           "resources": "",
-          "imageLayout": "one",
           "blocks": [
             {
               "id": "b_k4bqb2f",
@@ -2332,7 +2237,6 @@
           "speakerNotes": "",
           "projectContext": "",
           "resources": "",
-          "imageLayout": "one",
           "blocks": [
             {
               "id": "b_yk4uexl",
@@ -2385,7 +2289,6 @@
           "speakerNotes": "",
           "projectContext": "",
           "resources": "",
-          "imageLayout": "one",
           "blocks": [
             {
               "id": "b_r1hr15k",
@@ -2437,16 +2340,15 @@
           "status": "draft",
           "tags": "",
           "narration": {
-            "audio": "media/audio/s_ir7nmx3.mp3",
-            "mime": "audio/mpeg",
-            "duration": 56.688,
+            "audio": null,
+            "mime": null,
+            "duration": 0,
             "script": "This infographic covers the most fundamental concept in grading and earthwork: cut versus fill. Cut means removing soil where the existing ground is higher than your design elevation. Fill means adding soil where the existing ground is lower. Every grading plan is essentially a strategy for managing these two operations across a site. The goal in good earthwork design is to balance cut and fill as closely as possible. When you cut more than you fill, you have excess material that needs to be hauled off site, which costs money. When you fill more than you cut, you need to import material, which also costs money. Balancing the two minimizes truck trips, reduces cost, and lowers the project's environmental footprint. When you start working with grading plans in Civil 3D, cut and fill volumes are one of the first things the team will ask you to help track. Understanding what drives those numbers makes you much more useful in that conversation."
           },
           "annotations": [],
           "speakerNotes": "",
           "projectContext": "",
           "resources": "",
-          "imageLayout": "one",
           "blocks": [
             {
               "id": "b_totd9t3",
@@ -2490,16 +2392,15 @@
           "status": "draft",
           "tags": "",
           "narration": {
-            "audio": "media/audio/s_3hqe6x6.mp3",
-            "mime": "audio/mpeg",
-            "duration": 49.776,
+            "audio": null,
+            "mime": null,
+            "duration": 0,
             "script": "This infographic walks through the sequence of earthwork operations from start to finish. It begins with the site survey and benchmark establishment, giving the crew the reference points they need to work from. From there, cut and fill areas are determined, grids and levels are marked in the field, and excavation and filling begin. After the bulk earthwork is done, levels are rechecked, compaction is verified, and final drainage slopes are established. This sequence matters because grading work doesn't happen all at once. It follows a deliberate order where each step depends on the accuracy of the one before it. For an intern, this overview helps you understand why things happen in a specific order on a construction site, and why a survey crew is involved both at the beginning and again near the end. Earthwork is iterative and precision-dependent at every stage."
           },
           "annotations": [],
           "speakerNotes": "",
           "projectContext": "",
           "resources": "",
-          "imageLayout": "one",
           "blocks": [
             {
               "id": "b_2fyj1ed",
@@ -2543,16 +2444,15 @@
           "status": "draft",
           "tags": "",
           "narration": {
-            "audio": "media/audio/s_gir8pog.mp3",
-            "mime": "audio/mpeg",
-            "duration": 53.448,
+            "audio": null,
+            "mime": null,
+            "duration": 0,
             "script": "This cross-section diagram shows the full anatomy of a road built through cut and fill terrain, and it rewards careful study. On the left, the natural ground is higher than the road, so material is cut away and a back slope is created with a drainage ditch at its base. On the right, the natural ground is lower than the road, so fill material is placed to build up the embankment, tapering to a toe of slope at the bottom. In the center, you can see the road structure itself: roadbed, subgrade, base course, and surface course layered from bottom to top, with shoulders on each side of the traveled way. Right of way, clearing limits, and construction limits are all shown as nested boundaries around the full section. As an intern, diagrams like this one are references you will come back to often. Every label here corresponds to something you will encounter in plan sets, specifications, and field visits."
           },
           "annotations": [],
           "speakerNotes": "",
           "projectContext": "",
           "resources": "",
-          "imageLayout": "one",
           "blocks": [
             {
               "id": "b_awug5ij",
@@ -2596,16 +2496,15 @@
           "status": "draft",
           "tags": "",
           "narration": {
-            "audio": "media/audio/s_qoe38ff.mp3",
-            "mime": "audio/mpeg",
-            "duration": 53.856,
+            "audio": null,
+            "mime": null,
+            "duration": 0,
             "script": "This before-and-after photo shows grading work at a scale that makes the outcome easy to see. On the left, the yard is freshly graded with exposed soil and drainage channels cut into the slope. On the right, the same space has been finished with timber retaining walls, terraced planting areas, stairs, and established grass. This is a residential example rather than a large-scale site civil project, but the principles are identical. Grading doesn't just reshape land. It creates functional, usable space. The retaining walls hold each terrace level, the drainage channels manage runoff, and the finished grade is what allows the space to serve its intended purpose. As an intern, this image is a reminder that the elevations and slopes you draw in CAD become surfaces that people will actually walk on, plant in, and drain water across. The grading plan is the design. This photo is the result."
           },
           "annotations": [],
           "speakerNotes": "",
           "projectContext": "",
           "resources": "",
-          "imageLayout": "one",
           "blocks": [
             {
               "id": "b_vbkvimb",
@@ -2657,16 +2556,15 @@
           "status": "draft",
           "tags": "",
           "narration": {
-            "audio": "media/audio/s_h92ce4p.mp3",
-            "mime": "audio/mpeg",
-            "duration": 53.736,
+            "audio": null,
+            "mime": null,
+            "duration": 0,
             "script": "This infographic traces potable water from its source to the end user. Source water from rivers, lakes, or reservoirs is drawn into a treatment plant where it's screened, coagulated, settled, filtered, and disinfected before it's safe to drink. A pump station pressurizes the water and pushes it into the distribution system. A storage tank maintains steady pressure throughout the network. Water mains are the large pipes that carry pressurized water through the distribution system, and service lines branch off those mains to deliver water to individual buildings. At Rodgers, water main design is part of nearly every residential and commercial development project. When you're laying out a water system on a site plan, you're designing the segment between the existing public main and the connections to individual lots or buildings. Knowing the full system helps you understand what your design connects to and what it depends on."
           },
           "annotations": [],
           "speakerNotes": "",
           "projectContext": "",
           "resources": "",
-          "imageLayout": "one",
           "blocks": [
             {
               "id": "b_4dg69iw",
@@ -2710,16 +2608,15 @@
           "status": "draft",
           "tags": "",
           "narration": {
-            "audio": "media/audio/s_m61c1hc.mp3",
-            "mime": "audio/mpeg",
-            "duration": 53.472,
+            "audio": null,
+            "mime": null,
+            "duration": 0,
             "script": "This infographic maps the entire sanitary sewer system from the building drain to the treatment plant. Wastewater from building plumbing flows through private laterals into public gravity sewer mains, which use slope to carry flow downhill toward trunk sewer lines. When gravity isn't sufficient because the terrain is too flat or the pipe has gotten too deep, a lift station pumps the sewage up into a force main that conveys it under pressure to a higher elevation. From there gravity takes over again until the wastewater reaches the treatment plant, where it's processed and the treated effluent is discharged to a receiving waterway. At Rodgers, sanitary sewer design involves gravity mains, manholes, laterals, and sometimes lift stations. Knowing how the full system works helps you understand where your design fits and what constraints, minimum slopes, cover depths, and connection points, you're designing around."
           },
           "annotations": [],
           "speakerNotes": "",
           "projectContext": "",
           "resources": "",
-          "imageLayout": "one",
           "blocks": [
             {
               "id": "b_idaqw66",
@@ -2763,16 +2660,15 @@
           "status": "draft",
           "tags": "",
           "narration": {
-            "audio": "media/audio/s_xe3zqhv.mp3",
-            "mime": "audio/mpeg",
-            "duration": 65.76,
+            "audio": null,
+            "mime": null,
+            "duration": 0,
             "script": "This flowchart maps the water and sewer development process for Frederick County and the City of Frederick, and it illustrates how involved utility permitting can be in a regulated jurisdiction. The process runs across three phases. Feasibility involves planning studies, annexation, comprehensive plan revisions, category changes, and zoning approvals before any serious design work begins. The design phase moves through concept planning, additional category changes for water and sewer service, offsite infrastructure coordination, permit applications, and final onsite improvement plan approval. The permit phase covers permitting documents, easement preparation, permit issuance, construction, and as-built submission. The timeframes across the top show that the complete process can span several years from initial feasibility to construction. At Rodgers, understanding the local approval process is part of serving clients well. As an intern, recognizing where a project sits in this sequence tells you a lot about what work is appropriate at that stage and what decisions haven't been made yet."
           },
           "annotations": [],
           "speakerNotes": "",
           "projectContext": "",
           "resources": "",
-          "imageLayout": "one",
           "blocks": [
             {
               "id": "b_e5wr6wp",
@@ -2816,16 +2712,15 @@
           "status": "draft",
           "tags": "",
           "narration": {
-            "audio": "media/audio/s_z2oovvp.mp3",
-            "mime": "audio/mpeg",
-            "duration": 58.968,
+            "audio": null,
+            "mime": null,
+            "duration": 0,
             "script": "This is a water and sanitary sewer utility plan for a residential subdivision, the type of drawing you'll draft and review at Rodgers on virtually every residential project. The blue lines represent the 8-inch PVC water main running through the subdivision with gate valves and fire hydrants at regular intervals. The green lines represent the 8-inch PVC sanitary sewer with manholes and service cleanouts connecting to individual lots. Both systems share the street right of way and must maintain required separation distances from each other and from other utilities. The legend at upper right defines every plan symbol: water pipe, gate valve, fire hydrant, sanitary sewer, manhole, cleanout, flow direction, right of way, building, and property line. As an intern, before you draft or check a utility plan, you need to identify every symbol in the legend without hesitation. The plan tells the construction crew exactly what goes in the ground and where."
           },
           "annotations": [],
           "speakerNotes": "",
           "projectContext": "",
           "resources": "",
-          "imageLayout": "one",
           "blocks": [
             {
               "id": "b_z6nq9ft",
@@ -2869,16 +2764,15 @@
           "status": "draft",
           "tags": "",
           "narration": {
-            "audio": "media/audio/s_d3qwuez.mp3",
-            "mime": "audio/mpeg",
-            "duration": 56.208,
+            "audio": null,
+            "mime": null,
+            "duration": 0,
             "script": "This cross-section shows how multiple utility pipes share a single trench and the separation requirements that govern how they're positioned relative to each other. From the bottom up: the storm drain pipe sits at the lowest elevation on its own bedding layer, the sanitary sewer pipe is placed above it with a minimum 18-inch vertical clearance, and the water main sits at the highest elevation with another minimum 18-inch clearance above the sewer. Each pipe rests on its own granular bedding, shaped to support the pipe along its full length. Above the pipes, backfill is placed in stages: initial backfill around the pipe, select backfill above that, and compacted backfill to the subbase. Asphalt and aggregate subbase complete the section. At Rodgers, these separation requirements are checked during plan review. When you're designing utilities in a shared right of way corridor, this diagram defines the spatial constraints you're working within."
           },
           "annotations": [],
           "speakerNotes": "",
           "projectContext": "",
           "resources": "",
-          "imageLayout": "one",
           "blocks": [
             {
               "id": "b_q5rnntz",
@@ -2922,16 +2816,15 @@
           "status": "draft",
           "tags": "",
           "narration": {
-            "audio": "media/audio/s_ztx2v5n.mp3",
-            "mime": "audio/mpeg",
-            "duration": 60.336,
+            "audio": null,
+            "mime": null,
+            "duration": 0,
             "script": "This infographic documents water main installation from the first excavator pass to the restored road surface. Excavation creates a trench of the required depth and width. Trench shoring prevents cave-ins and protects workers. A minimum 6-inch crushed stone bedding layer supports the pipe along its full length. Pipe sections are aligned and connected using mechanical joints with gaskets and bolts to ensure watertight seals at each connection. The water main itself, typically ductile iron or PVC, carries pressurized potable water to the distribution network. Initial backfill called haunching is placed and compacted alongside the pipe up to the springline. Remaining backfill is compacted in lifts and the surface is restored with base course and pavement. At Rodgers, water main specifications cover every step shown here. When you specify pipe material, bedding type, and cover depth on a plan, the contractor installs to exactly those requirements. Getting them right matters."
           },
           "annotations": [],
           "speakerNotes": "",
           "projectContext": "",
           "resources": "",
-          "imageLayout": "one",
           "blocks": [
             {
               "id": "b_34alt59",
@@ -2975,16 +2868,15 @@
           "status": "draft",
           "tags": "",
           "narration": {
-            "audio": "media/audio/s_b21sohd.mp3",
-            "mime": "audio/mpeg",
-            "duration": 61.896,
+            "audio": null,
+            "mime": null,
+            "duration": 0,
             "script": "This product sheet shows a mechanical joint restraint, a hardware component used to secure ductile iron water main pipe at joints and connections. Water mains operate under sustained pressure, and at fittings, bends, and tees, that pressure creates hydraulic thrust forces that can push pipe joints apart if they're not properly restrained. The MEGALUG Series 1100 uses torque-limiting twist-off nuts to clamp the restraint to the pipe and resist movement, without requiring a poured concrete thrust block at every location. It's available in pipe sizes from 3 to 54 inches and meets ASTM A536 ductile iron standards. At Rodgers, joint restraint requirements appear in water main specifications and are detailed at bends, reducers, tees, and dead ends. As an intern, understanding why restraint is required, hydraulic thrust at pressure and direction changes, helps you understand why those specification requirements and thrust block details exist in every water main plan set."
           },
           "annotations": [],
           "speakerNotes": "",
           "projectContext": "",
           "resources": "",
-          "imageLayout": "one",
           "blocks": [
             {
               "id": "b_sjqzuoz",
@@ -3028,16 +2920,15 @@
           "status": "draft",
           "tags": "",
           "narration": {
-            "audio": "media/audio/s_0ac3pyo.mp3",
-            "mime": "audio/mpeg",
-            "duration": 59.184,
+            "audio": null,
+            "mime": null,
+            "duration": 0,
             "script": "This annotated photo shows a fire hydrant being connected to a water main below grade. The hydrant above grade provides firefighters direct access to the pressurized distribution system. Below grade, a vertical hydrant riser connects through a flanged or mechanical joint to the water main tee. A concrete thrust block on the side of the tee resists the horizontal force created by water pressure at the branch fitting, keeping the joint from being pushed apart over time. The hydrant base bolts the riser to the hydrant with a watertight seal, and backfill is compacted in layers around the assembly. The cross-section inset at lower right shows how the thrust block, water main, and riser all relate below the surface. At Rodgers, fire hydrant locations are governed by local fire code spacing and coverage requirements. When you place hydrants on a utility plan, spacing, isolation valves, and required coverage radii are the key design constraints to verify."
           },
           "annotations": [],
           "speakerNotes": "",
           "projectContext": "",
           "resources": "",
-          "imageLayout": "one",
           "blocks": [
             {
               "id": "b_ub7f8q6",
@@ -3081,16 +2972,15 @@
           "status": "draft",
           "tags": "",
           "narration": {
-            "audio": "media/audio/s_801hqhl.mp3",
-            "mime": "audio/mpeg",
-            "duration": 63.36,
+            "audio": null,
+            "mime": null,
+            "duration": 0,
             "script": "This is a sanitary sewer profile drawing, one of the most important technical documents in a sewer design plan set. It shows Line SS-1 from upstream manhole MH-1 to downstream manhole MH-4. The ground line across the top represents existing grade. The pipe invert line below it shows the proposed pipe elevation, sloping consistently downhill to maintain gravity flow. Pipe slopes are labeled between each manhole, ranging from 0.40 to 0.59 percent. The pipe is 15-inch PVC SDR 26 throughout this run. The data table at the bottom records station, ground elevation, pipe invert, depth, and pipe length at each structure. At Rodgers, sewer profiles are generated in Civil 3D and checked against minimum slope requirements, minimum cover depth, and invert compatibility at each manhole connection. As an intern, before you produce or check a sewer profile, you need to be able to read every value in this drawing and understand what it controls."
           },
           "annotations": [],
           "speakerNotes": "",
           "projectContext": "",
           "resources": "",
-          "imageLayout": "one",
           "blocks": [
             {
               "id": "b_r1jnx39",
@@ -3134,16 +3024,15 @@
           "status": "draft",
           "tags": "",
           "narration": {
-            "audio": "media/audio/s_hpl33er.mp3",
-            "mime": "audio/mpeg",
-            "duration": 54.912,
+            "audio": null,
+            "mime": null,
+            "duration": 0,
             "script": "This diagram shows how a house connects to the public sanitary sewer system and who is responsible for each segment. The city sewer main runs along the street. A lower lateral, owned and maintained by the city, extends from the main to a property line cleanout at the edge of the right of way. From the cleanout into the house, the upper lateral is the homeowner's responsibility. The property line cleanout provides an access point for inspecting and clearing blockages on either side without excavating the street or entering the building. The tree root shown between the cleanout and the house is a realistic detail: root intrusion is one of the most common causes of lateral failure, worth keeping in mind when reviewing landscaping plans or lot grading that places trees near sewer alignments. Understanding the public-private ownership split helps you coordinate correctly with utility agencies and clients on where design responsibilities begin and end."
           },
           "annotations": [],
           "speakerNotes": "",
           "projectContext": "",
           "resources": "",
-          "imageLayout": "one",
           "blocks": [
             {
               "id": "b_wxfq7vl",
@@ -3187,16 +3076,15 @@
           "status": "draft",
           "tags": "",
           "narration": {
-            "audio": "media/audio/s_p2ps117.mp3",
-            "mime": "audio/mpeg",
-            "duration": 57.144,
+            "audio": null,
+            "mime": null,
+            "duration": 0,
             "script": "This detailed cross-section shows all the components of a residential sewer lateral connection from the public main to the building. The sanitary sewer main runs in the right of way. A service tee taps into the main and the lateral runs at a minimum 2% slope toward the property. A cleanout near the property line provides access for maintenance and inspection without excavating the street or entering the building. On the private side, the lateral continues to the foundation where it connects to the building's interior plumbing. In basements located below the sewer invert elevation, an ejector pump is required to lift wastewater up to the lateral before gravity can carry it to the main. At Rodgers, this relationship between basement floor elevation and sewer invert is a practical design consideration that connects your grading work directly to the utility plan. Setting finished floor elevations without checking sewer depth can create an ejector pump requirement that your client wasn't expecting."
           },
           "annotations": [],
           "speakerNotes": "",
           "projectContext": "",
           "resources": "",
-          "imageLayout": "one",
           "blocks": [
             {
               "id": "b_9ue8bd4",
@@ -3240,16 +3128,15 @@
           "status": "draft",
           "tags": "",
           "narration": {
-            "audio": "media/audio/s_n7cbfsv.mp3",
-            "mime": "audio/mpeg",
-            "duration": 57.0,
+            "audio": null,
+            "mime": null,
+            "duration": 0,
             "script": "This CAD detail shows a sanitary sewer house connection as it would appear in a design drawing. The 8-inch sanitary sewer main runs horizontally along the bottom. A 6-inch service connection lateral branches off the main at a 0.1-foot drop below the main invert, and the lateral slopes at 2 to 5 percent toward the building. It transitions to a 2-foot sweep fitting at the building connection and continues at 2 percent. Cleanouts are shown at the property line and building connection, each with labeled invert elevations. Key reference elevations are annotated: the service connection invert into the manhole and the 8-inch main invert out of the manhole. At Rodgers, service connection details like this appear on utility plans and standard detail sheets. When you're labeling a sewer house connection, slope, invert at the main, and cleanout location are the three values that most directly determine whether the connection functions and passes plan review."
           },
           "annotations": [],
           "speakerNotes": "",
           "projectContext": "",
           "resources": "",
-          "imageLayout": "one",
           "blocks": [
             {
               "id": "b_nb04sq3",
@@ -3293,16 +3180,15 @@
           "status": "draft",
           "tags": "",
           "narration": {
-            "audio": "media/audio/s_cp782he.mp3",
-            "mime": "audio/mpeg",
-            "duration": 61.056,
+            "audio": null,
+            "mime": null,
+            "duration": 0,
             "script": "This annotated photo shows a precast sanitary sewer manhole being set by crane during construction. The precast barrel sections are manufactured off-site and stacked to the required height. Incoming and outgoing sewer pipes connect through the barrel walls using flexible boot connections that provide a watertight seal while allowing some pipe movement. A gravel base beneath the structure provides a stable foundation. The manhole ring and cover at the top provide grade-level access for inspection and maintenance. The flow diagram at the bottom shows the function: sewage flows in from the upstream line, through the manhole as an access and transition point, and continues to the downstream line. At Rodgers, manhole locations are coordinated with pipe slopes, diameter changes, and directional changes. Manholes are required at every change in pipe direction, size, or slope, and at maximum spacing intervals specified by the jurisdiction. Knowing that tells you exactly when and where to place them on your sewer plans."
           },
           "annotations": [],
           "speakerNotes": "",
           "projectContext": "",
           "resources": "",
-          "imageLayout": "one",
           "blocks": [
             {
               "id": "b_8tlvl89",
@@ -3354,16 +3240,15 @@
           "status": "draft",
           "tags": "",
           "narration": {
-            "audio": "media/audio/s_onvne14.mp3",
-            "mime": "audio/mpeg",
-            "duration": 59.688,
+            "audio": null,
+            "mime": null,
+            "duration": 0,
             "script": "This infographic shows how erosion and sediment control measures work as a coordinated system, not a collection of independent items. The limit of disturbance defines the outer boundary of active construction. Silt fences and super silt fences intercept sheet flow along the downslope perimeter. A stabilized construction entrance prevents mud from tracking onto public roads. Inlet protection keeps sediment out of the storm drain system. A sediment basin collects and settles out sediment from drainage coming off the site. Temporary stabilization covers finished slopes with seed, matting, or mulch as quickly as possible. A protected outlet prevents erosion at the discharge point. At Rodgers, ESC plans are required on every project that disturbs above a threshold acreage, and each BMP shown here appears on those plans with specific placement and standard details. Understanding how the system works as a whole is what lets you design and review each individual measure correctly."
           },
           "annotations": [],
           "speakerNotes": "",
           "projectContext": "",
           "resources": "",
-          "imageLayout": "one",
           "blocks": [
             {
               "id": "b_gtu7jwz",
@@ -3407,16 +3292,15 @@
           "status": "draft",
           "tags": "",
           "narration": {
-            "audio": "media/audio/s_64brttk.mp3",
-            "mime": "audio/mpeg",
-            "duration": 61.512,
+            "audio": null,
+            "mime": null,
+            "duration": 0,
             "script": "This is a complete erosion and sediment control plan sheet, the type of document you'll produce or contribute to on nearly every grading and construction project at Rodgers. The plan view shows the proposed development with all ESC measures placed and labeled: silt fence, super silt fence, diversion swales, inlet protection, a stabilized construction entrance, a sediment basin, and check dams. The legend identifies every symbol. A drainage area summary table divides the site into zones. The sequence of construction in the upper right tells contractors in what order ESC measures must be installed relative to clearing, grading, and paving. BMP maintenance notes and ESC notes govern how the plan is managed throughout construction. Standard detail drawings at the bottom reference the construction requirements for each measure. At Rodgers, this sheet is a regulatory deliverable submitted for agency review and kept in the field during construction. Every element on it is your responsibility to get right."
           },
           "annotations": [],
           "speakerNotes": "",
           "projectContext": "",
           "resources": "",
-          "imageLayout": "one",
           "blocks": [
             {
               "id": "b_enl4oe5",
@@ -3460,16 +3344,15 @@
           "status": "draft",
           "tags": "",
           "narration": {
-            "audio": "media/audio/s_nn72nwc.mp3",
-            "mime": "audio/mpeg",
-            "duration": 59.712,
+            "audio": null,
+            "mime": null,
+            "duration": 0,
             "script": "This diagram explains the mechanics of a silt fence, the most commonly used erosion and sediment control BMP on construction sites. When rainfall runoff flows downslope toward the fence, the geotextile filter fabric slows the flow and traps sediment behind it while allowing cleaner water to pass through slowly. Posts spaced 6 to 8 feet apart hold the fabric upright under load. The bottom of the fabric is trenched and backfilled with compacted soil to prevent water from undercutting the fence and bypassing it entirely. As sediment builds up behind the fence, the notes remind you to inspect regularly and remove accumulated sediment before it reaches half the fence height, at which point the fence loses its effectiveness. At Rodgers, silt fence appears on virtually every ESC plan. As an intern, you need to know not just that silt fence goes along the downslope perimeter, but why it must follow the contour, why it can't go in concentrated flow areas, and what makes it fail."
           },
           "annotations": [],
           "speakerNotes": "",
           "projectContext": "",
           "resources": "",
-          "imageLayout": "one",
           "blocks": [
             {
               "id": "b_icu95w0",
@@ -3513,16 +3396,15 @@
           "status": "draft",
           "tags": "",
           "narration": {
-            "audio": "media/audio/s_968cyzz.mp3",
-            "mime": "audio/mpeg",
-            "duration": 51.24,
+            "audio": null,
+            "mime": null,
+            "duration": 0,
             "script": "This photo shows silt fence installed correctly at the perimeter of an active construction site. The black geotextile fabric is attached to wooden stakes running in a continuous line along the downslope boundary of the disturbed area. Water is pooling against the fence on the right, which is exactly what you want to see. That pooling means the fence is slowing flow and allowing sediment to drop out before the water passes through the fabric. At Rodgers, silt fence installation is one of the first things that happens after clearing begins and one of the last removed when the site is fully stabilized. If you visit a construction site, check the silt fence along the perimeter. Look for gaps, tears, sediment that has reached half the fence height, and spots where the toe isn't adequately buried. These are the failure points most commonly cited during erosion control inspections."
           },
           "annotations": [],
           "speakerNotes": "",
           "projectContext": "",
           "resources": "",
-          "imageLayout": "one",
           "blocks": [
             {
               "id": "b_dgh4w09",
@@ -3566,16 +3448,15 @@
           "status": "draft",
           "tags": "",
           "narration": {
-            "audio": "media/audio/s_o6tdhu8.mp3",
-            "mime": "audio/mpeg",
-            "duration": 56.208,
+            "audio": null,
+            "mime": null,
+            "duration": 0,
             "script": "This annotated photo shows a super silt fence, the heavy-duty version of standard silt fence used where flows are higher, slopes are steeper, or the consequence of failure is greater. The key difference is the chain-link fence backing attached to steel posts, which gives the structure significantly more strength and allows it to hold a larger accumulation of sediment without collapsing. The geotextile filter fabric still does the filtration work, but the chain-link prevents the fabric from being pushed over under the weight of accumulated sediment and water. The fabric toe is keyed and trenched into the soil to prevent undercutting, same as standard silt fence. At Rodgers, the choice between standard and super silt fence is a design decision on the ESC plan based on drainage area, slope, and flow conditions. Knowing the difference means you can make the right BMP selection based on site conditions rather than defaulting to the same measure everywhere."
           },
           "annotations": [],
           "speakerNotes": "",
           "projectContext": "",
           "resources": "",
-          "imageLayout": "one",
           "blocks": [
             {
               "id": "b_xpzshnr",
@@ -3619,16 +3500,15 @@
           "status": "draft",
           "tags": "",
           "narration": {
-            "audio": "media/audio/s_fn3jqwj.mp3",
-            "mime": "audio/mpeg",
-            "duration": 58.776,
+            "audio": null,
+            "mime": null,
+            "duration": 0,
             "script": "This image shows a stabilized construction entrance, a BMP that's easy to overlook but legally required on every construction site with access to a public road. Large angular stone placed over geotextile fabric at the exit point knocks mud and debris off vehicle tires as trucks and equipment leave the site. The angular shape of the stone is intentional: it creates irregular contact points that physically dislodge soil from tire treads in a way that smooth gravel cannot. The geotextile fabric beneath prevents the stone from sinking into the subgrade over time. Traffic cones and a construction sign direct all vehicles through the entrance. The teaching points confirm the key requirements: large clean stone, geotextile fabric under stone, and regular maintenance as mud accumulates and the stone becomes ineffective. At Rodgers, stabilized construction entrances are detailed on every ESC plan and inspected regularly throughout construction."
           },
           "annotations": [],
           "speakerNotes": "",
           "projectContext": "",
           "resources": "",
-          "imageLayout": "one",
           "blocks": [
             {
               "id": "b_edoq9fb",
@@ -3672,16 +3552,15 @@
           "status": "draft",
           "tags": "",
           "narration": {
-            "audio": "media/audio/s_5kueobd.mp3",
-            "mime": "audio/mpeg",
-            "duration": 55.56,
+            "audio": null,
+            "mime": null,
+            "duration": 0,
             "script": "This close-up annotated photo shows the stone tracking pad in detail. The large angular stone creates an irregular surface that dislodges mud from truck tires. The geotextile fabric below the stone separates it from the subgrade, prevents it from sinking into soft soil, and maintains pad performance over the life of the project. The transition between the stone and the paved roadway is carefully shaped to prevent abrupt drops that could damage tires or trap debris and carry it past the pad. Each callout identifies a functional component: how the stone dislodges mud, why the fabric matters for long-term performance, and how reduced mud tracking protects the road. At Rodgers, this level of functional understanding informs how standard construction entrance details are dimensioned and specified. Knowing what each component does lets you check an installed entrance against design intent, not just against drawing dimensions."
           },
           "annotations": [],
           "speakerNotes": "",
           "projectContext": "",
           "resources": "",
-          "imageLayout": "one",
           "blocks": [
             {
               "id": "b_q8d281t",
@@ -3725,16 +3604,15 @@
           "status": "draft",
           "tags": "",
           "narration": {
-            "audio": "media/audio/s_weueec7.mp3",
-            "mime": "audio/mpeg",
-            "duration": 56.64,
+            "audio": null,
+            "mime": null,
+            "duration": 0,
             "script": "This photo shows inlet protection in action on an active construction site. The curb opening storm drain inlet is surrounded by a gravel bag filter device that intercepts sediment-laden runoff before it can enter the underground storm drain system. Muddy water pools against the outside, sediment drops out, and filtered water passes through slowly into the inlet. This matters because once sediment enters the storm drain system it's extremely difficult to remove without cleaning, and it can eventually reach receiving waterways and create regulatory violations. At Rodgers, inlet protection is required at every active storm drain inlet during construction and is shown on the ESC plan for every structure. When you place inlet protection symbols on an ESC plan, you need to know what device is being specified, where it goes relative to the inlet frame, and how it gets maintained. A device buried in sediment and never cleaned is effectively not there."
           },
           "annotations": [],
           "speakerNotes": "",
           "projectContext": "",
           "resources": "",
-          "imageLayout": "one",
           "blocks": [
             {
               "id": "b_fw0s0ew",
@@ -3778,16 +3656,15 @@
           "status": "draft",
           "tags": "",
           "narration": {
-            "audio": "media/audio/s_tdcdvr7.mp3",
-            "mime": "audio/mpeg",
-            "duration": 64.224,
+            "audio": null,
+            "mime": null,
+            "duration": 0,
             "script": "This diagram explains the temporary sediment basin, the largest and most effective single BMP on an active construction site. Runoff from the disturbed area flows through an inflow channel into the forebay, where coarser sediment drops out before water enters the main pool. In the main pool, finer sediment settles slowly as water rises. A riser pipe and skimmer draw from the upper portion of the pool, which contains the least sediment, and convey cleaner water to the outlet for controlled release. An emergency spillway handles flows that exceed the design capacity. The stabilized outlet prevents erosion at the discharge point. The design considerations table shows typical sizing: the basin serves 3 to 100 contributing acres and provides 1,800 to 3,600 cubic feet of sediment storage per acre. At Rodgers, temporary sediment basins require hydraulic calculations, not just a symbol on a plan. This diagram gives you the conceptual foundation to follow those calculations when you encounter them on a project."
           },
           "annotations": [],
           "speakerNotes": "",
           "projectContext": "",
           "resources": "",
-          "imageLayout": "one",
           "blocks": [
             {
               "id": "b_d7k98sb",
@@ -3839,16 +3716,15 @@
           "status": "draft",
           "tags": "",
           "narration": {
-            "audio": "media/audio/s_w6vya01.mp3",
-            "mime": "audio/mpeg",
-            "duration": 63.96,
+            "audio": null,
+            "mime": null,
+            "duration": 0,
             "script": "This diagram closes the loop on everything in this library. It shows the full lifecycle of land development in nine steps: existing raw site conditions, grading and earthwork, underground utilities, roadway construction, stormwater infrastructure, building pad construction, sidewalks and public access, landscaping and green space, and finally the complete built environment. Every folder in this library corresponds to a phase in this diagram. Every discipline you've studied, survey, grading, drainage, roads, utilities, erosion control, contributes to moving a site from step one to step nine. At Rodgers, this is the full scope of work the firm contributes to, often across multiple phases simultaneously on a single project. This diagram is a reminder of why precision at every step matters. The finished community at the end is the result of hundreds of plan sheets, calculations, field decisions, and coordination efforts across every discipline represented here. Your work is part of that chain from the first day."
           },
           "annotations": [],
           "speakerNotes": "",
           "projectContext": "",
           "resources": "",
-          "imageLayout": "one",
           "blocks": [
             {
               "id": "b_owc5wak",
@@ -3892,16 +3768,15 @@
           "status": "draft",
           "tags": "",
           "narration": {
-            "audio": "media/audio/s_qo05ffz.mp3",
-            "mime": "audio/mpeg",
-            "duration": 61.944,
+            "audio": null,
+            "mime": null,
+            "duration": 0,
             "script": "This is a final site plan for a commercial development, the kind of fully coordinated drawing that comes at the end of the design process and gets submitted for permitting and used on the construction site. The plan shows the proposed 12,000 square foot building with its finished floor elevation, the stormwater management pond and outlet control structure, the storm drain network with pipes and inlets, the water main with fire hydrant and valve, the sanitary sewer, curb and gutter, ADA parking, a loading zone, and landscape setbacks. The site data table at the bottom summarizes total site area, impervious coverage, building area, and parking count. The utility summary lists pipe sizes and materials. The notes govern materials, slopes, and elevations. At Rodgers, a final site plan like this is the product of months of coordination across grading, drainage, utility, and architectural disciplines. When you're working on any individual plan sheet, this integrated document is what all of that work is building toward."
           },
           "annotations": [],
           "speakerNotes": "",
           "projectContext": "",
           "resources": "",
-          "imageLayout": "one",
           "blocks": [
             {
               "id": "b_29xtq41",
@@ -3945,16 +3820,15 @@
           "status": "draft",
           "tags": "",
           "narration": {
-            "audio": "media/audio/s_78hcv5z.mp3",
-            "mime": "audio/mpeg",
-            "duration": 56.88,
+            "audio": null,
+            "mime": null,
+            "duration": 0,
             "script": "This is a record drawing, also called an as-built plan, which documents what was actually constructed as verified in the field after construction is complete. The plan is based on the original design, but every red callout represents a field condition that differed from what was drawn: a storm pipe alignment adjusted to avoid a conflict, an inlet relocated slightly, a rim or invert elevation that was field-set differently than specified. The notes confirm that all rim and invert elevations are field-verified and that the drawing represents actual conditions based on a post-construction survey. At Rodgers, as-built record drawings are a standard deliverable required by many jurisdictions before a project can be fully closed out. As an intern, understanding why as-builts exist, field conditions always differ from designs to some degree, is the same reason why inspection, field coordination, and careful documentation matter throughout the entire construction process."
           },
           "annotations": [],
           "speakerNotes": "",
           "projectContext": "",
           "resources": "",
-          "imageLayout": "one",
           "blocks": [
             {
               "id": "b_8ptjd9o",
@@ -3998,16 +3872,15 @@
           "status": "draft",
           "tags": "",
           "narration": {
-            "audio": "media/audio/s_7rjtum5.mp3",
-            "mime": "audio/mpeg",
-            "duration": 65.928,
+            "audio": null,
+            "mime": null,
+            "duration": 0,
             "script": "This annotated aerial shows a completed stormwater management pond as it looks after a development is fully built out and stabilized. Every component shown here was designed on a plan sheet and built to specification. The permanent pond water surface reflects the designed normal water level. Vegetated side slopes resist erosion and blend the facility into the surrounding landscape. Native plantings near the water's edge improve water quality and provide ecological value. The outlet control structure manages how water releases during storm events. The emergency spillway with riprap protects the embankment during major storms. The stabilized riprap apron at the outlet prevents erosion downstream of the discharge. Maintenance access paths allow crews to reach the facility for regular inspection and sediment removal. At Rodgers, SWM facilities like this are designed to function for decades, and that longevity depends on getting the grading, outlet design, vegetation plan, and maintenance access right during the design phase. This is the finished result of all of that work."
           },
           "annotations": [],
           "speakerNotes": "",
           "projectContext": "",
           "resources": "",
-          "imageLayout": "one",
           "blocks": [
             {
               "id": "b_irlktma",
@@ -4051,16 +3924,15 @@
           "status": "draft",
           "tags": "",
           "narration": {
-            "audio": "media/audio/s_whdtyay.mp3",
-            "mime": "audio/mpeg",
-            "duration": 60.504,
+            "audio": null,
+            "mime": null,
+            "duration": 0,
             "script": "This aerial photo shows a completed suburban residential development, the built environment that results from years of planning, engineering, permitting, and construction. You can see single-family homes on finished lots, curvilinear streets with curb and gutter and sidewalks, driveways, front yards, green space, and a stormwater management pond in the upper portion of the frame. Every element visible here was designed on a plan sheet: the road alignment, the lot grading, the underground utilities serving each home, the drainage system routing runoff to the pond, and the pond itself. This is the result of all of it, every discipline, every plan sheet, every inspection, every coordination call. For an intern starting a career at Rodgers, this image represents the professional legacy of the work you're learning to do. The skills you build, reading contours, tracing drainage, coordinating utilities, checking details, are the skills that produce places like this. Take that seriously. It's meaningful work."
           },
           "annotations": [],
           "speakerNotes": "",
           "projectContext": "",
           "resources": "",
-          "imageLayout": "one",
           "blocks": [
             {
               "id": "b_x9m5y0y",

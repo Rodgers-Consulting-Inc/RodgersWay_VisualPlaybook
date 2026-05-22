@@ -12,6 +12,8 @@ AUDIO_DIR    = os.path.join(REPO_ROOT, 'media', 'audio')
 GEMINI_URL   = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-preview-tts:generateContent"
 VOICE_NAME   = "Charon"
 SAMPLE_RATE  = 24000
+CHANNELS    = 1
+BIT_DEPTH   = 16
 
 def pcm_to_wav(pcm):
     byte_rate   = SAMPLE_RATE * 2
@@ -24,6 +26,9 @@ def pcm_to_wav(pcm):
     return header + pcm
 
 def get_duration(path):
+    if path.endswith('.wav'):
+        pcm_bytes = os.path.getsize(path) - 44
+        return round(pcm_bytes / (SAMPLE_RATE * CHANNELS * (BIT_DEPTH // 8)), 3)
     a = MutagenFile(path)
     return round(a.info.length, 3) if a else 0.0
 
@@ -83,7 +88,7 @@ def main():
                 generated += 1
                 with open(LIBRARY_PATH, "w") as f:
                     json.dump(lib, f, indent=2, ensure_ascii=False); f.write("\n")
-                time.sleep(0.5)
+                time.sleep(6)
             except urllib.error.HTTPError as e:
                 print(f"ERROR HTTP {e.code}: {e.read().decode(errors='replace')[:120]}")
                 errors += 1
